@@ -1,0 +1,1001 @@
+EmployeeID,EmployeeName,Role,Department,System,AccessLevel,AccessType,DateGranted,ExpiryDate,ApprovedBy,ApprovalTicketID,Status,LastAccessed,AccessReason,Location
+EMP1000,Shari Smith,DevOps Engineer,HR,GitHub,Read,Temporary,2025-08-26,2025-09-07,CTO,CR-9420,Expired,2025-08-28 22:42:27,ProjectX,Remote
+EMP1001,Julia Abbott,DevOps Engineer,QA,AWS Console,Admin,Permanent,2024-10-31,,Manager2,CR-8293,Revoked,2025-05-05 21:37:38,Migration,VPN
+EMP1002,Ronald Tran,DevOps Engineer,Operations,Jira,Admin,Temporary,2025-08-22,2025-09-17,Manager3,CR-7898,Expired,2025-09-05 10:54:38,Incident Response,Office
+EMP1003,Sean Stephenson,Product Manager,Data,Confluence,Read,Permanent,2024-05-26,,Manager2,CR-8922,Active,2025-06-07 05:37:42,Incident Response,Unknown
+EMP1004,Karen Schmidt,Intern,Operations,Confluence,Admin,Temporary,2025-05-23,2025-06-19,Manager1,CR-6887,Active,2025-05-28 23:29:37,ProjectX,Unknown
+EMP1005,Juan Wright,Intern,HR,AWS Console,Admin,Temporary,2024-06-04,2024-08-08,SecurityLead,CR-8211,Expired,2025-09-04 23:25:33,Incident Response,Unknown
+EMP1006,Jordan Mitchell,DevOps Engineer,Finance,AWS Console,Write,Permanent,2024-05-26,,Manager1,CR-4601,Active,2025-05-20 18:07:05,ProjectX,Remote
+EMP1007,Brandon Morris,Developer,Finance,GitHub,Admin,Permanent,2025-06-03,,Manager1,CR-2104,Expired,2025-06-13 06:26:23,Incident Response,Unknown
+EMP1008,James Zuniga,QA Engineer,Finance,Staging DB,Write,Temporary,2024-10-16,2024-12-22,SecurityLead,CR-5932,Active,2024-12-11 13:34:40,Hotfix,Remote
+EMP1009,Audrey Mack,Data Analyst,Data,Confluence,Write,Temporary,2024-04-30,2024-07-12,Manager2,CR-7805,Revoked,2024-11-29 16:21:13,Migration,VPN
+EMP1010,Sabrina Owens,Product Manager,QA,GitHub,Read,Permanent,2024-11-16,,Manager3,CR-9225,Active,2025-07-06 16:46:23,ProjectX,Office
+EMP1011,Michael Preston,Data Analyst,Engineering,GitHub,Write,Permanent,2025-02-20,,Manager3,CR-4845,Active,2025-09-05 23:10:13,Incident Response,Remote
+EMP1012,Michael Green,Data Analyst,Engineering,GitHub,Write,Permanent,2024-12-12,,CTO,CR-9217,Revoked,2025-01-04 01:10:03,Audit Task,Remote
+EMP1013,Johnny Miller,Developer,QA,Prod DB,Write,Temporary,2023-12-10,2024-03-08,Manager2,CR-6672,Revoked,2025-05-12 09:10:28,New Feature,Remote
+EMP1014,Christine Herrera,QA Engineer,HR,Confluence,Read,Temporary,2023-11-02,2024-01-22,SecurityLead,CR-5172,Expired,2024-01-31 09:44:44,ProjectX,Remote
+EMP1015,Austin Grant,Developer,Operations,Prod DB,Write,Permanent,2025-09-08,,Manager3,CR-5112,Revoked,2025-09-11 15:57:45,Audit Task,Office
+EMP1016,Louis Chavez,QA Engineer,Data,GitHub,Admin,Permanent,2024-08-27,,CTO,CR-9256,Active,2024-10-24 05:02:15,Hotfix,Office
+EMP1017,Danny Acevedo,Data Analyst,Finance,Jira,Read,Temporary,2023-10-25,2023-12-26,CTO,CR-2495,Revoked,2025-01-13 06:02:57,New Feature,Unknown
+EMP1018,Erika Dudley,Developer,QA,Jira,Admin,Permanent,2025-08-25,,Manager1,CR-4394,Active,2025-08-27 15:50:14,ProjectX,Office
+EMP1019,Gina Trujillo,Developer,Data,Jira,Admin,Temporary,2024-09-01,2024-11-02,SecurityLead,CR-2246,Revoked,2024-12-04 23:07:16,Incident Response,Office
+EMP1020,Megan Gray,DevOps Engineer,Engineering,Prod DB,Read,Permanent,2024-06-14,,CTO,CR-7870,Active,2025-03-18 07:20:45,New Feature,VPN
+EMP1021,Jason Chambers,DevOps Engineer,Finance,Jira,Write,Permanent,2025-04-14,,SecurityLead,CR-6128,Active,2025-06-07 18:25:02,ProjectX,Office
+EMP1022,Ryan Walker,Intern,Engineering,GitHub,Write,Temporary,2025-01-23,2025-03-30,SecurityLead,CR-9705,Revoked,2025-02-21 09:05:02,New Feature,Office
+EMP1023,Julie Smith,QA Engineer,Engineering,Confluence,Read,Permanent,2024-09-14,,Manager3,CR-7661,Active,2024-10-11 06:29:45,ProjectX,Unknown
+EMP1024,Nancy Cantu,Product Manager,Engineering,Jira,Read,Permanent,2025-01-31,,SecurityLead,CR-2242,Active,2025-06-13 05:33:37,Incident Response,Remote
+EMP1025,David Stevens,QA Engineer,Engineering,Prod DB,Admin,Permanent,2024-02-24,,Manager1,CR-2754,Active,2024-10-20 20:09:39,Audit Task,Remote
+EMP1026,Micheal Dennis DDS,Intern,QA,AWS Console,Admin,Temporary,2025-06-20,2025-08-31,Manager1,CR-1472,Revoked,2025-08-16 12:53:42,ProjectX,VPN
+EMP1027,Mark Wright,DevOps Engineer,QA,Prod DB,Read,Temporary,2024-06-07,2024-06-29,SecurityLead,CR-8569,Expired,2025-05-26 21:31:48,ProjectX,Remote
+EMP1028,Robert Steele,Data Analyst,QA,Prod DB,Read,Permanent,2025-06-24,,SecurityLead,CR-6271,Revoked,2025-07-19 09:43:17,Migration,VPN
+EMP1029,Michael Roberts,Product Manager,Finance,Jira,Write,Temporary,2024-02-29,2024-03-29,SecurityLead,CR-5068,Revoked,2025-05-11 21:28:27,Audit Task,Remote
+EMP1030,Patricia Collins,Developer,Finance,Jira,Write,Temporary,2025-07-20,2025-09-03,Manager1,CR-6089,Revoked,2025-09-07 12:41:24,Migration,VPN
+EMP1031,Tiffany Ochoa,QA Engineer,Finance,Slack,Write,Permanent,2024-02-04,,SecurityLead,CR-2625,Active,2025-09-11 05:06:30,Audit Task,Remote
+EMP1032,James Friedman,QA Engineer,Engineering,Confluence,Write,Permanent,2024-04-26,,Manager3,CR-4694,Active,2024-10-05 00:17:12,Migration,Office
+EMP1033,Robert Blake,Intern,QA,Staging DB,Admin,Temporary,2024-09-24,2024-12-08,SecurityLead,CR-4187,Active,2025-01-07 10:11:25,Audit Task,Remote
+EMP1034,Rebecca Dixon,DevOps Engineer,HR,Confluence,Admin,Temporary,2024-09-23,2024-10-25,Manager1,CR-4192,Revoked,2025-05-18 19:40:14,ProjectX,VPN
+EMP1035,Virginia Atkins,DevOps Engineer,Operations,Jira,Write,Permanent,2025-06-28,,CTO,CR-4424,Expired,2025-08-27 01:53:16,Incident Response,VPN
+EMP1036,Brandon Hines,Product Manager,QA,Staging DB,Read,Temporary,2025-08-27,2025-11-15,SecurityLead,CR-1418,Expired,2025-09-01 20:30:58,Migration,Remote
+EMP1037,Morgan Cooper,Intern,Data,AWS Console,Write,Temporary,2024-12-14,2024-12-25,SecurityLead,CR-3252,Revoked,2025-02-03 04:12:25,Incident Response,VPN
+EMP1038,Christie Scott,Product Manager,HR,Slack,Read,Permanent,2025-08-03,,Manager3,CR-5834,Revoked,2025-08-12 22:25:40,Migration,Unknown
+EMP1039,Erik Roberts,Developer,Finance,Prod DB,Read,Permanent,2025-03-27,,Manager3,CR-9277,Active,2025-04-04 21:00:08,Hotfix,VPN
+EMP1040,Eric Mercado,Developer,QA,Slack,Write,Permanent,2024-10-02,,SecurityLead,CR-6064,Active,2025-03-13 19:25:04,Incident Response,Office
+EMP1041,Andrew Acosta,Product Manager,Finance,Slack,Write,Permanent,2024-12-30,,Manager3,CR-6401,Revoked,2025-03-03 10:07:13,Audit Task,Office
+EMP1042,Sandra Vargas,Intern,Operations,Confluence,Write,Permanent,2023-10-26,,SecurityLead,CR-2893,Revoked,2024-01-06 05:21:03,New Feature,Unknown
+EMP1043,Valerie Craig,Developer,HR,Slack,Write,Temporary,2024-10-13,2024-11-09,Manager3,CR-1513,Expired,2025-03-14 19:08:19,Migration,Remote
+EMP1044,John Kirk,Developer,Engineering,Prod DB,Admin,Permanent,2024-10-12,,CTO,CR-7016,Active,2025-05-27 20:00:12,Audit Task,VPN
+EMP1045,Rebecca Reese,DevOps Engineer,QA,Staging DB,Write,Temporary,2025-01-26,2025-02-16,CTO,CR-2956,Revoked,2025-01-29 08:08:54,Audit Task,Unknown
+EMP1046,Rachel Palmer,Developer,HR,Slack,Admin,Temporary,2023-12-28,2024-02-10,Manager3,CR-7365,Revoked,2024-09-27 07:31:08,Incident Response,Office
+EMP1047,Nicholas Cunningham,Intern,Operations,Prod DB,Write,Permanent,2024-02-11,,Manager2,CR-5637,Active,2024-03-07 12:42:21,Incident Response,Unknown
+EMP1048,Donna Jackson,QA Engineer,Operations,GitHub,Admin,Permanent,2023-11-27,,Manager1,CR-6890,Revoked,2025-03-30 19:06:47,Incident Response,Remote
+EMP1049,John Lawson,Intern,Engineering,Confluence,Admin,Permanent,2025-07-29,,CTO,CR-6356,Active,2025-08-13 21:14:37,Incident Response,Office
+EMP1050,Rebecca Jarvis,DevOps Engineer,Data,Jira,Write,Permanent,2025-08-29,,SecurityLead,CR-6669,Revoked,2025-09-10 00:12:42,Audit Task,Remote
+EMP1051,Mrs. Mary Williams,Data Analyst,Operations,Prod DB,Write,Permanent,2024-08-18,,SecurityLead,CR-7005,Expired,2025-01-15 19:51:30,New Feature,Remote
+EMP1052,Justin Greer,Developer,Engineering,Prod DB,Write,Permanent,2023-09-15,,SecurityLead,CR-4031,Revoked,2023-10-09 10:29:02,ProjectX,Office
+EMP1053,Teresa Medina,Product Manager,Engineering,GitHub,Read,Temporary,2023-12-29,2024-03-08,Manager1,CR-5490,Active,2025-01-14 06:05:10,Migration,Office
+EMP1054,Deborah Hughes,Data Analyst,QA,Slack,Read,Permanent,2024-07-03,,Manager1,CR-8171,Revoked,2024-11-10 06:54:35,Incident Response,Remote
+EMP1055,Jeanne Boone,Developer,Finance,Slack,Write,Temporary,2024-05-03,2024-06-29,CTO,CR-6620,Revoked,2025-05-06 03:30:42,New Feature,VPN
+EMP1056,Kristopher Farmer DDS,Data Analyst,HR,Jira,Admin,Permanent,2025-07-16,,Manager2,CR-2534,Active,2025-07-30 06:44:52,Migration,Unknown
+EMP1057,Megan Thornton,Data Analyst,HR,AWS Console,Write,Temporary,2024-07-20,2024-08-22,SecurityLead,CR-6789,Revoked,2025-01-02 00:27:51,Hotfix,Remote
+EMP1058,Amy Lopez,Product Manager,HR,Prod DB,Read,Temporary,2024-07-24,2024-09-14,Manager2,CR-2786,Revoked,2025-08-23 16:28:30,Hotfix,Remote
+EMP1059,Trevor Hanson,Product Manager,Engineering,Slack,Admin,Permanent,2024-10-27,,SecurityLead,CR-9405,Revoked,2025-09-05 09:29:44,Migration,Office
+EMP1060,Gina Glass,Product Manager,Operations,Jira,Read,Permanent,2025-04-15,,Manager3,CR-1908,Expired,2025-08-30 23:34:49,Audit Task,Office
+EMP1061,Debra Perez,DevOps Engineer,HR,Jira,Write,Temporary,2025-06-19,2025-07-27,Manager1,CR-3026,Revoked,2025-07-05 02:03:37,ProjectX,Unknown
+EMP1062,Meghan Hernandez,Product Manager,QA,Staging DB,Read,Temporary,2024-04-30,2024-06-19,Manager1,CR-3085,Expired,2024-07-19 06:39:08,New Feature,Office
+EMP1063,Taylor Rodriguez,Developer,Finance,AWS Console,Write,Temporary,2024-12-16,2025-03-14,Manager1,CR-5714,Expired,2024-12-19 07:53:21,Audit Task,Office
+EMP1064,Robert Miller,Data Analyst,QA,Jira,Write,Temporary,2023-09-25,2023-12-17,Manager1,CR-6665,Revoked,2024-06-11 03:50:40,ProjectX,Unknown
+EMP1065,Christine George,QA Engineer,Data,Prod DB,Write,Temporary,2024-12-22,2025-01-26,Manager3,CR-3993,Revoked,2025-02-05 18:21:47,Migration,Remote
+EMP1066,Ellen Scott,QA Engineer,Data,AWS Console,Write,Temporary,2025-08-24,2025-10-08,SecurityLead,CR-6809,Expired,2025-08-30 20:38:20,New Feature,VPN
+EMP1067,Marie Gutierrez,Product Manager,Operations,Confluence,Admin,Permanent,2024-05-15,,Manager1,CR-5309,Expired,2025-01-14 20:41:12,New Feature,VPN
+EMP1068,Terri Nguyen,Data Analyst,Data,Jira,Admin,Permanent,2024-09-17,,Manager1,CR-1348,Expired,2025-07-04 12:12:18,Incident Response,Unknown
+EMP1069,Leroy Jones,Product Manager,Engineering,Jira,Read,Temporary,2023-10-31,2023-11-09,Manager3,CR-5095,Expired,2024-08-28 12:24:12,New Feature,Remote
+EMP1070,April Jones,QA Engineer,Data,Staging DB,Write,Permanent,2023-09-21,,Manager3,CR-7012,Expired,2024-11-11 08:46:22,Audit Task,Remote
+EMP1071,Jamie Garrison,DevOps Engineer,Operations,AWS Console,Write,Temporary,2025-07-21,2025-08-15,Manager2,CR-1797,Active,2025-09-12 13:36:44,Audit Task,Office
+EMP1072,Deborah Shaffer,Developer,Finance,Slack,Admin,Temporary,2025-03-20,2025-05-31,Manager2,CR-4272,Expired,2025-08-05 16:56:04,New Feature,Office
+EMP1073,Erica Martinez,Data Analyst,HR,Prod DB,Write,Permanent,2024-07-21,,CTO,CR-5633,Expired,2024-12-19 09:06:38,Audit Task,Remote
+EMP1074,Wesley Warren,Product Manager,Operations,Prod DB,Read,Temporary,2024-05-11,2024-05-25,Manager1,CR-5663,Active,2024-09-05 16:43:43,Audit Task,Remote
+EMP1075,Rodney Baker,QA Engineer,QA,GitHub,Read,Temporary,2025-08-03,2025-10-01,Manager3,CR-9782,Revoked,2025-09-01 18:40:24,Hotfix,VPN
+EMP1076,Valerie Flores,Product Manager,Data,Jira,Read,Permanent,2024-02-02,,Manager2,CR-5050,Expired,2024-08-09 18:34:27,Audit Task,Unknown
+EMP1077,Cory Wilson,Data Analyst,Operations,Slack,Read,Temporary,2023-11-04,2023-11-28,SecurityLead,CR-5248,Revoked,2025-01-20 00:21:39,New Feature,Unknown
+EMP1078,Kevin Bell,Product Manager,QA,GitHub,Admin,Temporary,2025-06-01,2025-06-21,Manager1,CR-3702,Revoked,2025-08-30 07:17:55,New Feature,Office
+EMP1079,William Bell,Intern,Operations,Slack,Read,Temporary,2024-06-29,2024-09-27,SecurityLead,CR-9229,Active,2024-08-11 23:17:15,Migration,Remote
+EMP1080,Jessica Hunter,QA Engineer,HR,Prod DB,Admin,Temporary,2025-05-27,2025-08-09,Manager1,CR-7873,Expired,2025-06-29 22:11:45,ProjectX,Remote
+EMP1081,Timothy Dunn,Intern,Engineering,Staging DB,Write,Temporary,2024-06-24,2024-08-02,SecurityLead,CR-1468,Revoked,2024-12-26 21:52:31,Migration,Remote
+EMP1082,Jessica Russell,QA Engineer,Data,AWS Console,Write,Temporary,2024-07-23,2024-08-15,SecurityLead,CR-9074,Expired,2025-03-20 06:22:17,Audit Task,VPN
+EMP1083,Samantha Kerr,Developer,Finance,Jira,Write,Temporary,2024-08-24,2024-09-09,Manager3,CR-3773,Revoked,2025-04-04 20:31:46,Hotfix,VPN
+EMP1084,Kevin Jones,Intern,Finance,Slack,Admin,Temporary,2024-12-25,2025-01-13,CTO,CR-8841,Active,2025-01-07 20:05:00,Incident Response,Office
+EMP1085,Randy Williams,Product Manager,Operations,GitHub,Write,Permanent,2024-10-24,,Manager1,CR-7237,Active,2024-11-10 00:01:52,Audit Task,Office
+EMP1086,Clifford Norris,Intern,HR,Prod DB,Admin,Temporary,2023-10-11,2023-12-05,Manager2,CR-1486,Active,2023-11-08 06:19:47,Migration,Remote
+EMP1087,Lisa Thomas,QA Engineer,Data,Confluence,Read,Temporary,2024-10-12,2024-11-13,CTO,CR-9531,Revoked,2025-04-21 10:28:55,ProjectX,Unknown
+EMP1088,Zachary Patterson,Intern,Data,Confluence,Read,Permanent,2025-07-02,,CTO,CR-9014,Active,2025-08-21 04:11:20,Migration,VPN
+EMP1089,Michael Williams,DevOps Engineer,QA,Slack,Write,Temporary,2024-07-28,2024-10-06,Manager1,CR-1318,Expired,2024-08-29 03:40:08,Migration,VPN
+EMP1090,David Larsen,Product Manager,Finance,Prod DB,Admin,Permanent,2024-05-25,,Manager3,CR-8313,Expired,2024-10-13 07:45:34,Migration,Remote
+EMP1091,Emily James,Intern,Operations,Confluence,Admin,Permanent,2024-03-01,,Manager3,CR-9884,Revoked,2025-08-04 14:13:49,Audit Task,Office
+EMP1092,Ronald Mcguire,QA Engineer,Finance,Jira,Read,Temporary,2024-11-12,2025-01-26,Manager3,CR-3046,Active,2025-02-10 15:38:36,New Feature,VPN
+EMP1093,Andrew Garcia,QA Engineer,Finance,Confluence,Admin,Permanent,2025-07-20,,CTO,CR-6663,Revoked,2025-09-10 03:05:52,Migration,Remote
+EMP1094,Heather Obrien,Developer,Finance,Slack,Read,Permanent,2024-03-25,,Manager3,CR-5626,Active,2025-05-14 06:52:02,Incident Response,VPN
+EMP1095,Adam Gill,QA Engineer,Engineering,Confluence,Write,Temporary,2024-08-30,2024-11-05,Manager2,CR-4437,Active,2025-07-03 23:37:13,ProjectX,Unknown
+EMP1096,David Booth,Data Analyst,Finance,Jira,Admin,Temporary,2025-02-11,2025-03-29,SecurityLead,CR-2757,Active,2025-03-16 21:55:10,Hotfix,Unknown
+EMP1097,Jason Henderson,DevOps Engineer,QA,Slack,Write,Permanent,2023-11-10,,CTO,CR-7537,Active,2025-09-05 17:42:30,New Feature,VPN
+EMP1098,Justin Jones,Intern,QA,Slack,Read,Permanent,2024-12-30,,CTO,CR-9031,Active,2025-03-09 22:26:39,ProjectX,VPN
+EMP1099,April Gibson,Intern,QA,Confluence,Admin,Permanent,2025-06-29,,SecurityLead,CR-6245,Active,2025-07-13 02:48:23,Migration,Office
+EMP1100,Wayne Hill,QA Engineer,Operations,GitHub,Write,Permanent,2024-07-08,,Manager3,CR-7598,Revoked,2025-08-18 22:07:09,Hotfix,Unknown
+EMP1101,Melissa Johnson,Developer,Engineering,Prod DB,Read,Temporary,2024-08-22,2024-10-08,Manager1,CR-2122,Active,2025-03-24 04:57:45,Migration,VPN
+EMP1102,Andrew Love,Developer,QA,Jira,Write,Temporary,2025-06-06,2025-07-24,CTO,CR-9088,Active,2025-07-01 18:50:58,Audit Task,VPN
+EMP1103,John Spears,DevOps Engineer,Engineering,Staging DB,Admin,Temporary,2024-07-18,2024-07-26,Manager3,CR-8840,Revoked,2025-07-29 02:19:32,New Feature,Remote
+EMP1104,Ronnie Perry,Product Manager,Operations,Confluence,Read,Temporary,2025-03-31,2025-05-22,Manager3,CR-4034,Revoked,2025-07-12 01:30:38,Hotfix,Remote
+EMP1105,Anthony Dominguez,Intern,HR,AWS Console,Admin,Temporary,2024-05-21,2024-07-23,CTO,CR-5533,Revoked,2025-01-17 03:48:32,Migration,Remote
+EMP1106,Dennis Perez,Data Analyst,HR,AWS Console,Read,Temporary,2025-03-14,2025-05-13,SecurityLead,CR-7054,Revoked,2025-09-08 02:05:46,New Feature,Unknown
+EMP1107,Luis Sawyer,Intern,QA,Slack,Read,Permanent,2025-07-02,,Manager3,CR-7446,Revoked,2025-07-18 13:16:11,Audit Task,VPN
+EMP1108,Katrina Collier,Product Manager,Engineering,Prod DB,Write,Permanent,2025-07-08,,Manager3,CR-2516,Revoked,2025-07-19 18:13:02,ProjectX,Office
+EMP1109,Craig Morton,Data Analyst,HR,AWS Console,Read,Temporary,2025-02-24,2025-04-29,Manager3,CR-4299,Expired,2025-03-31 06:58:08,Audit Task,VPN
+EMP1110,Colleen Barnett,QA Engineer,HR,Slack,Write,Temporary,2024-12-02,2024-12-09,SecurityLead,CR-4018,Expired,2025-08-28 21:15:50,Migration,Office
+EMP1111,Kari Wolfe,Intern,QA,Slack,Admin,Permanent,2024-07-21,,CTO,CR-1138,Revoked,2025-07-16 01:41:01,Migration,Unknown
+EMP1112,Gerald Villanueva,Developer,Engineering,Prod DB,Admin,Permanent,2025-03-13,,CTO,CR-7847,Active,2025-04-24 23:20:27,ProjectX,Office
+EMP1113,Latoya Burke,Intern,Data,Confluence,Write,Permanent,2024-10-21,,Manager3,CR-9522,Expired,2025-05-07 16:41:31,ProjectX,Office
+EMP1114,Gabriel Davidson,Data Analyst,Engineering,Prod DB,Read,Permanent,2024-10-07,,Manager2,CR-8451,Revoked,2025-01-10 05:06:36,Incident Response,Office
+EMP1115,Jon White,Product Manager,Data,Confluence,Admin,Permanent,2025-03-05,,SecurityLead,CR-9463,Revoked,2025-07-28 16:07:57,New Feature,Remote
+EMP1116,Billy Martinez,QA Engineer,Operations,AWS Console,Read,Permanent,2023-11-02,,SecurityLead,CR-2954,Active,2025-01-02 00:25:23,New Feature,Unknown
+EMP1117,Sandra Calderon,DevOps Engineer,HR,Jira,Read,Temporary,2024-06-08,2024-06-18,Manager2,CR-2176,Revoked,2025-04-09 08:07:31,Hotfix,Remote
+EMP1118,Christine Davis,Product Manager,QA,AWS Console,Admin,Permanent,2024-02-10,,Manager1,CR-1059,Revoked,2025-03-29 02:58:15,Hotfix,Remote
+EMP1119,Brian Martin,Product Manager,Data,Staging DB,Read,Temporary,2025-05-19,2025-08-05,Manager3,CR-4381,Expired,2025-09-04 13:10:53,ProjectX,Unknown
+EMP1120,Valerie Short,Product Manager,Finance,Confluence,Admin,Temporary,2024-07-04,2024-07-31,Manager1,CR-2902,Active,2024-07-08 20:02:45,Hotfix,VPN
+EMP1121,Mary Reynolds,Product Manager,HR,AWS Console,Admin,Permanent,2024-03-12,,Manager2,CR-2839,Revoked,2024-07-09 03:04:32,Audit Task,Remote
+EMP1122,Ruben Castro,DevOps Engineer,Data,Jira,Admin,Permanent,2025-05-19,,Manager2,CR-5250,Expired,2025-05-20 09:49:33,Migration,VPN
+EMP1123,William Young,Intern,HR,Confluence,Write,Permanent,2024-07-23,,SecurityLead,CR-4299,Active,2025-03-25 13:45:26,Audit Task,Remote
+EMP1124,Alex Zimmerman,Intern,Engineering,Confluence,Read,Temporary,2024-06-03,2024-08-03,CTO,CR-3242,Revoked,2024-08-20 04:29:26,Audit Task,Office
+EMP1125,Tommy Garcia,Intern,Finance,Staging DB,Write,Temporary,2023-09-25,2023-12-03,Manager3,CR-4591,Revoked,2024-12-10 06:31:02,New Feature,Office
+EMP1126,Katherine Morrison,Intern,QA,AWS Console,Write,Temporary,2025-06-28,2025-07-18,Manager2,CR-9803,Revoked,2025-07-26 12:56:36,Hotfix,VPN
+EMP1127,Danny Davenport,Developer,HR,Staging DB,Read,Temporary,2024-11-24,2025-02-19,Manager2,CR-6458,Active,2025-08-09 23:44:35,New Feature,Unknown
+EMP1128,Anthony Robinson,Developer,HR,AWS Console,Admin,Temporary,2025-03-26,2025-04-03,SecurityLead,CR-8090,Active,2025-07-08 22:00:02,Hotfix,VPN
+EMP1129,Crystal Jackson,Intern,HR,Prod DB,Admin,Temporary,2025-05-20,2025-05-31,Manager3,CR-5318,Revoked,2025-07-16 05:28:00,Hotfix,Office
+EMP1130,Phillip Williams,Data Analyst,Finance,AWS Console,Read,Permanent,2023-09-27,,Manager2,CR-7648,Expired,2024-08-08 21:11:57,Hotfix,Office
+EMP1131,Andrea Dyer,Product Manager,QA,Jira,Admin,Temporary,2024-01-05,2024-03-30,CTO,CR-2456,Expired,2024-07-01 16:50:24,Incident Response,VPN
+EMP1132,Samantha Goodwin,Intern,Operations,Jira,Read,Permanent,2023-10-30,,Manager2,CR-2246,Revoked,2025-08-11 11:36:50,Audit Task,VPN
+EMP1133,Anthony Randall,Data Analyst,Engineering,Confluence,Read,Temporary,2024-04-11,2024-05-02,Manager1,CR-9459,Expired,2024-12-24 23:42:04,ProjectX,Unknown
+EMP1134,Katherine Mooney,Intern,Operations,Staging DB,Write,Temporary,2025-05-19,2025-06-14,Manager1,CR-1507,Expired,2025-08-02 19:22:13,Hotfix,Unknown
+EMP1135,Chad Vasquez,Intern,Finance,Jira,Read,Permanent,2024-07-03,,Manager1,CR-3859,Revoked,2024-10-01 15:24:01,Hotfix,Unknown
+EMP1136,James Campbell DDS,DevOps Engineer,Data,Confluence,Read,Temporary,2024-01-01,2024-02-12,Manager1,CR-7704,Expired,2025-04-08 18:20:08,Audit Task,VPN
+EMP1137,Jessica Jones,Data Analyst,HR,Confluence,Write,Permanent,2024-03-13,,SecurityLead,CR-4425,Revoked,2025-09-03 14:18:06,New Feature,Remote
+EMP1138,Christina Wall,Intern,HR,AWS Console,Admin,Temporary,2024-04-18,2024-07-05,Manager1,CR-7045,Revoked,2024-05-27 07:59:52,New Feature,Office
+EMP1139,Eric Thompson,Product Manager,Data,Confluence,Admin,Temporary,2024-11-17,2025-02-14,Manager3,CR-5529,Active,2025-01-31 21:06:59,ProjectX,Unknown
+EMP1140,Jessica Thompson,Intern,Finance,Slack,Admin,Permanent,2024-09-23,,Manager1,CR-5020,Expired,2025-03-14 13:11:40,Incident Response,Remote
+EMP1141,Michael Wilson,Intern,Finance,Jira,Read,Permanent,2024-01-28,,Manager2,CR-3823,Active,2025-03-07 18:48:23,Incident Response,Office
+EMP1142,John Taylor,Product Manager,Engineering,GitHub,Read,Temporary,2024-09-25,2024-10-05,Manager1,CR-5195,Expired,2024-12-14 21:59:28,Incident Response,Remote
+EMP1143,Jason Nicholson,Intern,Operations,Staging DB,Write,Permanent,2024-03-09,,CTO,CR-2638,Expired,2025-03-26 19:14:51,Incident Response,Unknown
+EMP1144,Tamara Flores,Product Manager,QA,Staging DB,Admin,Permanent,2023-10-17,,Manager2,CR-4038,Active,2024-04-07 10:39:32,ProjectX,VPN
+EMP1145,Amber Webb,DevOps Engineer,Engineering,Slack,Admin,Temporary,2023-12-06,2023-12-19,CTO,CR-9627,Expired,2024-08-12 13:51:36,Audit Task,Unknown
+EMP1146,Katherine Thomas,DevOps Engineer,Operations,GitHub,Read,Temporary,2024-03-03,2024-05-17,SecurityLead,CR-4842,Expired,2024-12-15 17:27:20,New Feature,Unknown
+EMP1147,Victor Monroe,Intern,Engineering,AWS Console,Write,Temporary,2024-02-28,2024-04-09,Manager2,CR-3446,Revoked,2024-11-10 21:35:28,New Feature,Office
+EMP1148,Brian Wise,QA Engineer,Engineering,Staging DB,Write,Permanent,2024-01-01,,SecurityLead,CR-9050,Active,2024-09-03 21:48:06,Migration,Unknown
+EMP1149,Meghan Green,Product Manager,QA,Confluence,Write,Temporary,2025-08-29,2025-11-22,SecurityLead,CR-4549,Revoked,2025-09-08 15:21:16,ProjectX,Office
+EMP1150,Michael Cannon,QA Engineer,HR,AWS Console,Admin,Temporary,2025-09-02,2025-10-15,SecurityLead,CR-5507,Revoked,2025-09-05 19:01:57,Incident Response,VPN
+EMP1151,Lauren Adams,Developer,HR,Slack,Read,Temporary,2025-06-30,2025-07-15,Manager2,CR-9414,Active,2025-08-04 17:21:08,Incident Response,Unknown
+EMP1152,Dr. John Small DDS,Developer,HR,AWS Console,Admin,Temporary,2025-03-20,2025-03-30,Manager1,CR-2602,Active,2025-09-05 03:28:00,ProjectX,Unknown
+EMP1153,Jeffrey Miller,Intern,Data,Confluence,Admin,Permanent,2025-05-16,,SecurityLead,CR-6629,Active,2025-08-10 17:38:04,Migration,Remote
+EMP1154,Tina Lee,Product Manager,Operations,AWS Console,Read,Temporary,2025-05-10,2025-07-14,Manager3,CR-7857,Expired,2025-08-07 18:02:11,Hotfix,Office
+EMP1155,Justin Parker,Intern,QA,AWS Console,Write,Permanent,2025-03-06,,SecurityLead,CR-5303,Active,2025-07-31 23:03:52,New Feature,Office
+EMP1156,Hector Shaffer,Intern,Operations,Slack,Read,Permanent,2023-12-31,,Manager1,CR-8023,Expired,2025-05-27 05:30:33,New Feature,Remote
+EMP1157,Tammy Allen,Intern,Finance,AWS Console,Read,Temporary,2024-12-02,2025-02-22,CTO,CR-4117,Expired,2025-04-03 21:47:09,Audit Task,Office
+EMP1158,John Thompson,DevOps Engineer,Operations,Prod DB,Write,Permanent,2023-10-09,,Manager1,CR-1396,Expired,2024-02-02 11:59:16,New Feature,Unknown
+EMP1159,Bryan Floyd,Data Analyst,Operations,Staging DB,Read,Temporary,2025-03-06,2025-04-02,Manager1,CR-3400,Expired,2025-03-26 09:26:45,Migration,Remote
+EMP1160,Luke Eaton,Intern,QA,Prod DB,Admin,Temporary,2023-12-16,2023-12-27,Manager3,CR-3950,Active,2024-04-01 13:39:06,Audit Task,VPN
+EMP1161,Austin Anderson,Data Analyst,Data,Slack,Admin,Permanent,2024-06-18,,Manager1,CR-1673,Revoked,2025-07-05 05:27:13,Hotfix,VPN
+EMP1162,Michael Robinson,QA Engineer,Finance,GitHub,Write,Permanent,2023-10-09,,Manager3,CR-9408,Expired,2024-11-25 22:08:35,Incident Response,Remote
+EMP1163,Samuel Woods,Product Manager,Finance,AWS Console,Write,Permanent,2025-08-02,,Manager2,CR-1536,Expired,2025-08-21 23:57:58,New Feature,VPN
+EMP1164,Robert Young,Data Analyst,QA,Jira,Write,Permanent,2025-02-11,,Manager1,CR-7771,Expired,2025-04-15 16:00:29,Incident Response,VPN
+EMP1165,Brian Holloway,Intern,Engineering,GitHub,Admin,Permanent,2024-06-17,,Manager3,CR-2921,Active,2025-03-30 03:25:31,Hotfix,VPN
+EMP1166,Benjamin Lopez,Intern,HR,AWS Console,Read,Permanent,2025-03-22,,Manager3,CR-5798,Revoked,2025-05-18 03:05:05,Audit Task,Unknown
+EMP1167,Matthew Lamb,Data Analyst,HR,Confluence,Admin,Temporary,2024-03-16,2024-04-19,CTO,CR-9796,Revoked,2025-01-24 21:46:43,Migration,Remote
+EMP1168,Allison Cherry,Data Analyst,HR,Prod DB,Read,Temporary,2024-08-09,2024-09-16,SecurityLead,CR-6402,Active,2024-12-15 02:34:33,Hotfix,VPN
+EMP1169,Jeffrey Lopez,Intern,Operations,GitHub,Admin,Temporary,2023-09-28,2023-12-26,CTO,CR-2307,Revoked,2023-10-29 17:41:07,Hotfix,Remote
+EMP1170,Jill Krueger,QA Engineer,HR,Confluence,Admin,Temporary,2025-07-21,2025-10-03,CTO,CR-6048,Revoked,2025-08-10 18:02:16,ProjectX,VPN
+EMP1171,Melissa Silva,Product Manager,Finance,AWS Console,Admin,Permanent,2023-09-17,,Manager3,CR-8061,Expired,2023-10-20 16:11:04,Migration,Office
+EMP1172,Cody Lopez,Data Analyst,QA,GitHub,Admin,Permanent,2024-03-18,,CTO,CR-5818,Revoked,2024-05-26 19:39:59,Incident Response,VPN
+EMP1173,Patricia Clark,QA Engineer,Finance,Slack,Write,Temporary,2024-02-08,2024-03-03,Manager2,CR-8732,Revoked,2025-08-07 11:09:49,Hotfix,VPN
+EMP1174,Mary Obrien,Data Analyst,QA,Slack,Admin,Permanent,2023-09-24,,Manager1,CR-4816,Revoked,2024-02-22 01:09:57,Incident Response,Office
+EMP1175,Katelyn Mcmillan,Developer,QA,Confluence,Write,Temporary,2025-05-16,2025-07-21,CTO,CR-3298,Revoked,2025-07-28 14:57:12,Migration,Remote
+EMP1176,Ryan Armstrong,DevOps Engineer,HR,Staging DB,Write,Temporary,2025-07-12,2025-09-20,Manager1,CR-8885,Expired,2025-08-09 00:30:46,New Feature,VPN
+EMP1177,Marc Snyder,Intern,Finance,Slack,Write,Permanent,2024-10-19,,CTO,CR-8736,Expired,2024-11-08 18:44:09,Incident Response,VPN
+EMP1178,Vanessa Lee,Intern,Finance,AWS Console,Admin,Permanent,2025-04-11,,SecurityLead,CR-9854,Revoked,2025-05-13 00:55:18,Hotfix,Office
+EMP1179,David Gibbs,Product Manager,Engineering,AWS Console,Write,Temporary,2025-01-02,2025-02-27,Manager3,CR-1166,Active,2025-02-16 16:33:11,Migration,Remote
+EMP1180,Michael Curry,Product Manager,Data,Staging DB,Read,Temporary,2025-06-12,2025-08-13,Manager1,CR-5681,Active,2025-08-12 02:32:11,Incident Response,VPN
+EMP1181,Amber James,DevOps Engineer,Operations,AWS Console,Read,Permanent,2024-05-12,,Manager1,CR-7355,Revoked,2025-03-18 14:04:22,Audit Task,VPN
+EMP1182,Patrick Lee,Developer,Operations,Confluence,Write,Permanent,2024-08-06,,Manager2,CR-1027,Revoked,2025-07-20 19:02:19,Hotfix,Unknown
+EMP1183,Jennifer Bryant,Product Manager,Finance,Slack,Write,Permanent,2024-07-18,,Manager2,CR-1227,Active,2025-06-07 00:41:15,New Feature,Remote
+EMP1184,Tracey Johnson,Data Analyst,Finance,Staging DB,Read,Permanent,2023-11-26,,Manager2,CR-4004,Revoked,2024-04-10 07:54:52,Migration,Office
+EMP1185,Stacey Walter,DevOps Engineer,HR,Slack,Write,Temporary,2023-10-26,2024-01-01,Manager3,CR-5281,Revoked,2025-04-30 18:50:56,ProjectX,Unknown
+EMP1186,Michael Bailey,Product Manager,Finance,GitHub,Admin,Temporary,2024-03-10,2024-04-04,CTO,CR-4277,Expired,2025-05-21 19:53:35,Migration,Unknown
+EMP1187,Teresa Turner,Developer,Data,GitHub,Write,Temporary,2024-01-21,2024-02-27,CTO,CR-1764,Expired,2025-02-08 17:36:18,New Feature,Office
+EMP1188,Kevin Smith,Product Manager,Operations,AWS Console,Write,Permanent,2024-03-19,,Manager3,CR-2481,Revoked,2025-01-01 02:33:10,Audit Task,VPN
+EMP1189,Andrew Collins,DevOps Engineer,Data,Confluence,Write,Permanent,2025-02-01,,Manager3,CR-9384,Active,2025-08-25 06:15:13,Incident Response,Unknown
+EMP1190,Nicholas Salazar,QA Engineer,Operations,Prod DB,Admin,Permanent,2024-05-05,,Manager1,CR-6117,Revoked,2024-07-16 08:02:12,New Feature,Unknown
+EMP1191,Nathan Dudley,DevOps Engineer,Finance,AWS Console,Admin,Permanent,2023-11-02,,Manager1,CR-9868,Revoked,2024-11-07 23:14:25,Audit Task,Office
+EMP1192,Mr. Robert Orr,Developer,Engineering,Confluence,Read,Permanent,2023-11-16,,CTO,CR-3063,Expired,2024-10-14 02:56:14,Migration,Office
+EMP1193,Patricia Anderson,Intern,Finance,Prod DB,Admin,Temporary,2025-09-04,2025-09-11,Manager3,CR-7359,Revoked,2025-09-10 02:22:13,Hotfix,VPN
+EMP1194,Emily Gonzales,Developer,Operations,GitHub,Read,Temporary,2024-02-14,2024-03-29,Manager3,CR-1380,Revoked,2024-04-05 09:14:24,Migration,Office
+EMP1195,Steven Crawford,Developer,Engineering,Confluence,Write,Permanent,2024-01-20,,Manager2,CR-2880,Revoked,2024-04-17 01:47:34,Migration,Unknown
+EMP1196,John Garrett,Intern,HR,GitHub,Read,Temporary,2025-09-09,2025-11-02,Manager3,CR-5173,Expired,2025-09-11 00:36:41,Incident Response,Remote
+EMP1197,Nancy Flores,Product Manager,Data,Prod DB,Write,Temporary,2024-08-14,2024-09-22,Manager3,CR-3961,Expired,2025-04-12 10:24:18,Migration,Office
+EMP1198,Juan Chaney,DevOps Engineer,Operations,Confluence,Write,Temporary,2025-05-05,2025-06-09,Manager3,CR-6977,Active,2025-07-15 20:32:42,Hotfix,Remote
+EMP1199,Zachary Williams MD,Product Manager,Finance,Prod DB,Admin,Permanent,2024-01-24,,Manager1,CR-2979,Expired,2025-09-09 03:28:14,New Feature,Office
+EMP1200,Adam Kelly,Developer,Operations,Confluence,Admin,Temporary,2024-07-16,2024-09-12,Manager2,CR-9586,Revoked,2025-05-28 07:37:36,Incident Response,Office
+EMP1201,Michael Gonzalez,Intern,QA,Jira,Write,Temporary,2024-10-24,2024-11-12,Manager1,CR-3270,Revoked,2025-04-03 16:20:59,ProjectX,Remote
+EMP1202,Lisa Dixon,Data Analyst,QA,Confluence,Admin,Permanent,2023-11-06,,Manager1,CR-2525,Expired,2024-02-26 22:03:55,Hotfix,Remote
+EMP1203,Gary Ross,Data Analyst,Finance,Staging DB,Admin,Permanent,2024-07-09,,Manager1,CR-1515,Active,2025-08-31 08:57:51,Hotfix,Unknown
+EMP1204,Stacey Mcbride,Product Manager,Finance,Jira,Write,Temporary,2024-03-27,2024-05-04,Manager3,CR-6340,Active,2024-11-02 05:19:52,Migration,Unknown
+EMP1205,John Chaney,Intern,Operations,Staging DB,Write,Permanent,2025-04-14,,Manager3,CR-9643,Active,2025-05-06 03:49:15,New Feature,Remote
+EMP1206,Tiffany Lynch,Product Manager,Engineering,Slack,Read,Temporary,2023-09-27,2023-10-24,Manager1,CR-8409,Expired,2024-02-05 07:22:31,Audit Task,Remote
+EMP1207,Susan Contreras,Product Manager,Data,AWS Console,Read,Temporary,2023-11-12,2024-02-09,CTO,CR-2669,Active,2025-08-26 04:36:31,Audit Task,Unknown
+EMP1208,Theresa Sanchez,Intern,Finance,Jira,Read,Temporary,2024-05-30,2024-08-21,CTO,CR-7787,Revoked,2024-11-23 23:42:17,Migration,Unknown
+EMP1209,Kelly Munoz,Product Manager,QA,Confluence,Write,Permanent,2024-03-20,,Manager2,CR-3938,Expired,2024-12-26 11:09:13,Migration,Office
+EMP1210,Margaret Winters,Product Manager,QA,Prod DB,Write,Temporary,2025-03-25,2025-06-09,CTO,CR-9032,Revoked,2025-04-04 12:42:22,Hotfix,VPN
+EMP1211,Diana Harvey,Product Manager,Data,Staging DB,Admin,Permanent,2025-06-02,,Manager1,CR-8873,Active,2025-06-07 10:27:01,Audit Task,VPN
+EMP1212,Brett Schmitt,Data Analyst,Finance,Confluence,Admin,Permanent,2023-11-05,,Manager1,CR-5784,Expired,2024-06-23 19:25:05,New Feature,Office
+EMP1213,Anthony Garcia,Product Manager,Data,Slack,Read,Temporary,2025-02-21,2025-05-18,SecurityLead,CR-3207,Revoked,2025-09-02 05:43:00,ProjectX,VPN
+EMP1214,John Lopez,QA Engineer,Data,AWS Console,Write,Temporary,2025-06-23,2025-08-18,CTO,CR-5173,Revoked,2025-07-31 17:27:24,Incident Response,VPN
+EMP1215,Jonathan Gill,Data Analyst,QA,Confluence,Read,Temporary,2024-04-17,2024-06-10,SecurityLead,CR-8903,Active,2025-07-07 20:32:59,Hotfix,Unknown
+EMP1216,Andrea Gonzales,QA Engineer,HR,Staging DB,Read,Permanent,2024-09-23,,CTO,CR-2595,Revoked,2025-07-17 00:02:13,Migration,Office
+EMP1217,Miguel Lopez,Data Analyst,Finance,Prod DB,Write,Permanent,2024-11-09,,SecurityLead,CR-2731,Active,2024-12-05 15:10:39,Audit Task,Office
+EMP1218,Marvin Clark,Developer,Data,Confluence,Write,Temporary,2024-10-13,2024-12-15,CTO,CR-6808,Revoked,2025-05-25 13:53:24,New Feature,Remote
+EMP1219,Tonya Hill,DevOps Engineer,Operations,Confluence,Write,Permanent,2024-08-19,,CTO,CR-5879,Expired,2025-02-12 09:56:05,Hotfix,Remote
+EMP1220,Sara Arias,DevOps Engineer,QA,GitHub,Write,Permanent,2025-06-03,,SecurityLead,CR-3916,Revoked,2025-06-29 18:23:38,Audit Task,Office
+EMP1221,Dwayne Fernandez,DevOps Engineer,Finance,Staging DB,Admin,Permanent,2025-07-21,,Manager1,CR-4561,Expired,2025-08-10 23:00:51,Incident Response,VPN
+EMP1222,Dr. Rebecca Burton,Developer,Data,Prod DB,Admin,Temporary,2024-03-01,2024-04-24,SecurityLead,CR-5253,Revoked,2024-04-19 17:19:27,Migration,Remote
+EMP1223,Brandy Mcdaniel,Product Manager,QA,Prod DB,Write,Permanent,2024-11-28,,CTO,CR-7972,Active,2025-02-13 07:08:44,Incident Response,Unknown
+EMP1224,Adam Robbins,QA Engineer,Finance,AWS Console,Read,Temporary,2024-09-19,2024-10-21,Manager1,CR-9361,Active,2024-10-30 03:50:18,Migration,Office
+EMP1225,Stacey Hernandez,Product Manager,Operations,Staging DB,Write,Temporary,2025-03-13,2025-04-11,Manager2,CR-7259,Expired,2025-05-19 08:17:02,ProjectX,VPN
+EMP1226,Yolanda Thompson,DevOps Engineer,Data,AWS Console,Read,Temporary,2023-11-29,2024-02-19,Manager1,CR-5874,Active,2024-11-28 08:16:06,Migration,Remote
+EMP1227,John Lindsey,DevOps Engineer,HR,Slack,Write,Permanent,2024-01-28,,SecurityLead,CR-1830,Expired,2025-07-04 11:42:18,ProjectX,Office
+EMP1228,Robert Vazquez,DevOps Engineer,Data,Jira,Read,Temporary,2024-01-20,2024-03-19,Manager3,CR-2253,Active,2024-04-24 02:48:56,Incident Response,Remote
+EMP1229,Cindy Vaughn,Intern,Finance,Staging DB,Admin,Permanent,2025-03-24,,CTO,CR-5428,Active,2025-06-21 20:09:51,Audit Task,Office
+EMP1230,Cindy Hogan,QA Engineer,QA,Staging DB,Write,Temporary,2024-11-15,2024-11-24,SecurityLead,CR-3143,Revoked,2025-03-11 19:27:36,Incident Response,VPN
+EMP1231,Cindy Lucas,Developer,QA,Jira,Read,Permanent,2025-04-11,,SecurityLead,CR-8017,Expired,2025-05-30 19:14:05,Audit Task,Remote
+EMP1232,Renee Johnson,DevOps Engineer,Data,Prod DB,Read,Temporary,2024-05-18,2024-05-30,SecurityLead,CR-8553,Expired,2024-12-05 05:19:39,Audit Task,Unknown
+EMP1233,Mrs. Michelle Peters,Developer,Finance,Prod DB,Admin,Temporary,2023-12-14,2024-03-01,CTO,CR-7554,Active,2024-12-10 10:03:22,ProjectX,Office
+EMP1234,James Soto,DevOps Engineer,Data,Jira,Admin,Permanent,2024-06-25,,CTO,CR-7053,Active,2024-12-17 16:26:57,Hotfix,Remote
+EMP1235,Mr. Alan Matthews,Developer,HR,AWS Console,Admin,Permanent,2024-12-31,,Manager1,CR-7473,Expired,2025-03-20 12:41:07,New Feature,Unknown
+EMP1236,Kyle Morris,Intern,Finance,Staging DB,Write,Permanent,2024-11-15,,Manager3,CR-1184,Expired,2025-04-02 00:38:09,Audit Task,VPN
+EMP1237,Angela Lucero,Developer,Engineering,Jira,Admin,Temporary,2023-10-02,2023-11-17,Manager2,CR-2924,Active,2024-06-13 13:23:23,ProjectX,Remote
+EMP1238,Jose Smith,Developer,HR,Slack,Write,Temporary,2023-11-30,2024-01-20,SecurityLead,CR-9346,Revoked,2025-01-07 09:11:00,New Feature,Remote
+EMP1239,Samantha Madden,Product Manager,Engineering,Jira,Admin,Temporary,2025-08-30,2025-09-22,Manager1,CR-8518,Expired,2025-09-08 13:45:46,ProjectX,VPN
+EMP1240,Timothy Moore,Intern,QA,Slack,Write,Temporary,2025-08-23,2025-10-09,SecurityLead,CR-2478,Active,2025-09-11 12:58:32,New Feature,VPN
+EMP1241,Andrew Lopez,Intern,Engineering,Slack,Admin,Temporary,2025-05-05,2025-05-21,SecurityLead,CR-2893,Expired,2025-06-30 00:41:24,ProjectX,VPN
+EMP1242,Danielle Gomez,Intern,Finance,Slack,Read,Temporary,2024-11-08,2024-12-11,SecurityLead,CR-4468,Revoked,2025-02-18 12:23:57,Hotfix,Office
+EMP1243,Ryan Davis,Data Analyst,HR,Confluence,Admin,Temporary,2024-08-29,2024-09-17,SecurityLead,CR-9002,Revoked,2025-07-15 06:03:58,Audit Task,VPN
+EMP1244,Steven Russo,QA Engineer,Engineering,AWS Console,Admin,Temporary,2023-11-16,2024-01-24,Manager1,CR-1280,Expired,2024-04-22 07:05:15,Migration,Unknown
+EMP1245,Brandon Petty,QA Engineer,Operations,Confluence,Write,Temporary,2024-09-20,2024-12-16,CTO,CR-5092,Expired,2025-06-04 22:36:47,Incident Response,Office
+EMP1246,Megan Davis,Product Manager,Engineering,GitHub,Write,Temporary,2024-07-27,2024-10-16,Manager1,CR-6653,Expired,2024-11-20 15:26:10,Incident Response,Unknown
+EMP1247,Ian Gaines,Data Analyst,HR,Confluence,Write,Permanent,2024-08-31,,Manager2,CR-1766,Active,2025-01-25 08:03:37,Incident Response,Office
+EMP1248,Mr. Albert Burns PhD,Intern,Finance,AWS Console,Write,Temporary,2025-01-09,2025-04-03,Manager1,CR-4430,Active,2025-04-08 16:04:29,ProjectX,Unknown
+EMP1249,Melinda Gaines,Developer,Engineering,GitHub,Read,Permanent,2025-02-10,,SecurityLead,CR-3194,Active,2025-05-08 11:29:05,New Feature,Remote
+EMP1250,Amy Hughes,Data Analyst,Operations,Jira,Read,Temporary,2023-12-01,2023-12-23,SecurityLead,CR-7180,Expired,2024-08-06 09:49:15,Migration,VPN
+EMP1251,Scott Hall,Developer,Operations,Confluence,Write,Permanent,2025-03-18,,Manager2,CR-9078,Active,2025-04-18 15:01:36,Migration,Remote
+EMP1252,William Roberson,QA Engineer,Finance,Staging DB,Read,Permanent,2024-11-16,,Manager3,CR-7606,Revoked,2025-03-28 10:25:33,Audit Task,Office
+EMP1253,Kevin White,QA Engineer,Operations,GitHub,Read,Temporary,2023-11-01,2023-12-15,SecurityLead,CR-7928,Expired,2024-03-02 14:45:33,Migration,Office
+EMP1254,Samantha Harrison,DevOps Engineer,QA,Prod DB,Read,Temporary,2024-03-26,2024-05-21,CTO,CR-6883,Revoked,2024-08-11 19:56:47,Audit Task,Unknown
+EMP1255,Patricia Hunt,Data Analyst,HR,AWS Console,Read,Temporary,2023-10-05,2023-12-07,Manager2,CR-5494,Active,2025-05-07 23:57:23,Incident Response,VPN
+EMP1256,Scott Willis,Product Manager,Finance,Jira,Read,Permanent,2025-01-05,,SecurityLead,CR-3930,Revoked,2025-04-12 18:52:54,ProjectX,Remote
+EMP1257,David Villanueva,Product Manager,Finance,AWS Console,Write,Temporary,2024-09-28,2024-12-02,Manager2,CR-5640,Active,2024-09-28 03:37:01,Incident Response,Remote
+EMP1258,Spencer Li,Product Manager,HR,Confluence,Admin,Temporary,2024-09-07,2024-10-31,Manager3,CR-1133,Active,2025-04-16 18:12:13,Migration,Unknown
+EMP1259,Michelle Dixon,Intern,HR,Slack,Read,Temporary,2025-06-09,2025-06-17,Manager1,CR-5102,Active,2025-06-09 06:13:18,Hotfix,Remote
+EMP1260,Miss Kelly Mccall MD,Developer,Finance,GitHub,Admin,Temporary,2025-03-27,2025-05-20,CTO,CR-9372,Active,2025-04-21 05:27:49,Hotfix,Unknown
+EMP1261,Christopher Lopez,DevOps Engineer,Data,GitHub,Read,Temporary,2025-08-13,2025-10-08,SecurityLead,CR-3232,Expired,2025-08-22 08:02:30,Migration,Remote
+EMP1262,Caitlin Turner,QA Engineer,QA,Prod DB,Read,Temporary,2024-02-12,2024-05-05,Manager1,CR-8324,Active,2025-01-06 09:36:50,Audit Task,VPN
+EMP1263,Russell Smith,Product Manager,Data,Staging DB,Admin,Temporary,2024-03-04,2024-05-22,Manager2,CR-5607,Expired,2024-07-30 19:04:38,Hotfix,Remote
+EMP1264,Julie Patterson,Developer,QA,Confluence,Admin,Temporary,2024-08-14,2024-09-04,CTO,CR-2012,Revoked,2024-08-15 18:07:50,Audit Task,Unknown
+EMP1265,Brandon Clark,QA Engineer,Operations,Prod DB,Write,Temporary,2025-05-14,2025-07-05,SecurityLead,CR-3374,Revoked,2025-07-15 15:22:25,Migration,Remote
+EMP1266,Cheryl White,DevOps Engineer,QA,Confluence,Admin,Permanent,2023-11-20,,Manager1,CR-7986,Revoked,2024-12-06 02:37:22,ProjectX,VPN
+EMP1267,Erica Smith,DevOps Engineer,Data,Jira,Write,Permanent,2024-03-28,,CTO,CR-2629,Expired,2025-02-24 10:03:55,New Feature,VPN
+EMP1268,Kevin Henry,QA Engineer,Operations,Staging DB,Admin,Permanent,2025-04-17,,Manager3,CR-4042,Active,2025-06-23 07:32:31,Audit Task,Remote
+EMP1269,Allison May,Data Analyst,QA,Prod DB,Admin,Temporary,2024-01-15,2024-03-08,Manager3,CR-5497,Revoked,2024-03-02 05:01:04,ProjectX,Unknown
+EMP1270,Ashley Russell,DevOps Engineer,Operations,GitHub,Admin,Permanent,2023-10-30,,Manager1,CR-9281,Active,2024-08-31 19:35:14,ProjectX,VPN
+EMP1271,Lucas Johnson,Product Manager,Data,Confluence,Admin,Temporary,2025-03-27,2025-04-22,Manager3,CR-2891,Revoked,2025-09-04 22:24:21,New Feature,Office
+EMP1272,Christina Garcia,Product Manager,QA,Slack,Read,Permanent,2024-06-15,,Manager1,CR-7588,Expired,2025-07-04 12:12:35,Incident Response,Remote
+EMP1273,Noah Jones,DevOps Engineer,QA,Slack,Read,Temporary,2023-11-25,2024-01-04,CTO,CR-1254,Active,2024-02-15 21:03:27,Migration,Office
+EMP1274,Andrew Ryan,Developer,QA,Confluence,Read,Temporary,2023-09-12,2023-11-18,CTO,CR-5216,Revoked,2024-02-11 13:38:53,Incident Response,Remote
+EMP1275,Amber Hawkins,Intern,Engineering,Slack,Admin,Permanent,2024-11-12,,CTO,CR-7274,Revoked,2025-07-20 13:13:14,Hotfix,Remote
+EMP1276,Sarah Alvarez,Product Manager,Data,Confluence,Write,Temporary,2024-05-08,2024-07-26,Manager2,CR-5467,Active,2024-08-31 13:54:18,New Feature,Unknown
+EMP1277,Jacqueline Hayden,QA Engineer,Data,Confluence,Admin,Permanent,2024-06-29,,SecurityLead,CR-1658,Revoked,2025-08-18 03:45:26,New Feature,Office
+EMP1278,Logan Castillo,Intern,Data,Slack,Write,Permanent,2024-08-13,,CTO,CR-5004,Active,2025-01-25 20:58:58,Incident Response,VPN
+EMP1279,Michelle Kelley,Developer,Finance,AWS Console,Write,Permanent,2023-09-14,,Manager1,CR-4809,Revoked,2024-02-04 06:48:42,Incident Response,Unknown
+EMP1280,Dr. Johnathan Smith DVM,QA Engineer,Engineering,Slack,Read,Temporary,2023-12-12,2024-01-24,Manager2,CR-9523,Expired,2025-02-26 03:54:02,Audit Task,Office
+EMP1281,Cheryl Smith,Data Analyst,Finance,Slack,Admin,Permanent,2024-10-25,,Manager2,CR-8736,Revoked,2025-04-25 19:30:20,Hotfix,Remote
+EMP1282,Jonathan Brown,QA Engineer,Data,Confluence,Admin,Temporary,2023-11-01,2023-12-25,Manager2,CR-1895,Active,2024-10-29 22:45:56,Migration,VPN
+EMP1283,Kevin Harris,Developer,Operations,Prod DB,Admin,Permanent,2024-02-03,,Manager1,CR-7513,Revoked,2025-02-13 16:23:14,Hotfix,Unknown
+EMP1284,Eric Jones,Developer,Engineering,Prod DB,Write,Permanent,2024-03-26,,CTO,CR-6527,Expired,2024-11-05 13:12:00,Audit Task,Remote
+EMP1285,Patricia Gates,Product Manager,Engineering,Staging DB,Read,Temporary,2024-12-01,2024-12-18,CTO,CR-9432,Active,2025-07-30 00:19:27,Incident Response,Office
+EMP1286,Corey Sampson,QA Engineer,QA,Slack,Write,Permanent,2024-12-10,,CTO,CR-1730,Revoked,2025-05-20 08:40:50,Migration,Remote
+EMP1287,Jody Flynn,Product Manager,Operations,Prod DB,Read,Temporary,2025-07-02,2025-08-12,Manager3,CR-5553,Revoked,2025-07-11 23:19:52,Audit Task,VPN
+EMP1288,Beth Adams MD,Product Manager,Finance,Slack,Admin,Permanent,2025-07-28,,CTO,CR-4332,Active,2025-08-15 00:50:53,Hotfix,Office
+EMP1289,Annette Rodriguez,Product Manager,Operations,AWS Console,Admin,Temporary,2025-03-23,2025-03-30,CTO,CR-6303,Revoked,2025-07-25 02:18:53,ProjectX,Remote
+EMP1290,William Bolton,Intern,QA,AWS Console,Write,Permanent,2024-03-12,,SecurityLead,CR-9768,Expired,2025-04-04 05:56:45,ProjectX,Remote
+EMP1291,Patricia Drake,QA Engineer,Engineering,AWS Console,Admin,Permanent,2023-09-27,,Manager3,CR-2105,Active,2025-05-23 02:42:34,Incident Response,Remote
+EMP1292,John Duran,DevOps Engineer,HR,AWS Console,Admin,Temporary,2024-12-06,2025-01-10,CTO,CR-4785,Revoked,2025-08-18 23:15:43,Incident Response,VPN
+EMP1293,Andrew Garcia,Product Manager,Operations,Confluence,Write,Temporary,2024-04-22,2024-07-01,CTO,CR-9766,Revoked,2025-05-11 12:05:09,Migration,Office
+EMP1294,Tyler Hamilton,Product Manager,HR,GitHub,Write,Temporary,2024-08-19,2024-10-04,CTO,CR-7035,Expired,2025-04-29 17:34:31,ProjectX,Unknown
+EMP1295,Monica Johnson,Data Analyst,HR,GitHub,Admin,Temporary,2025-09-08,2025-10-11,Manager2,CR-7833,Expired,2025-09-08 17:57:15,Incident Response,Remote
+EMP1296,Lisa Harris,Intern,HR,GitHub,Read,Temporary,2024-01-25,2024-04-14,Manager1,CR-2204,Expired,2024-09-04 11:40:15,Incident Response,Remote
+EMP1297,Eric Brown,Intern,Operations,Jira,Read,Permanent,2025-05-24,,Manager1,CR-7109,Expired,2025-08-11 06:01:23,Audit Task,Remote
+EMP1298,David Douglas,Developer,QA,Prod DB,Read,Permanent,2024-02-28,,Manager3,CR-4020,Revoked,2025-02-19 04:43:49,ProjectX,Remote
+EMP1299,James Harrell,Product Manager,Data,Slack,Admin,Permanent,2025-05-01,,Manager2,CR-1220,Expired,2025-07-09 15:20:44,ProjectX,Office
+EMP1300,Bobby Rodriguez,DevOps Engineer,Data,Slack,Admin,Temporary,2023-12-26,2024-02-06,SecurityLead,CR-7307,Active,2024-04-30 22:17:12,Migration,Unknown
+EMP1301,Cheryl Pacheco,QA Engineer,QA,Slack,Write,Temporary,2025-05-21,2025-06-12,Manager3,CR-7736,Active,2025-05-21 19:44:46,Hotfix,Office
+EMP1302,Eric Sandoval,Product Manager,Finance,Staging DB,Read,Permanent,2025-04-12,,Manager2,CR-9137,Revoked,2025-07-04 03:19:02,New Feature,Office
+EMP1303,Tina Johnson,Developer,Operations,GitHub,Write,Permanent,2024-10-02,,CTO,CR-9350,Revoked,2025-02-16 19:25:03,New Feature,Remote
+EMP1304,Laura Wagner,Developer,Finance,Prod DB,Write,Permanent,2025-02-07,,Manager3,CR-5650,Active,2025-04-07 04:28:41,Hotfix,Remote
+EMP1305,Taylor Williams,QA Engineer,QA,Jira,Write,Temporary,2025-08-30,2025-10-06,Manager2,CR-2713,Active,2025-08-31 05:49:33,ProjectX,VPN
+EMP1306,Benjamin Beasley,DevOps Engineer,Data,Prod DB,Read,Temporary,2024-08-09,2024-09-08,CTO,CR-2205,Expired,2024-12-05 03:15:19,Incident Response,Unknown
+EMP1307,Travis Munoz,DevOps Engineer,HR,Slack,Read,Temporary,2025-06-06,2025-06-17,SecurityLead,CR-1914,Revoked,2025-08-12 05:48:54,New Feature,Office
+EMP1308,Jimmy Paul,QA Engineer,Engineering,AWS Console,Read,Permanent,2024-01-16,,Manager1,CR-5688,Active,2025-05-12 10:50:07,Migration,VPN
+EMP1309,Brian Bell,Intern,HR,Staging DB,Write,Permanent,2025-05-20,,SecurityLead,CR-6464,Expired,2025-09-02 03:25:18,Hotfix,Office
+EMP1310,Sarah Pierce,QA Engineer,QA,Prod DB,Read,Temporary,2024-05-11,2024-08-07,Manager2,CR-2090,Expired,2024-05-20 11:42:08,Hotfix,VPN
+EMP1311,Jaime Sawyer,DevOps Engineer,Data,GitHub,Write,Permanent,2025-08-06,,Manager3,CR-3971,Active,2025-09-06 07:09:26,Hotfix,VPN
+EMP1312,Amber Silva,DevOps Engineer,Engineering,Staging DB,Read,Permanent,2025-08-03,,Manager2,CR-6652,Active,2025-09-04 16:40:57,Audit Task,Unknown
+EMP1313,Lindsey Nunez,Intern,Data,Confluence,Write,Permanent,2025-06-24,,CTO,CR-8839,Active,2025-07-18 21:30:08,Hotfix,Remote
+EMP1314,Robert Garcia,DevOps Engineer,Data,Confluence,Admin,Permanent,2024-09-13,,Manager3,CR-2474,Active,2024-09-21 06:57:36,Hotfix,Remote
+EMP1315,Matthew Torres,Product Manager,QA,Slack,Write,Permanent,2024-11-06,,SecurityLead,CR-6501,Active,2025-03-22 00:53:54,ProjectX,Remote
+EMP1316,Heather Bishop,QA Engineer,Data,GitHub,Read,Permanent,2023-12-04,,Manager2,CR-2857,Active,2024-07-30 18:21:03,Migration,Unknown
+EMP1317,Levi Roach,Product Manager,Finance,Prod DB,Read,Temporary,2025-07-07,2025-10-01,CTO,CR-4318,Active,2025-07-24 21:21:18,New Feature,VPN
+EMP1318,Nicole Robinson,Data Analyst,Finance,Slack,Read,Temporary,2024-01-05,2024-02-24,Manager1,CR-7161,Expired,2024-03-20 18:27:12,Audit Task,Unknown
+EMP1319,Dawn Lewis,Developer,Engineering,Jira,Admin,Temporary,2023-09-17,2023-10-18,Manager2,CR-6223,Active,2025-06-11 13:32:39,Incident Response,Office
+EMP1320,Jason Rhodes,Intern,HR,AWS Console,Admin,Permanent,2025-07-31,,Manager2,CR-8699,Active,2025-08-31 12:25:58,Audit Task,Remote
+EMP1321,Jason Smith,Data Analyst,QA,Confluence,Read,Permanent,2024-06-17,,Manager3,CR-5861,Active,2024-06-20 10:49:17,Migration,Unknown
+EMP1322,Molly Henry,Product Manager,Data,Staging DB,Read,Temporary,2023-11-07,2023-11-25,Manager1,CR-9621,Revoked,2025-06-13 04:15:10,ProjectX,VPN
+EMP1323,Mikayla Castaneda,Data Analyst,QA,GitHub,Write,Permanent,2024-03-21,,SecurityLead,CR-9853,Expired,2025-07-17 06:33:37,Incident Response,Office
+EMP1324,Christopher Simon,Product Manager,Operations,Slack,Write,Temporary,2024-07-08,2024-09-03,Manager1,CR-2110,Revoked,2024-08-13 19:10:35,Hotfix,Unknown
+EMP1325,Richard Mooney,Product Manager,Finance,Confluence,Admin,Temporary,2024-03-26,2024-04-23,CTO,CR-7694,Revoked,2025-08-04 05:57:21,ProjectX,Office
+EMP1326,Wanda Dunn,Intern,Finance,GitHub,Admin,Temporary,2023-10-06,2023-10-29,Manager2,CR-1585,Active,2024-04-25 11:09:48,Hotfix,Office
+EMP1327,Norma Clark,DevOps Engineer,Operations,Slack,Read,Temporary,2025-03-22,2025-04-12,SecurityLead,CR-8353,Revoked,2025-04-13 12:06:25,ProjectX,Unknown
+EMP1328,Brittany Santos,Intern,Operations,Jira,Read,Permanent,2024-02-19,,Manager1,CR-7464,Revoked,2025-03-25 15:02:04,Migration,Office
+EMP1329,Brittany Taylor,Product Manager,Engineering,GitHub,Read,Permanent,2023-11-10,,Manager3,CR-5846,Revoked,2023-11-16 01:19:37,Hotfix,VPN
+EMP1330,Susan Shah,Intern,HR,Confluence,Write,Temporary,2024-08-06,2024-08-18,CTO,CR-5264,Active,2025-06-03 09:48:55,ProjectX,Office
+EMP1331,Tina Warren,Developer,Data,Staging DB,Write,Temporary,2023-11-26,2024-01-24,SecurityLead,CR-2020,Expired,2024-08-25 00:07:02,New Feature,Remote
+EMP1332,Elizabeth Freeman,Product Manager,Operations,Prod DB,Write,Permanent,2024-10-04,,Manager3,CR-9727,Active,2025-08-03 09:15:56,Hotfix,Remote
+EMP1333,Kristen Henderson,DevOps Engineer,Engineering,GitHub,Admin,Permanent,2024-04-07,,SecurityLead,CR-9805,Expired,2025-04-01 01:19:52,Incident Response,Remote
+EMP1334,Jeffrey Clark,DevOps Engineer,Finance,Confluence,Read,Temporary,2024-02-25,2024-05-17,Manager2,CR-5192,Expired,2024-08-07 05:06:31,Migration,Remote
+EMP1335,James Welch,Intern,Engineering,Staging DB,Admin,Permanent,2025-04-07,,SecurityLead,CR-3526,Revoked,2025-08-29 20:27:35,New Feature,VPN
+EMP1336,Angela Horn,Data Analyst,Engineering,Jira,Write,Permanent,2025-03-10,,Manager1,CR-5568,Revoked,2025-08-06 13:20:49,New Feature,Unknown
+EMP1337,Sara Patel,Data Analyst,Operations,Confluence,Read,Temporary,2024-08-13,2024-10-04,CTO,CR-2006,Active,2024-11-10 11:39:04,Incident Response,Remote
+EMP1338,Margaret Hudson,Data Analyst,Finance,Staging DB,Admin,Permanent,2025-02-13,,SecurityLead,CR-4295,Revoked,2025-05-21 08:49:14,Audit Task,VPN
+EMP1339,Mark Sullivan,DevOps Engineer,Engineering,AWS Console,Write,Permanent,2024-05-27,,SecurityLead,CR-3562,Revoked,2025-08-14 11:32:51,Migration,Remote
+EMP1340,Cody Powell,DevOps Engineer,HR,Jira,Admin,Permanent,2024-08-02,,Manager2,CR-7237,Expired,2025-08-03 07:22:37,Migration,Unknown
+EMP1341,Amanda White,DevOps Engineer,Operations,Prod DB,Write,Temporary,2024-03-05,2024-05-20,Manager2,CR-9853,Revoked,2024-10-24 12:07:27,Audit Task,Remote
+EMP1342,Hannah Jones,QA Engineer,HR,GitHub,Read,Temporary,2024-10-10,2024-11-06,CTO,CR-5828,Active,2025-01-31 04:44:50,Incident Response,Unknown
+EMP1343,Tanya Conrad,QA Engineer,QA,AWS Console,Write,Temporary,2024-08-27,2024-09-04,CTO,CR-2523,Revoked,2024-11-10 14:25:49,Migration,VPN
+EMP1344,William Bailey,DevOps Engineer,QA,Prod DB,Admin,Permanent,2025-08-22,,SecurityLead,CR-9706,Expired,2025-08-23 08:43:00,Migration,Unknown
+EMP1345,Sara Johnson,Product Manager,Engineering,Slack,Admin,Temporary,2024-04-11,2024-06-01,CTO,CR-1697,Active,2025-04-28 08:26:29,Incident Response,VPN
+EMP1346,Shawn Mata,QA Engineer,Operations,Confluence,Write,Temporary,2024-11-26,2024-12-08,Manager3,CR-5841,Active,2025-06-11 23:02:28,New Feature,Unknown
+EMP1347,Logan Humphrey,Developer,QA,Confluence,Read,Temporary,2025-08-16,2025-11-08,SecurityLead,CR-3101,Expired,2025-08-19 07:11:00,Audit Task,VPN
+EMP1348,Caleb Roberts,DevOps Engineer,Data,GitHub,Write,Permanent,2023-12-24,,SecurityLead,CR-6656,Revoked,2025-02-02 23:10:49,New Feature,Remote
+EMP1349,Brenda Mckenzie,Intern,HR,Slack,Write,Permanent,2023-09-29,,Manager2,CR-3249,Revoked,2023-10-06 16:48:51,Incident Response,Remote
+EMP1350,Rodney Grant,Product Manager,Finance,GitHub,Admin,Temporary,2024-05-04,2024-06-18,Manager3,CR-3640,Expired,2024-10-28 07:06:56,Migration,Remote
+EMP1351,Natasha Gomez,Intern,Operations,Jira,Write,Permanent,2025-08-31,,CTO,CR-8212,Expired,2025-09-07 01:37:10,Incident Response,VPN
+EMP1352,Jacqueline Allen,QA Engineer,HR,Staging DB,Admin,Temporary,2025-03-16,2025-05-11,Manager1,CR-1325,Expired,2025-06-08 21:22:50,Hotfix,Unknown
+EMP1353,Paula Davis DDS,DevOps Engineer,Operations,Prod DB,Write,Temporary,2024-06-26,2024-09-19,Manager1,CR-1668,Revoked,2025-07-02 22:23:14,ProjectX,Unknown
+EMP1354,Steven Skinner,DevOps Engineer,HR,Prod DB,Read,Permanent,2024-12-03,,Manager3,CR-4785,Active,2025-02-09 01:26:29,Hotfix,Unknown
+EMP1355,Janice Young,Developer,HR,Jira,Read,Temporary,2024-08-10,2024-11-03,SecurityLead,CR-5138,Revoked,2025-03-17 02:57:26,Audit Task,VPN
+EMP1356,Jessica Johnson,Intern,Operations,Slack,Write,Temporary,2024-07-03,2024-08-06,Manager3,CR-2305,Active,2024-08-02 10:01:13,Migration,Office
+EMP1357,Adam Aguirre,Data Analyst,Engineering,AWS Console,Read,Temporary,2023-12-04,2023-12-28,SecurityLead,CR-4760,Revoked,2024-02-16 04:50:52,Incident Response,VPN
+EMP1358,John Taylor,DevOps Engineer,Engineering,AWS Console,Admin,Temporary,2025-01-09,2025-01-16,CTO,CR-6727,Expired,2025-02-12 00:39:27,Migration,VPN
+EMP1359,Tara George,Intern,QA,Confluence,Write,Temporary,2024-02-05,2024-03-14,Manager1,CR-7468,Active,2024-09-29 15:16:10,Migration,Unknown
+EMP1360,Richard Roman,Developer,Operations,Prod DB,Admin,Permanent,2024-12-13,,SecurityLead,CR-6201,Revoked,2025-04-27 05:48:46,Audit Task,VPN
+EMP1361,Joyce Powell,QA Engineer,Finance,Prod DB,Read,Temporary,2025-03-30,2025-04-26,Manager2,CR-1737,Expired,2025-05-18 16:21:20,Audit Task,VPN
+EMP1362,Ricky Hill,Intern,Engineering,Staging DB,Write,Permanent,2025-07-10,,Manager1,CR-4054,Active,2025-09-02 15:33:15,ProjectX,VPN
+EMP1363,Justin Bennett,Data Analyst,Finance,GitHub,Write,Permanent,2025-06-24,,Manager1,CR-5554,Active,2025-09-02 04:48:38,Migration,VPN
+EMP1364,Ms. Lauren Miller,Data Analyst,Engineering,GitHub,Admin,Permanent,2024-04-26,,CTO,CR-8599,Active,2024-05-16 19:30:02,Incident Response,Office
+EMP1365,Melissa Ortega,Product Manager,HR,Jira,Admin,Temporary,2024-05-18,2024-05-25,CTO,CR-3692,Revoked,2024-08-10 08:48:04,Incident Response,Office
+EMP1366,Richard Watson,Intern,Operations,Staging DB,Read,Temporary,2024-11-01,2024-12-03,SecurityLead,CR-2049,Revoked,2025-05-29 17:43:20,Migration,VPN
+EMP1367,Penny Simmons,Product Manager,HR,AWS Console,Admin,Permanent,2024-11-07,,SecurityLead,CR-4081,Expired,2025-07-25 16:21:40,ProjectX,VPN
+EMP1368,Dr. Michael Nichols MD,Data Analyst,Operations,Confluence,Read,Temporary,2025-03-14,2025-04-04,SecurityLead,CR-5573,Expired,2025-07-13 08:20:40,Audit Task,Unknown
+EMP1369,Lauren Watson,Intern,HR,GitHub,Read,Permanent,2024-05-05,,SecurityLead,CR-3245,Active,2024-09-25 21:42:47,Audit Task,VPN
+EMP1370,Anne Thomas,QA Engineer,HR,Prod DB,Write,Permanent,2024-02-05,,Manager1,CR-5831,Expired,2025-01-27 02:43:50,ProjectX,Office
+EMP1371,Alexander Garcia,QA Engineer,Operations,Staging DB,Admin,Permanent,2024-05-12,,CTO,CR-3407,Revoked,2025-09-10 12:40:36,Audit Task,VPN
+EMP1372,Arthur Smith,QA Engineer,Data,AWS Console,Read,Permanent,2025-01-23,,CTO,CR-5268,Revoked,2025-05-10 11:30:11,Incident Response,Unknown
+EMP1373,April Reed,Product Manager,QA,AWS Console,Admin,Permanent,2025-05-09,,SecurityLead,CR-9637,Expired,2025-07-15 18:18:36,ProjectX,Office
+EMP1374,Eric Thomas,Developer,QA,Confluence,Read,Permanent,2025-05-25,,Manager1,CR-1527,Revoked,2025-09-04 08:33:31,Migration,Office
+EMP1375,Christopher Williams,Data Analyst,HR,Confluence,Write,Permanent,2025-07-23,,Manager1,CR-4295,Revoked,2025-08-23 19:57:21,New Feature,VPN
+EMP1376,Susan Warren,DevOps Engineer,Finance,AWS Console,Admin,Temporary,2025-01-30,2025-03-14,CTO,CR-6283,Expired,2025-03-29 15:18:26,ProjectX,Remote
+EMP1377,Jared Gonzales,Intern,Data,Staging DB,Write,Permanent,2024-12-18,,SecurityLead,CR-8092,Active,2025-01-20 05:51:46,Incident Response,Unknown
+EMP1378,Joshua Little,Product Manager,Engineering,Confluence,Write,Temporary,2024-01-14,2024-01-27,Manager3,CR-5952,Expired,2025-02-28 23:20:35,Hotfix,Remote
+EMP1379,Curtis Jones,Developer,Engineering,GitHub,Write,Permanent,2025-06-08,,Manager1,CR-9998,Revoked,2025-08-12 05:20:47,Incident Response,Office
+EMP1380,Laura Rivera,Developer,QA,Jira,Write,Permanent,2025-01-17,,Manager1,CR-1569,Active,2025-04-03 18:04:47,Hotfix,Office
+EMP1381,Rebecca Flores,Intern,Operations,Slack,Admin,Temporary,2025-08-13,2025-11-09,Manager1,CR-1028,Active,2025-08-25 10:45:35,Hotfix,Unknown
+EMP1382,Paul Trevino,Data Analyst,HR,Confluence,Admin,Temporary,2024-02-09,2024-05-06,Manager1,CR-8949,Revoked,2025-08-23 22:31:40,Audit Task,VPN
+EMP1383,Amber Smith,Developer,QA,Confluence,Write,Temporary,2024-01-10,2024-03-31,Manager2,CR-8179,Revoked,2024-10-15 01:28:34,Incident Response,Unknown
+EMP1384,Jon Kennedy,Developer,HR,Staging DB,Admin,Temporary,2024-10-01,2024-12-20,Manager3,CR-1473,Expired,2025-04-13 13:17:37,New Feature,Remote
+EMP1385,Lori Holder,Data Analyst,HR,Slack,Admin,Temporary,2023-12-24,2024-03-13,Manager3,CR-2164,Revoked,2025-05-02 20:12:58,Migration,Unknown
+EMP1386,Diane Willis,QA Engineer,Engineering,Jira,Admin,Temporary,2023-12-11,2024-02-14,CTO,CR-5197,Active,2025-04-30 05:42:23,Audit Task,VPN
+EMP1387,Emma Fletcher,Developer,Finance,Jira,Admin,Permanent,2025-08-04,,Manager1,CR-3811,Revoked,2025-08-30 08:26:41,Incident Response,VPN
+EMP1388,Roger Phillips,Product Manager,HR,Jira,Admin,Permanent,2024-01-23,,CTO,CR-3184,Expired,2024-02-12 21:21:11,Incident Response,Unknown
+EMP1389,Nicole Farrell,Intern,Finance,GitHub,Read,Temporary,2025-04-13,2025-05-10,Manager3,CR-6476,Active,2025-04-30 11:19:44,ProjectX,Unknown
+EMP1390,Alex Scott,QA Engineer,Finance,Jira,Admin,Temporary,2025-07-15,2025-09-25,Manager3,CR-5371,Revoked,2025-09-07 07:28:07,ProjectX,Unknown
+EMP1391,Chris Casey,Intern,Engineering,AWS Console,Write,Permanent,2025-04-26,,CTO,CR-3924,Active,2025-08-26 20:00:37,Incident Response,VPN
+EMP1392,Steven Rosario,QA Engineer,Finance,Confluence,Read,Permanent,2025-04-17,,Manager1,CR-3643,Active,2025-07-26 12:53:52,Hotfix,Unknown
+EMP1393,Anthony Morris,Intern,Engineering,Slack,Admin,Temporary,2025-09-06,2025-10-24,SecurityLead,CR-7506,Expired,2025-09-10 15:46:39,Migration,VPN
+EMP1394,Abigail Chang,QA Engineer,QA,Slack,Write,Temporary,2024-01-08,2024-01-28,SecurityLead,CR-4384,Expired,2024-09-11 04:10:54,Audit Task,VPN
+EMP1395,Heidi Mills,Intern,Finance,Prod DB,Admin,Permanent,2025-06-10,,Manager3,CR-1183,Expired,2025-07-08 17:17:30,ProjectX,Remote
+EMP1396,Jennifer Ray,Product Manager,Engineering,GitHub,Admin,Permanent,2024-08-11,,Manager1,CR-5952,Expired,2025-09-04 21:52:16,Incident Response,VPN
+EMP1397,Lisa Marshall,Product Manager,Operations,GitHub,Admin,Temporary,2023-11-27,2024-01-02,Manager2,CR-4187,Expired,2023-12-29 16:33:13,Incident Response,Remote
+EMP1398,Steven Weber,QA Engineer,Data,Jira,Admin,Temporary,2025-05-15,2025-06-03,Manager1,CR-5617,Revoked,2025-05-30 13:07:05,Migration,VPN
+EMP1399,Ariana Palmer,Developer,Engineering,Confluence,Read,Permanent,2024-11-07,,Manager1,CR-6031,Revoked,2024-11-15 08:14:03,Migration,Office
+EMP1400,Julia Wright,Data Analyst,Finance,AWS Console,Admin,Permanent,2023-10-29,,CTO,CR-8252,Expired,2025-03-15 21:50:23,Migration,Remote
+EMP1401,Kevin Robinson,Product Manager,QA,Prod DB,Read,Temporary,2024-12-07,2024-12-30,SecurityLead,CR-2553,Active,2024-12-28 22:32:10,Audit Task,Office
+EMP1402,Patricia Mcdonald,QA Engineer,Finance,Prod DB,Admin,Temporary,2024-04-08,2024-05-21,Manager2,CR-9937,Revoked,2024-09-07 21:25:40,Hotfix,Remote
+EMP1403,David Miller,QA Engineer,Operations,Prod DB,Read,Temporary,2024-01-10,2024-04-08,Manager3,CR-1583,Revoked,2024-03-26 03:39:02,Audit Task,Office
+EMP1404,Carl Conway,Intern,Engineering,Slack,Read,Permanent,2025-05-26,,Manager2,CR-8288,Active,2025-08-20 18:18:08,Incident Response,Unknown
+EMP1405,Angel Rubio,Data Analyst,HR,Prod DB,Admin,Permanent,2024-04-13,,Manager3,CR-3826,Expired,2025-03-20 11:08:11,ProjectX,Remote
+EMP1406,Kelsey Gardner,QA Engineer,Data,Slack,Write,Permanent,2025-02-19,,CTO,CR-7202,Revoked,2025-04-21 09:04:27,Incident Response,VPN
+EMP1407,Nichole Moore,Data Analyst,QA,Jira,Admin,Temporary,2025-06-13,2025-08-28,CTO,CR-6781,Expired,2025-07-19 01:15:15,Incident Response,VPN
+EMP1408,Ruth Parker,QA Engineer,Operations,Jira,Read,Temporary,2024-01-13,2024-01-31,Manager1,CR-8718,Active,2025-06-10 15:38:37,Audit Task,VPN
+EMP1409,Thomas Mendoza,Developer,Data,GitHub,Write,Temporary,2024-04-03,2024-06-17,Manager1,CR-3315,Active,2024-12-13 15:45:19,New Feature,Office
+EMP1410,Michelle Howell,DevOps Engineer,QA,Slack,Admin,Permanent,2024-10-21,,Manager2,CR-1880,Active,2024-10-21 06:07:09,ProjectX,VPN
+EMP1411,Sarah Sims,Data Analyst,Engineering,Slack,Write,Temporary,2024-08-19,2024-10-23,Manager2,CR-3261,Revoked,2024-11-11 07:21:18,Migration,VPN
+EMP1412,Angela Page,Developer,Operations,GitHub,Read,Temporary,2025-03-17,2025-04-06,Manager1,CR-8423,Expired,2025-04-04 20:33:09,New Feature,Unknown
+EMP1413,Rachel Calderon DDS,Developer,Engineering,Staging DB,Admin,Permanent,2025-06-25,,SecurityLead,CR-8654,Expired,2025-06-28 17:58:30,Audit Task,VPN
+EMP1414,Mary Christensen,Product Manager,Data,AWS Console,Write,Permanent,2023-10-23,,Manager3,CR-5201,Active,2024-08-20 12:48:26,New Feature,VPN
+EMP1415,Claire Martin,Data Analyst,Operations,Staging DB,Admin,Temporary,2023-10-20,2023-12-21,Manager2,CR-1135,Active,2024-06-24 20:29:49,ProjectX,VPN
+EMP1416,Alan Ward,Data Analyst,Data,Confluence,Write,Permanent,2025-03-19,,Manager2,CR-2469,Revoked,2025-06-02 15:32:58,New Feature,Office
+EMP1417,Sarah Taylor,Data Analyst,QA,GitHub,Read,Temporary,2023-10-18,2024-01-10,CTO,CR-5095,Revoked,2025-07-01 09:11:46,Hotfix,Remote
+EMP1418,Amy Stewart,Product Manager,Data,Confluence,Read,Temporary,2024-04-21,2024-05-14,Manager1,CR-1026,Active,2024-12-02 22:45:44,Migration,Remote
+EMP1419,Kristin Ramirez,Product Manager,HR,Jira,Write,Permanent,2024-04-28,,SecurityLead,CR-4604,Expired,2024-05-31 21:16:30,Incident Response,Unknown
+EMP1420,Dana Moore,Intern,QA,Staging DB,Admin,Temporary,2024-06-02,2024-08-22,CTO,CR-7954,Expired,2025-04-15 01:04:40,Migration,Remote
+EMP1421,Lisa Henderson,Intern,QA,Slack,Read,Permanent,2025-08-24,,Manager3,CR-8718,Active,2025-08-27 03:40:02,New Feature,Office
+EMP1422,John Andersen,DevOps Engineer,Operations,AWS Console,Read,Permanent,2025-03-14,,Manager1,CR-5298,Revoked,2025-03-23 14:43:22,ProjectX,VPN
+EMP1423,Robert Mueller,Product Manager,Operations,AWS Console,Admin,Permanent,2024-03-16,,Manager3,CR-7530,Expired,2025-05-18 12:16:43,ProjectX,Office
+EMP1424,Edward Melendez,Data Analyst,QA,AWS Console,Admin,Temporary,2024-09-20,2024-12-05,SecurityLead,CR-9284,Revoked,2025-01-25 23:52:04,New Feature,VPN
+EMP1425,Leslie Fischer,DevOps Engineer,QA,Staging DB,Admin,Permanent,2024-09-26,,Manager3,CR-7145,Expired,2024-12-12 13:46:11,Incident Response,Remote
+EMP1426,Whitney Miller,Intern,HR,Jira,Admin,Permanent,2025-09-05,,Manager2,CR-2166,Active,2025-09-07 02:42:53,Hotfix,VPN
+EMP1427,Holly Johnson,QA Engineer,Data,Staging DB,Write,Permanent,2024-07-30,,CTO,CR-3937,Revoked,2025-02-15 10:11:58,ProjectX,VPN
+EMP1428,Jeremy Tucker,Developer,QA,Slack,Admin,Permanent,2024-01-08,,SecurityLead,CR-6787,Active,2025-06-19 23:00:24,Incident Response,Unknown
+EMP1429,Robert Wilkerson,Intern,Finance,Jira,Write,Temporary,2024-08-05,2024-08-20,Manager1,CR-4241,Expired,2024-10-24 02:48:07,New Feature,VPN
+EMP1430,Maureen Medina,Developer,Operations,AWS Console,Read,Permanent,2024-08-01,,Manager1,CR-9619,Expired,2025-01-12 05:22:48,Incident Response,Office
+EMP1431,Rebecca Vincent,DevOps Engineer,HR,Staging DB,Write,Temporary,2025-01-10,2025-04-02,Manager3,CR-8387,Active,2025-08-27 08:45:31,Hotfix,Office
+EMP1432,Omar Patton,Developer,Finance,GitHub,Write,Temporary,2024-01-06,2024-03-25,Manager2,CR-3016,Active,2024-11-09 03:05:41,Hotfix,Office
+EMP1433,George Vasquez,Intern,HR,GitHub,Admin,Temporary,2025-04-16,2025-06-22,Manager1,CR-7054,Active,2025-08-18 00:02:14,Migration,VPN
+EMP1434,Ethan Allen,Intern,Engineering,Jira,Read,Temporary,2024-12-02,2025-02-04,CTO,CR-3714,Revoked,2025-08-13 15:25:37,Incident Response,Unknown
+EMP1435,Jim Smith,Product Manager,Finance,AWS Console,Read,Temporary,2023-10-23,2023-11-05,Manager1,CR-2786,Revoked,2025-08-27 03:44:05,New Feature,VPN
+EMP1436,Angela Mccoy,Product Manager,Operations,Jira,Write,Temporary,2023-10-01,2023-11-24,Manager1,CR-5146,Expired,2024-04-29 09:28:10,New Feature,Unknown
+EMP1437,Martin Hurst,Developer,HR,GitHub,Write,Permanent,2023-11-29,,Manager1,CR-6726,Revoked,2024-06-23 04:58:08,Hotfix,Unknown
+EMP1438,Susan Salazar,QA Engineer,Operations,Slack,Admin,Permanent,2024-02-29,,Manager3,CR-7583,Expired,2025-05-20 16:16:15,Audit Task,Unknown
+EMP1439,Rachel Figueroa,DevOps Engineer,Engineering,Jira,Read,Temporary,2023-10-31,2023-11-08,CTO,CR-4949,Expired,2024-03-05 23:17:06,Audit Task,Unknown
+EMP1440,Kimberly Miller,DevOps Engineer,Data,Confluence,Write,Permanent,2023-10-26,,Manager2,CR-2533,Active,2025-09-02 10:11:36,Migration,Office
+EMP1441,Jodi Williams,Product Manager,Operations,Jira,Read,Permanent,2024-11-02,,SecurityLead,CR-5975,Expired,2025-02-21 05:49:42,Migration,VPN
+EMP1442,Amber Russell,DevOps Engineer,Data,Jira,Read,Permanent,2025-05-13,,Manager3,CR-7393,Active,2025-05-25 09:28:48,New Feature,Office
+EMP1443,Michael Marquez,Product Manager,Operations,AWS Console,Read,Temporary,2025-06-21,2025-08-24,Manager2,CR-8075,Expired,2025-07-10 05:30:28,Incident Response,Office
+EMP1444,Crystal Ayala,Product Manager,Data,Staging DB,Write,Temporary,2025-01-21,2025-03-21,CTO,CR-3696,Active,2025-04-09 02:51:19,Incident Response,Office
+EMP1445,Tyler Olson,Product Manager,Engineering,Slack,Write,Temporary,2025-04-15,2025-06-05,SecurityLead,CR-2422,Active,2025-07-14 17:37:55,Migration,Office
+EMP1446,David Moore,Data Analyst,QA,Confluence,Read,Temporary,2023-11-21,2024-01-29,Manager2,CR-3953,Expired,2025-04-03 14:59:52,ProjectX,Unknown
+EMP1447,Joy May,DevOps Engineer,Data,Staging DB,Admin,Permanent,2023-12-08,,SecurityLead,CR-7657,Revoked,2025-01-30 04:01:24,New Feature,Remote
+EMP1448,Amanda Acosta,Intern,Finance,Slack,Read,Temporary,2023-09-29,2023-10-12,Manager2,CR-6656,Revoked,2024-12-09 03:01:11,Migration,Office
+EMP1449,Kristin Taylor,DevOps Engineer,Finance,Jira,Admin,Temporary,2023-09-27,2023-11-08,SecurityLead,CR-8810,Expired,2025-06-25 20:51:36,Incident Response,Remote
+EMP1450,Eric Taylor,Product Manager,HR,Staging DB,Read,Permanent,2024-02-19,,Manager2,CR-4084,Active,2025-02-15 11:40:07,ProjectX,VPN
+EMP1451,Amber Bruce,DevOps Engineer,Finance,Prod DB,Admin,Temporary,2023-10-20,2023-11-22,Manager2,CR-9274,Revoked,2025-01-11 23:00:27,New Feature,Unknown
+EMP1452,Craig Pratt,DevOps Engineer,Engineering,Jira,Write,Temporary,2025-02-21,2025-03-17,SecurityLead,CR-1354,Expired,2025-09-02 16:02:27,Migration,Unknown
+EMP1453,Lisa Johnson,DevOps Engineer,Data,Prod DB,Write,Permanent,2023-11-03,,Manager3,CR-8134,Revoked,2024-05-30 00:11:56,Incident Response,Office
+EMP1454,Thomas White,DevOps Engineer,Operations,Staging DB,Write,Temporary,2024-11-15,2025-01-14,CTO,CR-8086,Active,2025-06-24 22:40:26,Audit Task,Office
+EMP1455,Emily Wilkinson,DevOps Engineer,Engineering,Jira,Read,Temporary,2025-03-02,2025-04-14,Manager2,CR-6090,Expired,2025-08-06 04:59:11,Migration,Remote
+EMP1456,Robert Phillips,Intern,Data,Prod DB,Write,Temporary,2025-02-07,2025-04-04,Manager2,CR-5974,Active,2025-08-15 11:10:58,New Feature,Unknown
+EMP1457,Maria Simon,Developer,HR,Prod DB,Write,Permanent,2025-08-17,,SecurityLead,CR-3352,Revoked,2025-09-01 07:28:36,ProjectX,Remote
+EMP1458,Craig Ortiz,QA Engineer,Finance,Prod DB,Admin,Permanent,2024-08-26,,SecurityLead,CR-1325,Active,2025-03-01 03:16:58,ProjectX,Unknown
+EMP1459,Scott Garcia,DevOps Engineer,Finance,Confluence,Admin,Permanent,2023-11-13,,SecurityLead,CR-2322,Revoked,2024-04-28 17:38:50,Incident Response,Office
+EMP1460,James Reynolds,Developer,Operations,Slack,Admin,Permanent,2024-08-05,,SecurityLead,CR-9463,Revoked,2024-08-07 05:35:33,New Feature,Office
+EMP1461,Karen Gregory,QA Engineer,Finance,Prod DB,Read,Permanent,2024-06-12,,CTO,CR-8374,Active,2025-08-11 21:37:04,Audit Task,VPN
+EMP1462,Tiffany Taylor,Developer,Operations,Prod DB,Read,Permanent,2024-04-14,,Manager3,CR-8076,Active,2024-07-15 21:54:53,New Feature,VPN
+EMP1463,April Rose,Data Analyst,Finance,Staging DB,Read,Temporary,2024-04-26,2024-06-18,Manager1,CR-3369,Revoked,2025-01-03 12:02:39,ProjectX,Remote
+EMP1464,Jeffrey Ponce,QA Engineer,Data,Staging DB,Read,Temporary,2024-10-05,2024-11-11,CTO,CR-2838,Expired,2025-03-01 15:03:21,Audit Task,Office
+EMP1465,Susan Simon,Data Analyst,QA,Slack,Admin,Temporary,2025-09-08,2025-11-15,SecurityLead,CR-7950,Revoked,2025-09-10 23:21:58,Migration,Unknown
+EMP1466,Paula Mendoza,DevOps Engineer,Operations,Staging DB,Write,Permanent,2024-08-13,,SecurityLead,CR-6802,Expired,2025-07-18 14:15:50,Incident Response,Office
+EMP1467,Mr. Matthew Dillon,Intern,HR,Slack,Admin,Temporary,2025-07-24,2025-08-14,Manager2,CR-4134,Expired,2025-08-11 21:06:53,Hotfix,Unknown
+EMP1468,Alejandro Simpson,Product Manager,Engineering,AWS Console,Admin,Permanent,2025-07-17,,SecurityLead,CR-9344,Revoked,2025-07-23 09:06:37,Hotfix,VPN
+EMP1469,Melanie Hill,Developer,Finance,GitHub,Write,Temporary,2025-06-21,2025-08-02,SecurityLead,CR-3136,Revoked,2025-07-11 07:47:16,Audit Task,Remote
+EMP1470,Catherine Phillips,QA Engineer,Engineering,Prod DB,Admin,Permanent,2024-03-06,,SecurityLead,CR-5190,Active,2024-07-15 07:43:27,Incident Response,Office
+EMP1471,Michele Hodges,QA Engineer,HR,GitHub,Read,Temporary,2025-03-15,2025-05-07,Manager2,CR-1579,Expired,2025-09-04 18:23:42,Hotfix,Unknown
+EMP1472,Justin Marsh,Developer,QA,Confluence,Read,Temporary,2023-11-15,2023-12-22,CTO,CR-8062,Active,2024-05-13 22:02:15,New Feature,Remote
+EMP1473,Brandon Holmes,Developer,QA,Confluence,Read,Temporary,2024-12-23,2025-02-23,CTO,CR-4591,Revoked,2025-05-31 17:39:49,Audit Task,VPN
+EMP1474,Kevin Salinas,Intern,HR,Confluence,Admin,Temporary,2023-11-26,2023-12-31,Manager3,CR-5649,Expired,2024-06-16 22:00:03,Incident Response,Unknown
+EMP1475,Lori Howard,Developer,Engineering,Confluence,Read,Permanent,2023-09-18,,CTO,CR-9357,Revoked,2025-02-21 08:15:05,Incident Response,Unknown
+EMP1476,Marissa Wilkerson,Data Analyst,Finance,Staging DB,Write,Temporary,2024-02-19,2024-03-29,SecurityLead,CR-4007,Expired,2025-06-06 17:08:36,Hotfix,Remote
+EMP1477,Andrew Davis,Data Analyst,HR,Staging DB,Read,Temporary,2023-10-11,2024-01-04,Manager1,CR-3324,Revoked,2025-02-01 00:05:37,New Feature,Office
+EMP1478,Ian Cole DVM,Product Manager,Operations,Jira,Read,Permanent,2025-01-27,,Manager3,CR-9927,Revoked,2025-04-09 17:14:42,New Feature,VPN
+EMP1479,John Hudson,Product Manager,QA,Confluence,Admin,Temporary,2024-08-10,2024-08-17,Manager1,CR-7622,Active,2024-09-16 10:42:08,Audit Task,Unknown
+EMP1480,Jessica Hogan,Product Manager,HR,Prod DB,Write,Permanent,2025-06-29,,Manager2,CR-4825,Expired,2025-08-11 21:56:01,Audit Task,Office
+EMP1481,David Mahoney,DevOps Engineer,Engineering,Prod DB,Admin,Permanent,2024-08-18,,Manager1,CR-9423,Expired,2024-11-02 04:19:28,Incident Response,Office
+EMP1482,John Boyd,QA Engineer,Data,Confluence,Read,Permanent,2025-06-20,,SecurityLead,CR-8697,Active,2025-08-08 06:10:18,Incident Response,Remote
+EMP1483,Brandon Cook,Developer,Engineering,Prod DB,Write,Temporary,2025-07-02,2025-08-03,Manager2,CR-3159,Revoked,2025-08-13 03:55:45,Incident Response,Unknown
+EMP1484,Jessica Phillips,QA Engineer,Engineering,AWS Console,Admin,Permanent,2023-12-06,,SecurityLead,CR-3402,Expired,2025-05-30 01:28:57,Audit Task,Office
+EMP1485,Kelli Anderson,DevOps Engineer,QA,Staging DB,Read,Permanent,2024-12-19,,Manager1,CR-7131,Active,2025-01-15 19:26:55,Incident Response,VPN
+EMP1486,Allison Gonzalez,DevOps Engineer,Finance,Confluence,Admin,Temporary,2024-04-01,2024-05-28,Manager2,CR-2919,Expired,2025-04-06 21:36:45,ProjectX,Remote
+EMP1487,Crystal Henry,QA Engineer,Finance,Slack,Write,Temporary,2024-01-05,2024-01-30,CTO,CR-9831,Revoked,2024-12-13 15:57:10,Incident Response,Office
+EMP1488,Gregory Dennis,Product Manager,Data,Prod DB,Admin,Temporary,2025-06-04,2025-08-19,CTO,CR-2283,Revoked,2025-09-04 12:58:57,ProjectX,Unknown
+EMP1489,Jared Thomas,Developer,Data,Prod DB,Admin,Temporary,2025-05-01,2025-05-31,CTO,CR-5861,Expired,2025-05-20 23:27:27,New Feature,Office
+EMP1490,Gregory Orr,Developer,Finance,Jira,Write,Temporary,2024-09-07,2024-09-22,Manager3,CR-9971,Revoked,2025-07-18 07:24:37,New Feature,Unknown
+EMP1491,Tara Stafford,Developer,QA,Slack,Read,Temporary,2025-08-24,2025-10-18,Manager1,CR-8729,Expired,2025-09-02 04:49:05,Audit Task,Unknown
+EMP1492,Hunter Avery,Intern,QA,GitHub,Write,Temporary,2023-10-01,2023-12-15,Manager2,CR-1231,Expired,2023-11-05 14:13:02,New Feature,Office
+EMP1493,Latoya Willis,Intern,Data,Prod DB,Read,Temporary,2024-01-11,2024-03-27,Manager1,CR-5459,Expired,2024-10-26 12:34:29,Incident Response,Unknown
+EMP1494,James Wood,DevOps Engineer,Finance,Confluence,Admin,Temporary,2024-10-15,2025-01-02,Manager1,CR-5719,Revoked,2025-09-08 00:23:16,Migration,VPN
+EMP1495,Jonathan Becker,Intern,Operations,Staging DB,Read,Temporary,2025-06-19,2025-07-01,CTO,CR-7233,Active,2025-08-08 22:55:41,Migration,Remote
+EMP1496,Kimberly Collins,DevOps Engineer,Finance,Staging DB,Write,Temporary,2025-05-31,2025-06-09,Manager2,CR-5450,Expired,2025-09-03 23:37:35,ProjectX,Office
+EMP1497,Kristina Barnett,Developer,Finance,AWS Console,Read,Temporary,2023-12-19,2024-03-01,Manager2,CR-4433,Revoked,2024-05-13 04:08:05,Audit Task,VPN
+EMP1498,Madison Adams,DevOps Engineer,QA,Staging DB,Write,Permanent,2023-12-30,,Manager2,CR-7950,Revoked,2025-06-21 10:38:57,Audit Task,Remote
+EMP1499,Richard Hawkins,QA Engineer,HR,Staging DB,Write,Temporary,2024-09-18,2024-10-22,SecurityLead,CR-8094,Revoked,2025-08-01 20:26:22,New Feature,VPN
+EMP1500,Mary Reynolds,DevOps Engineer,Operations,AWS Console,Admin,Permanent,2025-06-04,,CTO,CR-4989,Expired,2025-08-02 18:38:21,New Feature,Remote
+EMP1501,Brett Sanders,DevOps Engineer,HR,Slack,Write,Permanent,2024-03-16,,SecurityLead,CR-8081,Active,2024-07-31 01:37:05,Incident Response,VPN
+EMP1502,Andrea Davis,Developer,Finance,Confluence,Read,Permanent,2025-03-11,,Manager3,CR-6740,Revoked,2025-07-07 23:07:10,Migration,Office
+EMP1503,Jeffrey Hall,Product Manager,Finance,Prod DB,Write,Temporary,2023-11-14,2024-02-06,SecurityLead,CR-8056,Active,2025-08-04 10:01:47,ProjectX,Remote
+EMP1504,Brianna Garcia,Developer,QA,Slack,Read,Permanent,2024-03-05,,CTO,CR-8114,Expired,2024-09-26 07:49:07,New Feature,Unknown
+EMP1505,Melanie Garcia,QA Engineer,Data,AWS Console,Write,Temporary,2025-02-10,2025-03-25,SecurityLead,CR-4208,Expired,2025-05-02 22:22:05,Migration,Remote
+EMP1506,Justin Peters,Developer,Engineering,Confluence,Admin,Permanent,2024-06-01,,Manager2,CR-7704,Expired,2024-09-04 11:05:21,Migration,Office
+EMP1507,Renee Cox,QA Engineer,HR,GitHub,Admin,Temporary,2024-07-26,2024-09-27,CTO,CR-5741,Revoked,2025-04-20 17:05:00,Hotfix,VPN
+EMP1508,Christopher Ross,Intern,QA,Slack,Write,Permanent,2024-11-24,,Manager1,CR-9530,Revoked,2025-08-03 16:03:19,Audit Task,Office
+EMP1509,Kimberly Ortega,DevOps Engineer,Data,Staging DB,Admin,Temporary,2025-07-15,2025-10-01,Manager2,CR-7397,Active,2025-09-07 02:59:49,Audit Task,Office
+EMP1510,Barbara Johnson,Intern,HR,AWS Console,Admin,Temporary,2024-03-05,2024-05-05,CTO,CR-1362,Expired,2024-06-10 07:00:33,Hotfix,Office
+EMP1511,Jacob Flores,QA Engineer,Finance,GitHub,Write,Permanent,2024-10-02,,Manager2,CR-6070,Revoked,2025-05-14 00:11:28,Migration,Remote
+EMP1512,Kelsey Schroeder,Developer,Finance,GitHub,Write,Permanent,2024-09-28,,Manager2,CR-2072,Active,2025-04-08 01:06:41,Hotfix,Office
+EMP1513,Antonio Washington,Data Analyst,QA,Jira,Admin,Permanent,2023-10-15,,CTO,CR-4415,Active,2025-01-13 17:58:58,New Feature,VPN
+EMP1514,Matthew Carpenter,Intern,Data,Confluence,Read,Permanent,2025-08-07,,Manager1,CR-1387,Expired,2025-08-29 17:46:17,Hotfix,Office
+EMP1515,Darlene Herrera,DevOps Engineer,HR,Confluence,Write,Permanent,2024-10-07,,Manager2,CR-7658,Expired,2025-08-30 17:56:21,ProjectX,Unknown
+EMP1516,Heidi Frye,Data Analyst,Data,Slack,Admin,Permanent,2024-10-16,,Manager2,CR-1116,Revoked,2025-05-09 06:27:23,Audit Task,VPN
+EMP1517,Kristina Williams,Data Analyst,Operations,Slack,Write,Permanent,2025-05-06,,CTO,CR-7008,Expired,2025-07-11 07:34:47,New Feature,Unknown
+EMP1518,Brandon Smith,Product Manager,Finance,Confluence,Admin,Temporary,2024-04-05,2024-04-27,SecurityLead,CR-5273,Active,2025-02-21 22:38:28,ProjectX,Unknown
+EMP1519,Robin Garcia,QA Engineer,QA,Staging DB,Admin,Permanent,2024-07-17,,CTO,CR-2876,Active,2024-11-17 20:16:33,Hotfix,VPN
+EMP1520,Kim Gutierrez,Data Analyst,HR,Staging DB,Admin,Temporary,2025-01-22,2025-01-29,Manager3,CR-8189,Revoked,2025-06-07 18:30:00,Audit Task,Unknown
+EMP1521,Michael Jefferson,Developer,Operations,Slack,Admin,Temporary,2024-06-11,2024-07-28,SecurityLead,CR-1630,Expired,2025-07-22 17:41:44,Migration,VPN
+EMP1522,Vanessa Scott,DevOps Engineer,Operations,GitHub,Admin,Permanent,2024-09-19,,Manager3,CR-2473,Revoked,2024-11-06 06:36:11,Migration,Remote
+EMP1523,Jason Williams,QA Engineer,Finance,Prod DB,Admin,Temporary,2024-08-26,2024-09-04,SecurityLead,CR-1638,Active,2025-02-11 04:47:31,New Feature,Unknown
+EMP1524,Amy Smith,Product Manager,HR,Slack,Read,Permanent,2024-09-06,,SecurityLead,CR-5359,Active,2024-10-20 21:55:00,Hotfix,Office
+EMP1525,Jessica Ramirez,Intern,Operations,AWS Console,Write,Permanent,2024-09-06,,CTO,CR-8855,Revoked,2025-02-20 16:33:11,ProjectX,Unknown
+EMP1526,Christian Ferguson,Intern,HR,Staging DB,Write,Temporary,2025-02-02,2025-03-21,Manager1,CR-7650,Expired,2025-03-08 09:15:12,Migration,Office
+EMP1527,Jeffrey Sellers,DevOps Engineer,Operations,GitHub,Write,Permanent,2024-08-23,,CTO,CR-9953,Expired,2025-09-08 12:54:59,Incident Response,Remote
+EMP1528,Shawn Ellis,Developer,QA,Confluence,Write,Permanent,2024-05-14,,CTO,CR-8195,Expired,2024-11-22 02:09:35,Incident Response,VPN
+EMP1529,Brittney Burgess,Data Analyst,QA,Jira,Admin,Permanent,2024-07-15,,CTO,CR-6380,Active,2025-07-14 18:49:35,Migration,Office
+EMP1530,Michael Bailey,Data Analyst,QA,Staging DB,Write,Permanent,2025-04-25,,Manager3,CR-4066,Expired,2025-07-31 12:06:03,Hotfix,Remote
+EMP1531,Randy Clark,Intern,Data,Prod DB,Admin,Permanent,2025-02-01,,Manager2,CR-8741,Revoked,2025-07-04 22:19:56,New Feature,Remote
+EMP1532,Michael Montgomery,Developer,Data,GitHub,Read,Permanent,2025-07-04,,Manager2,CR-6072,Expired,2025-08-29 10:20:54,New Feature,Office
+EMP1533,Maria Nichols,DevOps Engineer,Finance,Prod DB,Write,Temporary,2025-06-20,2025-09-11,CTO,CR-6838,Active,2025-07-24 04:38:11,Hotfix,Remote
+EMP1534,Nicole Mendoza,Product Manager,Finance,Prod DB,Write,Temporary,2023-12-26,2024-03-25,Manager3,CR-6007,Revoked,2024-05-11 08:43:45,ProjectX,Remote
+EMP1535,Brittany Thompson,QA Engineer,HR,Slack,Read,Permanent,2024-07-27,,CTO,CR-8142,Active,2025-08-29 06:43:55,Incident Response,VPN
+EMP1536,Robert Erickson,Developer,QA,Confluence,Read,Temporary,2025-06-08,2025-08-05,Manager3,CR-8666,Expired,2025-08-27 10:25:45,Incident Response,Unknown
+EMP1537,Heidi Hall,QA Engineer,Engineering,Jira,Admin,Permanent,2024-11-19,,Manager1,CR-6738,Active,2025-08-01 05:54:10,New Feature,Office
+EMP1538,Meagan Doyle,Intern,Operations,GitHub,Admin,Permanent,2024-05-10,,SecurityLead,CR-9454,Expired,2024-12-16 00:59:08,Audit Task,Unknown
+EMP1539,Leslie Moore,Intern,Operations,GitHub,Write,Permanent,2023-10-18,,Manager3,CR-2561,Active,2024-07-10 22:01:27,New Feature,VPN
+EMP1540,Stacey Johnson,Intern,Operations,Prod DB,Write,Temporary,2025-05-27,2025-07-13,Manager3,CR-4740,Expired,2025-07-21 07:50:38,ProjectX,Office
+EMP1541,James Hughes,QA Engineer,Engineering,AWS Console,Read,Temporary,2025-07-28,2025-09-26,CTO,CR-9148,Expired,2025-09-08 16:12:46,ProjectX,Unknown
+EMP1542,Judith Green,Developer,QA,Jira,Read,Temporary,2024-01-23,2024-04-04,SecurityLead,CR-7638,Active,2025-03-21 22:52:04,ProjectX,VPN
+EMP1543,Benjamin Tapia,QA Engineer,Finance,Slack,Admin,Permanent,2025-08-20,,CTO,CR-8304,Revoked,2025-09-07 15:52:09,ProjectX,VPN
+EMP1544,Michelle Johnson DDS,Product Manager,Finance,Jira,Admin,Temporary,2025-08-31,2025-10-15,CTO,CR-5832,Expired,2025-09-12 05:34:19,Migration,VPN
+EMP1545,Elizabeth Smith,QA Engineer,Finance,Confluence,Read,Permanent,2024-03-11,,Manager3,CR-1960,Active,2025-03-26 17:58:10,Audit Task,VPN
+EMP1546,Jeremiah Arellano,Developer,QA,Prod DB,Admin,Permanent,2025-02-10,,Manager3,CR-9375,Active,2025-02-27 06:58:05,ProjectX,VPN
+EMP1547,Crystal Wright,Product Manager,Operations,Confluence,Read,Permanent,2025-04-23,,Manager3,CR-1320,Revoked,2025-05-03 00:27:41,Incident Response,Remote
+EMP1548,Joshua Tucker,Data Analyst,Data,Staging DB,Admin,Temporary,2025-01-10,2025-01-31,Manager3,CR-8545,Expired,2025-03-29 00:26:54,ProjectX,Office
+EMP1549,Heather Walter,DevOps Engineer,Data,Staging DB,Write,Temporary,2025-05-09,2025-08-03,SecurityLead,CR-7535,Expired,2025-07-09 16:53:58,Audit Task,VPN
+EMP1550,Kimberly Gilbert,QA Engineer,HR,Slack,Admin,Temporary,2024-11-08,2024-12-17,Manager3,CR-7129,Active,2025-04-06 11:03:39,New Feature,Unknown
+EMP1551,Michael Thomas,DevOps Engineer,Engineering,GitHub,Read,Temporary,2024-05-01,2024-07-22,Manager2,CR-2297,Active,2024-06-27 12:12:50,Incident Response,Unknown
+EMP1552,Mark Walker,Product Manager,HR,Confluence,Write,Permanent,2024-01-09,,CTO,CR-3703,Revoked,2025-02-27 02:15:09,Incident Response,Unknown
+EMP1553,Jennifer Wolfe,Developer,Operations,Staging DB,Read,Temporary,2024-04-14,2024-06-14,Manager3,CR-1597,Expired,2024-05-31 07:17:03,ProjectX,Unknown
+EMP1554,Emily Maldonado,Data Analyst,QA,Staging DB,Write,Permanent,2023-10-05,,Manager3,CR-1833,Active,2025-05-08 19:58:28,Audit Task,Unknown
+EMP1555,Gina Williams,Developer,Engineering,Jira,Read,Permanent,2024-10-02,,Manager2,CR-1683,Expired,2025-05-31 22:06:09,New Feature,VPN
+EMP1556,Mary Kirk,Intern,Finance,Prod DB,Admin,Permanent,2024-01-21,,Manager2,CR-5037,Active,2024-02-03 04:38:35,ProjectX,Office
+EMP1557,Diana Clark,Data Analyst,Engineering,Jira,Admin,Permanent,2024-01-18,,Manager2,CR-7243,Expired,2024-09-27 12:42:41,Migration,VPN
+EMP1558,Michael Moran,QA Engineer,QA,Staging DB,Admin,Permanent,2024-05-08,,Manager3,CR-1726,Active,2025-08-12 03:28:40,Incident Response,Remote
+EMP1559,Jennifer Washington,DevOps Engineer,Engineering,Confluence,Admin,Temporary,2025-03-21,2025-05-26,SecurityLead,CR-7462,Active,2025-08-06 08:14:51,Audit Task,Remote
+EMP1560,Holly Williams,Product Manager,Data,AWS Console,Read,Temporary,2025-06-27,2025-07-20,Manager2,CR-4826,Active,2025-08-19 22:39:11,Hotfix,Remote
+EMP1561,Laura Fuller,QA Engineer,Finance,Jira,Admin,Temporary,2024-11-27,2025-01-12,Manager2,CR-3169,Expired,2025-07-16 22:50:54,ProjectX,Unknown
+EMP1562,Jordan Hamilton,Data Analyst,HR,Jira,Read,Permanent,2024-12-03,,Manager3,CR-6483,Revoked,2025-07-17 14:42:36,New Feature,Unknown
+EMP1563,Kenneth Kelley,Developer,QA,Jira,Admin,Temporary,2023-09-18,2023-09-25,Manager3,CR-3519,Expired,2023-12-01 14:34:43,New Feature,Unknown
+EMP1564,Ryan Webb,Product Manager,HR,Staging DB,Write,Permanent,2025-01-26,,Manager2,CR-4055,Expired,2025-07-18 16:45:05,Migration,VPN
+EMP1565,Billy Sweeney,QA Engineer,Finance,Confluence,Write,Temporary,2024-02-20,2024-04-27,CTO,CR-1757,Revoked,2025-03-13 09:09:06,Audit Task,Unknown
+EMP1566,Maurice Boone,DevOps Engineer,QA,AWS Console,Read,Permanent,2024-08-06,,CTO,CR-4593,Revoked,2025-07-03 17:14:17,ProjectX,Remote
+EMP1567,Miranda Smith,Product Manager,QA,GitHub,Write,Permanent,2024-06-11,,Manager1,CR-3910,Expired,2025-04-02 22:57:55,Hotfix,VPN
+EMP1568,Brian Hoover,Intern,Data,AWS Console,Admin,Temporary,2024-02-28,2024-05-27,CTO,CR-2408,Active,2025-03-23 21:46:56,Audit Task,Remote
+EMP1569,Joseph Carney,Developer,Engineering,Jira,Read,Temporary,2024-02-24,2024-05-17,Manager2,CR-3760,Revoked,2024-04-23 21:40:30,Incident Response,Remote
+EMP1570,Billy Collins,Intern,Data,AWS Console,Admin,Temporary,2024-09-22,2024-10-22,Manager2,CR-4672,Active,2025-03-22 18:24:46,New Feature,Unknown
+EMP1571,Amy Villa,DevOps Engineer,Operations,Jira,Admin,Permanent,2024-03-09,,CTO,CR-9311,Revoked,2025-02-19 09:05:15,Migration,Remote
+EMP1572,Michael Rubio,Data Analyst,Operations,Jira,Write,Temporary,2024-01-01,2024-01-15,Manager1,CR-1514,Active,2024-01-05 17:14:59,Incident Response,Remote
+EMP1573,Cheryl Pineda,Product Manager,Finance,GitHub,Admin,Temporary,2025-04-30,2025-06-04,Manager1,CR-8243,Active,2025-07-19 12:42:16,Audit Task,Office
+EMP1574,Kristin Frazier,Intern,Data,Jira,Admin,Permanent,2025-02-17,,Manager3,CR-9988,Expired,2025-03-12 01:17:08,New Feature,Office
+EMP1575,Edward Lindsey,Intern,Operations,GitHub,Admin,Permanent,2024-09-04,,Manager2,CR-2863,Expired,2024-11-18 18:23:14,New Feature,Unknown
+EMP1576,Shane Barnett,Product Manager,Finance,Staging DB,Write,Permanent,2023-11-14,,Manager2,CR-9911,Expired,2024-05-02 07:54:00,Incident Response,Office
+EMP1577,Robert Garcia,Data Analyst,HR,Staging DB,Read,Permanent,2024-04-26,,SecurityLead,CR-7609,Active,2025-03-04 19:38:14,ProjectX,Office
+EMP1578,Jason Harris,Product Manager,Data,AWS Console,Write,Permanent,2024-08-31,,Manager2,CR-4309,Active,2025-02-18 10:25:27,Audit Task,Office
+EMP1579,Kelli Chan,Intern,Engineering,Staging DB,Write,Permanent,2024-06-16,,Manager1,CR-5825,Expired,2025-07-22 09:17:28,Migration,Remote
+EMP1580,Lisa Morris,Product Manager,HR,Jira,Read,Permanent,2025-01-03,,Manager1,CR-8739,Active,2025-02-23 20:37:57,ProjectX,Remote
+EMP1581,Richard Lewis,QA Engineer,HR,Slack,Read,Permanent,2023-12-10,,Manager2,CR-8163,Revoked,2024-07-03 23:03:52,Hotfix,Unknown
+EMP1582,Jessica Little,Developer,QA,Staging DB,Read,Temporary,2025-04-03,2025-05-24,Manager3,CR-4968,Active,2025-05-31 19:20:31,Audit Task,Office
+EMP1583,Tiffany Hess,Data Analyst,Operations,GitHub,Admin,Permanent,2024-09-17,,Manager2,CR-7880,Active,2024-09-23 07:10:46,Audit Task,VPN
+EMP1584,Christina Harris,Intern,Data,AWS Console,Write,Temporary,2024-10-30,2025-01-03,Manager3,CR-4135,Active,2025-09-04 00:32:10,ProjectX,Unknown
+EMP1585,Yvonne George,Data Analyst,Data,Slack,Admin,Temporary,2024-03-28,2024-05-16,Manager2,CR-6760,Revoked,2024-07-13 00:46:52,ProjectX,Office
+EMP1586,James Obrien,Data Analyst,Engineering,Staging DB,Write,Permanent,2024-08-13,,Manager3,CR-8477,Revoked,2025-05-31 02:02:27,Audit Task,Unknown
+EMP1587,Anthony Young,Intern,HR,Slack,Admin,Permanent,2025-08-15,,Manager2,CR-1069,Revoked,2025-08-31 17:24:09,New Feature,VPN
+EMP1588,Susan Henderson,Intern,Finance,Prod DB,Admin,Permanent,2025-07-22,,SecurityLead,CR-6556,Revoked,2025-07-30 14:46:05,Migration,Unknown
+EMP1589,Sean Adams,DevOps Engineer,Operations,Prod DB,Read,Permanent,2024-05-05,,Manager1,CR-3655,Expired,2025-06-06 19:17:48,Audit Task,VPN
+EMP1590,Wanda Rodriguez,Developer,Engineering,Confluence,Admin,Permanent,2024-02-29,,SecurityLead,CR-5705,Revoked,2024-04-30 05:55:12,Hotfix,Unknown
+EMP1591,Anthony Bonilla,Data Analyst,Data,Staging DB,Write,Permanent,2024-05-16,,SecurityLead,CR-4486,Active,2024-12-27 13:06:26,Incident Response,VPN
+EMP1592,Jeremy Scott,Data Analyst,Engineering,Prod DB,Admin,Permanent,2024-10-10,,Manager1,CR-1816,Revoked,2024-10-15 09:22:23,Hotfix,Remote
+EMP1593,Eric Jackson,Data Analyst,Engineering,AWS Console,Write,Permanent,2024-10-22,,Manager1,CR-3862,Active,2024-12-17 12:10:49,Audit Task,Remote
+EMP1594,Rachel Craig,QA Engineer,Finance,AWS Console,Read,Temporary,2025-04-27,2025-06-14,Manager2,CR-1651,Revoked,2025-08-19 09:00:26,Audit Task,Remote
+EMP1595,Becky Davis,Developer,QA,Confluence,Read,Temporary,2024-01-03,2024-03-07,CTO,CR-5376,Active,2024-10-11 13:32:15,New Feature,Unknown
+EMP1596,Mark Atkins,Intern,Operations,Prod DB,Read,Temporary,2024-02-08,2024-03-07,CTO,CR-8085,Active,2024-10-11 00:58:46,New Feature,Office
+EMP1597,Anthony Miller,DevOps Engineer,Data,GitHub,Read,Permanent,2025-06-24,,Manager2,CR-7770,Active,2025-07-31 21:22:38,New Feature,Remote
+EMP1598,Victor Zamora,Intern,Data,Prod DB,Read,Permanent,2024-11-13,,Manager1,CR-2147,Expired,2025-05-28 09:04:22,ProjectX,Remote
+EMP1599,Tiffany Peterson,Product Manager,Operations,Staging DB,Write,Permanent,2024-08-19,,Manager1,CR-5802,Active,2025-03-04 03:54:47,New Feature,VPN
+EMP1600,Jacob Smith,QA Engineer,QA,Slack,Admin,Temporary,2024-08-18,2024-11-03,CTO,CR-8286,Revoked,2025-04-22 11:22:35,Hotfix,Unknown
+EMP1601,Megan Mitchell,Intern,Data,Jira,Write,Temporary,2024-01-10,2024-02-13,CTO,CR-2137,Active,2024-08-05 17:54:46,Audit Task,Unknown
+EMP1602,Nathan Lucas,Developer,Data,GitHub,Read,Permanent,2025-04-26,,CTO,CR-4081,Expired,2025-07-13 13:42:21,ProjectX,VPN
+EMP1603,Joseph Martin,Intern,Data,Staging DB,Read,Temporary,2024-07-08,2024-07-31,Manager3,CR-2680,Expired,2025-05-07 14:52:01,Hotfix,Office
+EMP1604,Gary Brown,QA Engineer,QA,Jira,Write,Permanent,2023-11-06,,CTO,CR-5216,Active,2024-12-03 04:25:57,New Feature,Remote
+EMP1605,Erin Wright,Data Analyst,Finance,Prod DB,Read,Permanent,2023-12-27,,Manager3,CR-7262,Revoked,2024-04-17 13:52:06,Audit Task,VPN
+EMP1606,Christie Sanford,Developer,Data,AWS Console,Write,Temporary,2024-06-06,2024-09-02,Manager2,CR-5974,Expired,2025-07-16 11:07:20,Hotfix,Unknown
+EMP1607,Stuart Graham,Developer,HR,Jira,Admin,Temporary,2023-10-30,2023-11-19,CTO,CR-6952,Revoked,2025-01-16 05:14:50,Incident Response,Remote
+EMP1608,Deborah Nash,QA Engineer,Engineering,Slack,Write,Temporary,2025-08-27,2025-10-27,Manager2,CR-7687,Expired,2025-08-30 12:34:58,Hotfix,Office
+EMP1609,Steven Byrd,Data Analyst,Finance,Slack,Write,Permanent,2025-09-01,,Manager2,CR-6925,Expired,2025-09-04 12:14:18,Incident Response,VPN
+EMP1610,Meghan Mata,DevOps Engineer,QA,GitHub,Admin,Permanent,2024-11-27,,CTO,CR-3580,Expired,2024-12-27 15:16:06,Migration,Unknown
+EMP1611,Michelle Robertson,Product Manager,Data,Jira,Read,Permanent,2023-11-23,,Manager3,CR-9036,Revoked,2024-02-09 22:53:18,Audit Task,VPN
+EMP1612,Scott Ryan,Intern,Operations,Prod DB,Write,Permanent,2023-09-27,,Manager3,CR-7570,Expired,2023-12-26 06:03:19,Audit Task,Office
+EMP1613,Henry Andrews,Data Analyst,QA,AWS Console,Admin,Temporary,2025-01-13,2025-04-13,CTO,CR-3844,Revoked,2025-05-06 15:11:34,Incident Response,VPN
+EMP1614,Joshua Griffin,QA Engineer,Finance,Confluence,Admin,Temporary,2024-02-19,2024-03-14,Manager2,CR-2630,Revoked,2024-09-27 04:56:42,Audit Task,Office
+EMP1615,Sharon Solomon,QA Engineer,Finance,Jira,Write,Temporary,2024-04-28,2024-05-21,Manager2,CR-1657,Revoked,2025-07-09 06:03:17,Hotfix,Remote
+EMP1616,Maria Woodward,DevOps Engineer,Finance,GitHub,Read,Temporary,2025-04-25,2025-05-27,Manager3,CR-6876,Revoked,2025-04-29 09:08:19,ProjectX,Office
+EMP1617,Pamela Valentine,Data Analyst,HR,Staging DB,Write,Temporary,2023-11-28,2023-12-19,Manager2,CR-9167,Expired,2024-02-04 19:25:13,ProjectX,Unknown
+EMP1618,Rachel Torres,Data Analyst,HR,GitHub,Admin,Permanent,2025-08-26,,Manager2,CR-4824,Active,2025-09-01 23:21:01,ProjectX,Remote
+EMP1619,John Johnson,Data Analyst,Finance,Jira,Read,Temporary,2024-02-24,2024-03-16,Manager3,CR-5473,Revoked,2025-02-23 15:18:19,Migration,VPN
+EMP1620,Brenda Johnson,QA Engineer,Finance,Prod DB,Write,Temporary,2025-01-17,2025-02-18,CTO,CR-4013,Revoked,2025-02-25 00:53:56,Hotfix,Remote
+EMP1621,Ashley Williams,Product Manager,Engineering,Confluence,Write,Permanent,2025-03-01,,Manager1,CR-5410,Expired,2025-06-04 00:04:44,ProjectX,Remote
+EMP1622,Alejandro Lynch,Data Analyst,Data,Jira,Read,Temporary,2023-11-05,2023-12-27,Manager2,CR-6000,Revoked,2024-10-12 02:53:22,Audit Task,Remote
+EMP1623,George Flores,Developer,HR,Slack,Read,Permanent,2025-07-01,,Manager1,CR-2378,Revoked,2025-09-12 14:39:43,ProjectX,Unknown
+EMP1624,Kenneth Murray,QA Engineer,QA,GitHub,Admin,Temporary,2025-03-31,2025-06-08,Manager2,CR-4610,Active,2025-04-16 20:24:27,Incident Response,Remote
+EMP1625,Paula Reed,Intern,QA,Slack,Admin,Permanent,2024-05-15,,Manager3,CR-3595,Active,2024-11-21 04:31:15,Migration,Office
+EMP1626,Michael Griffin,QA Engineer,Engineering,Staging DB,Read,Permanent,2024-09-15,,Manager1,CR-4592,Expired,2025-02-07 18:27:49,Audit Task,Remote
+EMP1627,Christina Flores,Intern,Operations,Jira,Write,Permanent,2024-02-19,,SecurityLead,CR-3067,Active,2025-01-30 22:37:26,Hotfix,Remote
+EMP1628,Madison Hudson,Product Manager,Operations,GitHub,Write,Temporary,2024-10-22,2025-01-02,CTO,CR-5698,Active,2025-08-10 16:54:18,Audit Task,Office
+EMP1629,Vanessa Wilson,Intern,Finance,Confluence,Read,Permanent,2023-11-01,,Manager1,CR-2917,Expired,2024-05-10 23:33:28,Migration,Unknown
+EMP1630,Kevin Smith,Intern,Finance,AWS Console,Admin,Permanent,2023-09-25,,Manager2,CR-9547,Revoked,2023-11-27 11:34:23,Hotfix,Remote
+EMP1631,Melissa Sims,QA Engineer,Data,Confluence,Read,Permanent,2024-08-30,,CTO,CR-4558,Expired,2024-10-19 23:05:53,Incident Response,VPN
+EMP1632,Raymond Lewis,Data Analyst,Data,Jira,Read,Permanent,2025-07-31,,Manager3,CR-5319,Revoked,2025-08-17 01:18:46,Hotfix,Office
+EMP1633,April Preston,DevOps Engineer,QA,GitHub,Admin,Permanent,2024-09-23,,Manager1,CR-6308,Expired,2025-05-30 09:43:25,ProjectX,Unknown
+EMP1634,William Webster,Data Analyst,HR,Staging DB,Write,Permanent,2023-11-22,,Manager2,CR-5791,Active,2023-12-09 12:08:30,Incident Response,Remote
+EMP1635,Douglas Wiley,Developer,Finance,Prod DB,Admin,Permanent,2024-01-15,,Manager3,CR-5631,Expired,2024-10-07 17:12:07,New Feature,Office
+EMP1636,Jonathan Gonzalez,Product Manager,Finance,Jira,Admin,Temporary,2024-11-06,2025-02-01,SecurityLead,CR-4664,Expired,2025-02-05 03:42:18,New Feature,VPN
+EMP1637,Terri Flowers,QA Engineer,HR,Staging DB,Read,Temporary,2025-04-02,2025-04-09,Manager2,CR-1232,Active,2025-08-04 14:39:41,Audit Task,Office
+EMP1638,David Martinez,DevOps Engineer,Operations,Confluence,Read,Permanent,2024-08-09,,Manager1,CR-1322,Active,2024-09-30 11:37:07,ProjectX,Unknown
+EMP1639,Julie Warner,Data Analyst,Data,Prod DB,Read,Temporary,2025-02-06,2025-02-21,CTO,CR-1476,Expired,2025-04-03 11:41:58,Audit Task,Office
+EMP1640,Kevin Walker,Intern,Operations,Staging DB,Read,Temporary,2024-06-29,2024-08-10,Manager2,CR-2206,Revoked,2024-08-17 19:25:48,Hotfix,Office
+EMP1641,Alyssa Cook,QA Engineer,Finance,AWS Console,Admin,Temporary,2025-04-12,2025-06-27,Manager1,CR-1655,Active,2025-06-22 19:32:12,Migration,Office
+EMP1642,Regina Smith,QA Engineer,Data,Slack,Read,Permanent,2023-11-27,,SecurityLead,CR-7337,Active,2024-09-24 11:25:32,Incident Response,Office
+EMP1643,Joshua Glenn,Intern,Data,Slack,Write,Temporary,2024-05-25,2024-06-07,Manager3,CR-4948,Expired,2025-01-19 10:55:30,New Feature,Office
+EMP1644,Amy Duncan,Data Analyst,Data,Staging DB,Admin,Temporary,2024-08-24,2024-10-01,Manager1,CR-1825,Active,2025-02-16 02:52:07,Migration,Unknown
+EMP1645,Kimberly Meza,Intern,Data,Staging DB,Read,Permanent,2024-10-20,,SecurityLead,CR-9822,Active,2024-11-10 14:46:22,Hotfix,Office
+EMP1646,Mark Hernandez,Data Analyst,Data,Jira,Write,Permanent,2023-12-23,,SecurityLead,CR-4387,Expired,2024-03-25 02:50:43,Migration,VPN
+EMP1647,Susan Hoover,Intern,HR,Confluence,Read,Temporary,2025-01-19,2025-02-13,Manager3,CR-1022,Expired,2025-03-23 08:54:33,New Feature,VPN
+EMP1648,Jennifer Williams,Intern,QA,AWS Console,Read,Permanent,2023-10-31,,CTO,CR-9683,Active,2024-06-21 23:42:26,Incident Response,Unknown
+EMP1649,Stephanie Obrien,Developer,QA,Confluence,Write,Temporary,2025-06-03,2025-08-21,Manager3,CR-8237,Expired,2025-09-01 16:02:51,Incident Response,Remote
+EMP1650,Stephanie Hale,DevOps Engineer,Data,Confluence,Write,Permanent,2025-03-27,,Manager1,CR-3727,Active,2025-07-28 10:01:53,ProjectX,Office
+EMP1651,Billy Miranda,Intern,Engineering,AWS Console,Admin,Permanent,2024-10-23,,Manager1,CR-5280,Revoked,2025-01-13 02:56:18,Migration,Unknown
+EMP1652,Patricia Morales,DevOps Engineer,HR,AWS Console,Write,Temporary,2024-11-04,2025-01-07,CTO,CR-2497,Expired,2025-06-06 13:27:52,Migration,Unknown
+EMP1653,Sydney Lawrence,Product Manager,Finance,GitHub,Admin,Temporary,2023-09-26,2023-12-23,Manager2,CR-6414,Expired,2024-12-21 01:18:40,Audit Task,VPN
+EMP1654,Madison Simpson,Intern,HR,AWS Console,Read,Permanent,2023-10-21,,Manager3,CR-2529,Expired,2024-10-14 17:03:45,Hotfix,Remote
+EMP1655,Rodney Houston,DevOps Engineer,Finance,GitHub,Admin,Permanent,2024-01-04,,Manager1,CR-4464,Revoked,2025-05-22 14:13:16,Migration,VPN
+EMP1656,Stephen Bennett,DevOps Engineer,Operations,Staging DB,Write,Permanent,2023-12-12,,SecurityLead,CR-1877,Revoked,2025-03-16 21:15:18,ProjectX,VPN
+EMP1657,Kevin King,QA Engineer,QA,Prod DB,Admin,Temporary,2023-09-25,2023-10-25,Manager3,CR-9820,Revoked,2023-10-28 14:07:38,Hotfix,VPN
+EMP1658,Dawn Thompson,Product Manager,QA,Staging DB,Write,Temporary,2025-02-12,2025-04-13,SecurityLead,CR-5814,Revoked,2025-09-07 20:09:53,Incident Response,VPN
+EMP1659,David Cole,DevOps Engineer,Finance,GitHub,Admin,Permanent,2024-12-05,,Manager1,CR-5024,Active,2025-03-06 05:38:09,Incident Response,VPN
+EMP1660,Robert Donovan,Data Analyst,Operations,Staging DB,Read,Temporary,2024-07-07,2024-09-04,Manager3,CR-5019,Active,2025-06-20 00:26:14,Hotfix,Office
+EMP1661,Tracy Burton DVM,Data Analyst,Engineering,Staging DB,Read,Temporary,2025-02-04,2025-04-23,Manager2,CR-4304,Expired,2025-06-28 06:10:34,ProjectX,Office
+EMP1662,Stephanie Williams,Data Analyst,Data,Jira,Read,Temporary,2024-05-01,2024-05-28,CTO,CR-5472,Active,2025-04-01 00:59:53,Migration,Unknown
+EMP1663,Amanda Brown,Intern,QA,GitHub,Read,Permanent,2023-10-04,,Manager1,CR-4762,Active,2025-07-17 23:33:45,ProjectX,Remote
+EMP1664,Lindsay Chan,DevOps Engineer,Finance,Prod DB,Admin,Temporary,2023-11-23,2023-12-26,Manager1,CR-9331,Active,2025-07-29 05:37:08,Incident Response,Unknown
+EMP1665,William Williams,DevOps Engineer,HR,AWS Console,Read,Permanent,2024-10-13,,Manager2,CR-5466,Expired,2024-12-01 12:34:29,Audit Task,Office
+EMP1666,Fernando Fuentes,Intern,HR,Jira,Admin,Temporary,2025-08-26,2025-11-08,Manager1,CR-7243,Expired,2025-08-31 06:13:47,New Feature,VPN
+EMP1667,Alexander Long,Intern,Finance,Confluence,Admin,Permanent,2024-03-29,,Manager2,CR-4374,Revoked,2024-05-28 11:29:10,New Feature,Remote
+EMP1668,Tamara Baker,Data Analyst,QA,Prod DB,Read,Permanent,2024-03-03,,Manager2,CR-8497,Expired,2024-07-06 01:38:46,Audit Task,Unknown
+EMP1669,Jennifer Sandoval,Data Analyst,Engineering,Prod DB,Read,Permanent,2024-11-30,,Manager3,CR-2381,Revoked,2025-09-07 20:04:55,New Feature,VPN
+EMP1670,Carrie Simmons,DevOps Engineer,Engineering,GitHub,Write,Temporary,2023-11-21,2024-02-09,Manager3,CR-3995,Active,2024-07-06 12:36:05,Incident Response,Remote
+EMP1671,Mario Rodriguez,QA Engineer,Engineering,Confluence,Admin,Permanent,2024-09-05,,Manager1,CR-7622,Expired,2025-07-06 10:16:02,ProjectX,Unknown
+EMP1672,Anna Johnson,DevOps Engineer,QA,Jira,Write,Temporary,2024-06-13,2024-07-24,Manager3,CR-9391,Expired,2025-07-18 03:43:35,Hotfix,Remote
+EMP1673,Katherine Sanders,QA Engineer,Data,GitHub,Admin,Temporary,2024-07-18,2024-09-11,SecurityLead,CR-1044,Expired,2025-09-01 13:58:52,ProjectX,VPN
+EMP1674,Carla Webb,Product Manager,Finance,AWS Console,Write,Temporary,2023-10-08,2023-11-28,SecurityLead,CR-3771,Revoked,2024-12-26 23:36:01,Hotfix,Remote
+EMP1675,Michele Lee,Developer,QA,Confluence,Read,Permanent,2025-08-17,,CTO,CR-6839,Expired,2025-08-28 15:35:49,ProjectX,VPN
+EMP1676,Micheal Salazar,Data Analyst,HR,Jira,Admin,Temporary,2025-05-10,2025-07-19,CTO,CR-4975,Active,2025-06-20 14:22:22,ProjectX,Unknown
+EMP1677,Joseph Walters,Product Manager,Operations,Confluence,Read,Temporary,2025-05-13,2025-06-21,Manager1,CR-3348,Active,2025-08-15 22:22:50,New Feature,Unknown
+EMP1678,Rachel Dunn,Data Analyst,Data,Slack,Write,Permanent,2024-06-16,,SecurityLead,CR-2950,Active,2024-12-08 05:51:04,Audit Task,Office
+EMP1679,Mrs. Jessica Carr,QA Engineer,Data,Prod DB,Admin,Permanent,2025-03-30,,Manager1,CR-4951,Expired,2025-08-13 01:36:35,Hotfix,Unknown
+EMP1680,Dennis Arnold,QA Engineer,Finance,Slack,Read,Temporary,2024-11-29,2025-02-05,Manager3,CR-4705,Revoked,2024-12-09 01:06:59,New Feature,Office
+EMP1681,Jessica Hood,Data Analyst,HR,Confluence,Admin,Permanent,2023-11-02,,Manager3,CR-6658,Active,2025-01-19 19:14:16,ProjectX,VPN
+EMP1682,Kyle Camacho,DevOps Engineer,HR,Prod DB,Read,Temporary,2024-03-17,2024-05-18,Manager2,CR-5909,Active,2025-07-30 10:32:58,ProjectX,VPN
+EMP1683,Jessica Johnson,DevOps Engineer,Data,AWS Console,Write,Permanent,2023-12-18,,CTO,CR-1163,Active,2024-01-13 09:19:10,ProjectX,VPN
+EMP1684,Jasmine Boyle,Developer,Data,Staging DB,Read,Temporary,2024-05-15,2024-07-02,Manager1,CR-1097,Revoked,2025-03-05 06:42:42,Incident Response,Remote
+EMP1685,Teresa Wolfe,Product Manager,Engineering,Staging DB,Write,Temporary,2025-03-18,2025-04-03,CTO,CR-8463,Expired,2025-06-25 22:23:13,ProjectX,Unknown
+EMP1686,Ashley Martin,Developer,Engineering,Prod DB,Admin,Temporary,2024-08-24,2024-09-20,CTO,CR-2545,Revoked,2024-09-01 04:03:56,Migration,Unknown
+EMP1687,William Pacheco,Developer,Operations,GitHub,Write,Permanent,2024-04-13,,Manager1,CR-6923,Revoked,2024-07-16 23:54:03,Audit Task,Remote
+EMP1688,Tracey Smith,Intern,Data,Staging DB,Write,Temporary,2024-01-24,2024-04-02,CTO,CR-1190,Expired,2024-12-20 12:22:39,New Feature,Office
+EMP1689,Leslie Patel,Product Manager,Data,Slack,Admin,Temporary,2024-09-27,2024-10-07,Manager2,CR-9582,Revoked,2025-06-23 12:46:47,New Feature,Unknown
+EMP1690,Fernando Hayes,Product Manager,QA,Staging DB,Admin,Permanent,2024-07-25,,Manager1,CR-1685,Active,2024-10-10 08:29:12,Audit Task,VPN
+EMP1691,Kimberly Moore,Data Analyst,Engineering,Confluence,Read,Permanent,2024-09-16,,CTO,CR-2228,Expired,2025-09-01 14:20:19,Hotfix,Office
+EMP1692,Matthew Anderson,Developer,Finance,Slack,Admin,Temporary,2024-05-31,2024-08-15,Manager2,CR-7731,Revoked,2025-07-19 12:40:43,Incident Response,Office
+EMP1693,Stephanie Branch,Intern,Data,Confluence,Admin,Temporary,2024-03-14,2024-05-17,Manager1,CR-5303,Active,2025-01-15 02:54:30,ProjectX,Office
+EMP1694,Amy Solis,Product Manager,Data,AWS Console,Admin,Permanent,2024-12-30,,CTO,CR-2329,Revoked,2025-08-13 16:37:58,Migration,Unknown
+EMP1695,Joseph Hill,QA Engineer,Finance,Staging DB,Write,Permanent,2024-01-15,,Manager1,CR-8121,Revoked,2024-07-27 00:43:42,ProjectX,Office
+EMP1696,Ashlee Cole,Product Manager,Data,Jira,Admin,Temporary,2025-06-19,2025-07-22,Manager1,CR-7958,Expired,2025-09-07 12:50:03,Audit Task,VPN
+EMP1697,Samantha Thomas,Data Analyst,HR,Staging DB,Admin,Temporary,2024-09-08,2024-11-11,Manager3,CR-2933,Active,2025-05-20 18:09:25,Incident Response,Unknown
+EMP1698,Jerome Gardner,Data Analyst,Operations,Slack,Read,Permanent,2025-05-20,,CTO,CR-2471,Expired,2025-07-14 05:18:48,ProjectX,Remote
+EMP1699,Bobby Hess,Data Analyst,Data,Staging DB,Write,Temporary,2024-03-02,2024-03-14,Manager3,CR-3124,Active,2025-07-26 04:14:25,New Feature,VPN
+EMP1700,Joanna Mcclain,QA Engineer,Operations,GitHub,Admin,Temporary,2024-01-20,2024-03-09,CTO,CR-1914,Revoked,2024-03-11 13:32:01,ProjectX,Office
+EMP1701,Emily Marsh,Data Analyst,HR,Jira,Read,Temporary,2024-08-12,2024-09-25,Manager1,CR-6206,Expired,2025-08-15 16:08:56,ProjectX,Office
+EMP1702,Christopher Coleman,Developer,Operations,GitHub,Write,Permanent,2024-06-03,,Manager2,CR-9224,Expired,2025-03-02 09:28:36,Audit Task,Remote
+EMP1703,Madison Green,Intern,Engineering,Confluence,Write,Temporary,2024-04-19,2024-06-03,Manager3,CR-8372,Expired,2024-12-06 12:39:02,Audit Task,Office
+EMP1704,John Houston,Developer,HR,Slack,Admin,Permanent,2024-02-21,,Manager1,CR-1634,Revoked,2024-05-16 01:53:03,ProjectX,Remote
+EMP1705,Adam Short,Intern,Finance,AWS Console,Write,Temporary,2024-05-25,2024-08-01,SecurityLead,CR-6653,Active,2024-11-19 03:52:24,Migration,VPN
+EMP1706,Jason Flynn,QA Engineer,Operations,Jira,Admin,Permanent,2024-04-11,,Manager3,CR-9803,Expired,2024-07-20 04:38:57,New Feature,Remote
+EMP1707,Anna Foster,DevOps Engineer,Engineering,GitHub,Admin,Temporary,2023-11-06,2024-02-04,Manager3,CR-2123,Revoked,2025-07-03 22:49:39,New Feature,Remote
+EMP1708,Jonathan Fry,Product Manager,Data,Jira,Write,Permanent,2024-07-15,,Manager1,CR-1451,Active,2025-05-05 23:46:39,Audit Task,Office
+EMP1709,Scott Edwards,DevOps Engineer,HR,Prod DB,Read,Permanent,2024-05-24,,Manager3,CR-9738,Active,2024-12-06 23:52:46,New Feature,Unknown
+EMP1710,Andrew Roberts,Intern,Operations,Jira,Write,Permanent,2025-02-07,,Manager3,CR-6395,Active,2025-03-16 10:05:04,New Feature,Office
+EMP1711,Tammy Thomas,Product Manager,Operations,GitHub,Write,Permanent,2024-08-09,,CTO,CR-5024,Revoked,2024-12-07 16:17:27,Migration,VPN
+EMP1712,Oscar Jones,DevOps Engineer,Operations,Prod DB,Write,Permanent,2025-04-12,,Manager1,CR-5707,Active,2025-07-20 11:56:41,Hotfix,VPN
+EMP1713,Tanya Dodson,DevOps Engineer,Finance,Prod DB,Read,Permanent,2023-11-07,,SecurityLead,CR-1013,Active,2025-07-21 13:27:40,New Feature,Office
+EMP1714,John Tran Jr.,Intern,Engineering,Prod DB,Admin,Permanent,2024-08-16,,CTO,CR-5774,Revoked,2024-08-27 14:24:36,ProjectX,VPN
+EMP1715,Rachel Chavez,Product Manager,Operations,Jira,Write,Permanent,2025-03-03,,Manager3,CR-3098,Expired,2025-03-16 04:48:14,Migration,Office
+EMP1716,Jasmine Stanley,DevOps Engineer,Data,Staging DB,Admin,Permanent,2023-11-12,,CTO,CR-2768,Revoked,2024-01-16 13:45:46,ProjectX,Remote
+EMP1717,Dana Morris,Developer,HR,Jira,Admin,Temporary,2025-04-05,2025-05-03,Manager2,CR-4769,Active,2025-06-29 08:04:40,ProjectX,Office
+EMP1718,Holly Sanders,QA Engineer,Engineering,Confluence,Write,Permanent,2025-08-27,,Manager3,CR-1795,Expired,2025-09-03 05:12:05,Migration,Office
+EMP1719,Brittany Carr,Product Manager,Finance,Confluence,Read,Permanent,2023-09-30,,SecurityLead,CR-9940,Active,2024-10-28 18:46:38,ProjectX,Office
+EMP1720,Joseph Gomez,Developer,QA,Confluence,Read,Temporary,2024-11-12,2025-01-10,SecurityLead,CR-5017,Active,2024-12-28 01:33:05,ProjectX,Remote
+EMP1721,Kerri Newman,Data Analyst,Data,Jira,Admin,Temporary,2024-02-28,2024-03-27,SecurityLead,CR-5885,Expired,2025-06-17 23:09:18,ProjectX,Remote
+EMP1722,Hannah Gardner,DevOps Engineer,Engineering,AWS Console,Write,Temporary,2024-02-28,2024-05-18,Manager2,CR-2514,Expired,2024-12-04 18:00:28,Incident Response,VPN
+EMP1723,John Fisher,Product Manager,QA,Jira,Write,Permanent,2024-07-05,,Manager3,CR-6833,Expired,2025-06-13 07:53:16,Incident Response,Remote
+EMP1724,Christina Hayes,Data Analyst,Data,Prod DB,Read,Permanent,2025-03-17,,Manager2,CR-3468,Active,2025-09-04 04:39:37,ProjectX,Office
+EMP1725,Alicia Young,Data Analyst,Data,GitHub,Admin,Temporary,2024-04-11,2024-06-18,Manager2,CR-5600,Revoked,2025-01-21 10:30:17,New Feature,Office
+EMP1726,Rachel Hendrix MD,Product Manager,Finance,GitHub,Read,Temporary,2025-01-23,2025-03-04,Manager3,CR-5886,Revoked,2025-04-28 15:50:51,Migration,Remote
+EMP1727,Marcus Manning,Data Analyst,Engineering,Confluence,Write,Permanent,2025-05-06,,CTO,CR-7423,Expired,2025-09-04 10:37:40,Hotfix,Remote
+EMP1728,Paul Long,DevOps Engineer,Data,Staging DB,Read,Temporary,2024-11-14,2024-12-10,CTO,CR-3283,Revoked,2025-01-13 10:20:01,Migration,Remote
+EMP1729,Claudia Lindsey,QA Engineer,HR,Staging DB,Read,Temporary,2024-05-31,2024-07-29,Manager1,CR-5384,Active,2025-03-28 05:35:26,New Feature,Unknown
+EMP1730,Johnathan Smith,Product Manager,Operations,Staging DB,Write,Permanent,2025-08-28,,Manager1,CR-2557,Revoked,2025-09-12 15:01:08,New Feature,Office
+EMP1731,Christian Miller,Product Manager,Operations,Staging DB,Write,Permanent,2024-06-03,,SecurityLead,CR-2514,Active,2024-09-28 01:26:18,Hotfix,VPN
+EMP1732,Walter Mahoney,QA Engineer,QA,GitHub,Write,Permanent,2024-11-07,,SecurityLead,CR-7800,Revoked,2025-04-15 02:03:19,Incident Response,VPN
+EMP1733,Joseph Vaughn,Product Manager,Engineering,Staging DB,Write,Permanent,2024-01-14,,Manager3,CR-6245,Revoked,2025-06-15 12:46:24,New Feature,Remote
+EMP1734,Cheryl Martinez,Data Analyst,Engineering,Confluence,Admin,Temporary,2024-09-10,2024-11-17,Manager2,CR-8902,Active,2024-10-22 12:04:38,Audit Task,VPN
+EMP1735,Christopher Horn,Developer,QA,Slack,Write,Temporary,2025-05-08,2025-08-05,SecurityLead,CR-9987,Expired,2025-07-20 18:07:58,Audit Task,Remote
+EMP1736,Cody Lopez,Intern,HR,Prod DB,Write,Temporary,2024-11-06,2025-01-15,Manager3,CR-8198,Expired,2024-12-10 19:13:27,Audit Task,Unknown
+EMP1737,Eric Hensley,Product Manager,Data,Prod DB,Read,Permanent,2024-03-04,,CTO,CR-6610,Expired,2024-05-24 06:32:07,ProjectX,Office
+EMP1738,Stephen Martinez,QA Engineer,Data,Confluence,Read,Temporary,2024-03-07,2024-04-21,Manager1,CR-1821,Expired,2025-05-21 04:21:09,Audit Task,Remote
+EMP1739,Richard Hicks,DevOps Engineer,Engineering,Prod DB,Write,Permanent,2025-04-19,,Manager2,CR-6572,Active,2025-07-29 12:59:57,Migration,Remote
+EMP1740,Wendy Nash,DevOps Engineer,HR,Prod DB,Admin,Permanent,2025-07-01,,CTO,CR-1170,Expired,2025-07-09 07:02:09,Audit Task,VPN
+EMP1741,Robert Jordan,DevOps Engineer,Data,Staging DB,Read,Temporary,2025-05-21,2025-08-07,Manager1,CR-6777,Active,2025-08-22 12:31:40,New Feature,Unknown
+EMP1742,April Vazquez,Data Analyst,HR,Prod DB,Write,Temporary,2024-06-01,2024-07-22,Manager2,CR-1321,Active,2024-10-28 23:12:39,New Feature,Remote
+EMP1743,Monica Lee,Product Manager,QA,Confluence,Admin,Permanent,2024-04-01,,Manager3,CR-4613,Active,2024-06-22 05:45:39,ProjectX,VPN
+EMP1744,David Travis,QA Engineer,Operations,Confluence,Read,Permanent,2025-06-17,,Manager3,CR-8678,Active,2025-07-06 21:26:44,Audit Task,Remote
+EMP1745,Tiffany Turner,DevOps Engineer,Finance,GitHub,Write,Permanent,2025-05-12,,Manager3,CR-6746,Revoked,2025-07-31 11:40:36,ProjectX,Remote
+EMP1746,Alisha Dennis,Data Analyst,QA,Jira,Write,Temporary,2023-12-03,2023-12-22,Manager3,CR-2880,Revoked,2025-03-21 13:30:43,Audit Task,Office
+EMP1747,Veronica Rice,Data Analyst,QA,Staging DB,Read,Permanent,2024-06-26,,SecurityLead,CR-2455,Expired,2025-05-05 09:59:55,Hotfix,VPN
+EMP1748,Lisa Andrews,Data Analyst,Operations,GitHub,Admin,Temporary,2025-02-11,2025-03-20,CTO,CR-4435,Active,2025-02-23 16:02:16,ProjectX,Remote
+EMP1749,Samantha Williams,Developer,Operations,Jira,Admin,Temporary,2023-11-21,2024-01-15,Manager3,CR-8459,Revoked,2023-12-06 07:18:55,Migration,VPN
+EMP1750,Gregory Mcdonald,Data Analyst,HR,AWS Console,Admin,Temporary,2024-01-16,2024-01-28,Manager3,CR-7472,Active,2025-08-21 23:05:09,Hotfix,Remote
+EMP1751,Diamond Smith,Intern,Engineering,Staging DB,Read,Permanent,2025-01-23,,SecurityLead,CR-2223,Revoked,2025-04-23 03:06:04,ProjectX,Remote
+EMP1752,Allen Stephens,Intern,Operations,Prod DB,Write,Temporary,2025-01-07,2025-01-26,CTO,CR-6534,Active,2025-04-08 05:38:56,ProjectX,Office
+EMP1753,Joseph Mooney,Intern,HR,Jira,Write,Temporary,2024-10-18,2025-01-11,SecurityLead,CR-9932,Revoked,2025-01-28 12:06:26,New Feature,Office
+EMP1754,Joseph Roy,Intern,Data,Prod DB,Read,Permanent,2024-06-24,,SecurityLead,CR-4484,Active,2025-02-24 18:37:09,ProjectX,Remote
+EMP1755,Beth Graham,Product Manager,QA,GitHub,Read,Temporary,2023-10-05,2023-11-07,SecurityLead,CR-4449,Expired,2024-02-14 17:41:44,Hotfix,Remote
+EMP1756,Peter Collins,Data Analyst,Operations,Confluence,Read,Temporary,2024-11-23,2024-12-16,Manager3,CR-4265,Active,2025-08-06 09:55:11,ProjectX,Unknown
+EMP1757,Natalie Wheeler,Developer,Operations,Prod DB,Write,Permanent,2024-03-08,,SecurityLead,CR-7011,Expired,2025-01-15 04:55:17,Audit Task,VPN
+EMP1758,Corey Ware,Data Analyst,QA,Confluence,Write,Permanent,2025-01-16,,Manager1,CR-9936,Active,2025-08-26 03:31:53,Incident Response,Remote
+EMP1759,Elizabeth Rivera,Data Analyst,Operations,Staging DB,Write,Temporary,2025-02-20,2025-03-30,Manager3,CR-6248,Expired,2025-06-01 04:21:08,Audit Task,Office
+EMP1760,Alexander Freeman DVM,QA Engineer,HR,Confluence,Read,Temporary,2025-01-22,2025-04-20,CTO,CR-8623,Active,2025-05-21 08:16:31,Incident Response,Remote
+EMP1761,Ashley Spencer,Data Analyst,Engineering,AWS Console,Write,Temporary,2023-10-23,2023-11-06,Manager2,CR-2180,Expired,2025-01-29 15:30:52,Incident Response,Unknown
+EMP1762,Emily Robinson,Intern,HR,Prod DB,Admin,Temporary,2025-02-26,2025-05-23,CTO,CR-9909,Active,2025-06-15 01:36:35,New Feature,Unknown
+EMP1763,Andrew Alvarez,Intern,QA,GitHub,Read,Temporary,2025-07-19,2025-08-10,SecurityLead,CR-3817,Expired,2025-09-03 20:14:56,Audit Task,Office
+EMP1764,Lindsey Ellis,Product Manager,Data,Confluence,Read,Permanent,2024-12-31,,Manager2,CR-7694,Active,2025-04-19 03:17:21,Migration,VPN
+EMP1765,Jesse Aguilar,Product Manager,Finance,AWS Console,Read,Permanent,2024-09-27,,SecurityLead,CR-2968,Active,2025-08-03 05:46:07,Audit Task,VPN
+EMP1766,Ann Harris,Intern,Operations,Jira,Read,Temporary,2025-02-28,2025-03-27,Manager1,CR-9110,Revoked,2025-06-09 03:15:05,Migration,Unknown
+EMP1767,Ashley Gay,DevOps Engineer,Operations,GitHub,Write,Permanent,2024-06-17,,SecurityLead,CR-7247,Expired,2025-08-31 02:29:14,Audit Task,Remote
+EMP1768,Lisa Robinson,Intern,Finance,Jira,Write,Permanent,2025-04-19,,Manager2,CR-7780,Active,2025-04-23 15:15:33,Audit Task,Office
+EMP1769,Jordan Fischer,Data Analyst,HR,Slack,Admin,Temporary,2023-09-25,2023-11-24,Manager3,CR-8592,Revoked,2025-05-20 04:45:10,Audit Task,VPN
+EMP1770,Nancy Barajas,Intern,Data,Confluence,Write,Permanent,2024-04-24,,SecurityLead,CR-8949,Active,2025-08-21 20:07:28,Migration,Unknown
+EMP1771,Rebecca Morris,Product Manager,Operations,Confluence,Admin,Permanent,2024-08-02,,Manager3,CR-6990,Revoked,2025-09-07 05:53:08,Migration,Unknown
+EMP1772,Luis Shepard,Data Analyst,QA,GitHub,Admin,Permanent,2024-07-22,,SecurityLead,CR-8236,Expired,2025-05-09 16:08:21,Audit Task,Office
+EMP1773,James Cantu,Product Manager,QA,Confluence,Admin,Permanent,2023-11-07,,Manager2,CR-2150,Active,2024-10-11 06:57:46,Incident Response,VPN
+EMP1774,Lisa Harris,Data Analyst,Operations,Prod DB,Write,Temporary,2024-12-02,2025-01-30,Manager2,CR-9714,Active,2025-05-05 20:43:44,Hotfix,Office
+EMP1775,Christopher Johnston,QA Engineer,Engineering,Slack,Read,Permanent,2025-05-22,,CTO,CR-8824,Active,2025-08-03 15:06:35,Audit Task,Unknown
+EMP1776,Daniel Ford,Intern,Engineering,AWS Console,Write,Permanent,2025-01-21,,Manager3,CR-2669,Revoked,2025-05-12 04:52:43,Hotfix,Unknown
+EMP1777,Nicholas Cardenas,DevOps Engineer,HR,Slack,Admin,Permanent,2024-11-25,,Manager2,CR-7529,Active,2025-01-09 19:36:23,New Feature,Office
+EMP1778,Meghan Patel,Data Analyst,Engineering,Jira,Write,Temporary,2024-09-01,2024-10-30,Manager3,CR-7558,Revoked,2024-10-13 22:10:50,Hotfix,VPN
+EMP1779,Tara Mueller,Data Analyst,HR,Jira,Write,Temporary,2025-01-03,2025-01-27,SecurityLead,CR-4159,Revoked,2025-09-08 12:15:34,Incident Response,Remote
+EMP1780,Ryan Anderson,Developer,HR,GitHub,Write,Permanent,2024-07-18,,Manager3,CR-5247,Active,2024-08-22 03:22:31,ProjectX,VPN
+EMP1781,Craig Bishop,Product Manager,Finance,Slack,Read,Temporary,2025-04-11,2025-04-23,Manager2,CR-6119,Revoked,2025-04-25 00:22:55,ProjectX,Remote
+EMP1782,James Moses,Developer,HR,Prod DB,Read,Permanent,2023-11-12,,Manager1,CR-2349,Revoked,2024-07-11 05:38:45,Incident Response,Remote
+EMP1783,Denise Hardin,QA Engineer,QA,AWS Console,Read,Permanent,2025-07-03,,Manager1,CR-5534,Revoked,2025-08-28 02:37:18,Incident Response,Unknown
+EMP1784,Joshua Crawford,Product Manager,Engineering,Jira,Read,Temporary,2025-07-09,2025-09-01,Manager3,CR-7482,Active,2025-07-19 21:34:07,Incident Response,Unknown
+EMP1785,Robert Bennett,Data Analyst,Engineering,Slack,Write,Permanent,2024-12-12,,Manager1,CR-3485,Revoked,2025-02-19 01:14:56,Incident Response,VPN
+EMP1786,Douglas Lopez,Developer,HR,Confluence,Read,Temporary,2024-01-28,2024-03-12,Manager3,CR-2010,Expired,2025-05-14 06:50:14,New Feature,Unknown
+EMP1787,Robert Stewart,DevOps Engineer,Operations,Jira,Admin,Temporary,2024-03-21,2024-05-12,SecurityLead,CR-6703,Revoked,2025-01-14 16:16:21,ProjectX,Office
+EMP1788,Michelle Small,QA Engineer,QA,Prod DB,Write,Temporary,2024-12-10,2025-02-23,CTO,CR-6777,Expired,2025-04-10 18:30:02,New Feature,Unknown
+EMP1789,April Ray DDS,Product Manager,Operations,Prod DB,Write,Permanent,2025-05-21,,Manager1,CR-3804,Expired,2025-08-02 03:19:15,Hotfix,VPN
+EMP1790,Angela Robinson,Data Analyst,Finance,Prod DB,Read,Permanent,2024-12-28,,CTO,CR-5023,Active,2025-02-22 21:15:44,Migration,Office
+EMP1791,Lisa Frank,Developer,Data,GitHub,Admin,Permanent,2024-01-04,,Manager1,CR-8370,Expired,2025-06-04 06:22:05,ProjectX,Office
+EMP1792,Jeffrey Tran,DevOps Engineer,Finance,Confluence,Read,Temporary,2024-12-08,2024-12-27,Manager3,CR-8728,Active,2025-06-19 23:54:12,Incident Response,Remote
+EMP1793,Leonard Everett,Developer,QA,Staging DB,Admin,Permanent,2025-01-12,,CTO,CR-1188,Active,2025-03-07 08:16:00,Hotfix,Remote
+EMP1794,Peter Reed,Product Manager,Operations,GitHub,Read,Temporary,2023-09-14,2023-10-22,CTO,CR-9669,Expired,2023-11-19 17:01:23,Hotfix,VPN
+EMP1795,Elizabeth Fleming,Product Manager,Data,Slack,Admin,Permanent,2025-07-20,,Manager2,CR-1988,Expired,2025-08-07 07:53:41,New Feature,VPN
+EMP1796,Edwin Cunningham,QA Engineer,Engineering,Jira,Admin,Temporary,2023-11-23,2024-01-05,CTO,CR-3967,Expired,2025-08-24 23:07:12,Hotfix,Remote
+EMP1797,Kayla Anderson,QA Engineer,Data,Confluence,Read,Permanent,2023-10-18,,Manager3,CR-3590,Active,2024-04-14 08:29:49,New Feature,Office
+EMP1798,Timothy Martin,Product Manager,Operations,Prod DB,Read,Permanent,2024-03-22,,CTO,CR-1859,Expired,2025-03-05 19:16:58,Hotfix,Remote
+EMP1799,Joseph Long,Developer,Data,Confluence,Read,Permanent,2025-05-16,,Manager3,CR-8225,Revoked,2025-08-29 16:16:54,Audit Task,Office
+EMP1800,Jordan Robinson,Developer,Data,Staging DB,Write,Temporary,2025-04-19,2025-07-12,SecurityLead,CR-4000,Active,2025-05-03 21:44:21,Incident Response,Remote
+EMP1801,Chad Travis,Developer,Finance,Staging DB,Write,Permanent,2024-03-15,,CTO,CR-6172,Active,2025-09-09 09:45:09,Audit Task,Remote
+EMP1802,Kelly Peters,Intern,QA,Slack,Admin,Temporary,2025-05-05,2025-06-11,Manager2,CR-6062,Active,2025-06-16 12:01:41,Hotfix,Unknown
+EMP1803,Maria Mooney,DevOps Engineer,Engineering,GitHub,Read,Temporary,2025-06-29,2025-08-04,SecurityLead,CR-1519,Expired,2025-08-29 08:40:28,Hotfix,VPN
+EMP1804,Andrea Brewer,DevOps Engineer,Engineering,GitHub,Read,Temporary,2025-05-23,2025-06-16,SecurityLead,CR-6358,Expired,2025-07-22 00:14:05,Hotfix,Remote
+EMP1805,Sherry Villanueva,Data Analyst,QA,Slack,Write,Temporary,2024-05-09,2024-05-16,Manager1,CR-3845,Active,2025-06-03 02:19:55,Migration,Remote
+EMP1806,Erika Charles,Developer,Engineering,Confluence,Admin,Temporary,2024-05-19,2024-07-22,Manager3,CR-9666,Revoked,2024-12-13 05:36:51,Hotfix,Office
+EMP1807,Karen Beltran,Product Manager,HR,Confluence,Admin,Permanent,2024-09-12,,Manager3,CR-3976,Active,2025-08-19 11:42:00,ProjectX,Unknown
+EMP1808,Jonathan Carter,Intern,Operations,AWS Console,Admin,Permanent,2023-09-12,,Manager2,CR-7587,Expired,2023-11-12 17:09:42,Audit Task,Remote
+EMP1809,Todd Watson,QA Engineer,Operations,GitHub,Write,Temporary,2025-05-04,2025-05-16,CTO,CR-1627,Revoked,2025-05-25 01:48:01,ProjectX,VPN
+EMP1810,Marc Zavala,Product Manager,HR,Confluence,Read,Permanent,2025-09-01,,Manager3,CR-3514,Revoked,2025-09-04 20:29:49,ProjectX,Remote
+EMP1811,Stephen Allison,Product Manager,Engineering,Staging DB,Read,Temporary,2025-05-04,2025-07-10,CTO,CR-8627,Revoked,2025-06-19 23:10:36,Hotfix,Unknown
+EMP1812,Cindy Mills,Product Manager,QA,Confluence,Read,Temporary,2024-05-25,2024-06-13,CTO,CR-7307,Revoked,2025-06-07 21:09:11,New Feature,Unknown
+EMP1813,Dr. Jason Saunders,QA Engineer,QA,Confluence,Read,Permanent,2024-03-30,,Manager2,CR-2350,Active,2024-08-04 03:45:05,New Feature,Office
+EMP1814,Terry Cunningham,Product Manager,QA,Prod DB,Write,Permanent,2024-05-10,,Manager3,CR-2443,Revoked,2025-07-19 22:03:28,Audit Task,Remote
+EMP1815,Katie Cunningham,DevOps Engineer,Finance,AWS Console,Read,Permanent,2024-05-14,,SecurityLead,CR-3985,Expired,2024-08-24 21:14:27,Hotfix,Unknown
+EMP1816,Jamie Barnett,Developer,HR,Slack,Write,Temporary,2025-07-21,2025-09-08,Manager3,CR-4082,Revoked,2025-08-29 22:31:12,ProjectX,Unknown
+EMP1817,Kathleen Davis,Data Analyst,HR,Confluence,Write,Temporary,2023-12-03,2024-02-04,CTO,CR-2667,Expired,2024-12-06 06:57:04,New Feature,Remote
+EMP1818,Mary Guerra,Developer,Finance,Confluence,Write,Temporary,2023-12-02,2024-01-20,Manager1,CR-6440,Expired,2024-11-07 04:06:15,ProjectX,Remote
+EMP1819,Gabriel Oneill,Developer,QA,Slack,Admin,Temporary,2024-04-18,2024-05-10,Manager3,CR-5156,Revoked,2024-05-03 03:26:44,Migration,VPN
+EMP1820,Jeffrey Garcia,Product Manager,HR,GitHub,Read,Permanent,2025-02-10,,Manager2,CR-7313,Expired,2025-09-06 15:16:33,ProjectX,Office
+EMP1821,Patricia Knapp,DevOps Engineer,Data,Slack,Write,Permanent,2024-06-28,,CTO,CR-1512,Active,2024-11-11 11:47:21,Migration,Unknown
+EMP1822,Jacob Waters,Intern,Data,Slack,Read,Permanent,2024-09-10,,SecurityLead,CR-9303,Revoked,2025-09-01 06:34:10,Hotfix,Unknown
+EMP1823,Paul Jensen,Developer,Engineering,GitHub,Write,Temporary,2025-09-08,2025-10-10,CTO,CR-6478,Revoked,2025-09-10 15:22:16,Migration,Unknown
+EMP1824,Maria Jackson,Product Manager,Data,Staging DB,Read,Permanent,2024-10-21,,Manager3,CR-7126,Revoked,2024-12-08 16:05:23,Audit Task,Office
+EMP1825,Blake Kim,QA Engineer,Data,GitHub,Read,Temporary,2025-08-16,2025-08-29,Manager1,CR-3822,Active,2025-09-06 09:00:24,ProjectX,Unknown
+EMP1826,Cheryl Anthony,Developer,HR,Jira,Write,Temporary,2023-09-27,2023-11-15,Manager1,CR-6734,Revoked,2024-08-20 11:50:12,Incident Response,Unknown
+EMP1827,Mr. Kevin Washington,Product Manager,Data,AWS Console,Write,Permanent,2024-12-27,,Manager2,CR-1643,Revoked,2025-08-04 14:16:59,Audit Task,Remote
+EMP1828,Amanda Aguilar,QA Engineer,QA,Staging DB,Read,Temporary,2024-04-23,2024-05-03,Manager2,CR-7620,Revoked,2024-09-05 18:12:50,Audit Task,VPN
+EMP1829,Adriana Martinez,QA Engineer,Operations,AWS Console,Write,Temporary,2024-03-08,2024-04-19,SecurityLead,CR-7821,Active,2025-06-06 22:22:06,New Feature,Unknown
+EMP1830,Richard Bullock,QA Engineer,Data,Staging DB,Write,Temporary,2025-07-27,2025-08-20,Manager2,CR-9734,Expired,2025-08-14 04:22:21,ProjectX,Office
+EMP1831,Gary Evans,DevOps Engineer,Engineering,GitHub,Write,Temporary,2025-03-03,2025-04-28,SecurityLead,CR-8778,Active,2025-08-13 05:10:26,Migration,VPN
+EMP1832,Michelle Davis,DevOps Engineer,Operations,GitHub,Read,Temporary,2024-03-21,2024-03-29,Manager3,CR-2777,Expired,2024-12-15 09:09:38,Migration,Remote
+EMP1833,Renee Reyes,Data Analyst,Operations,Staging DB,Read,Permanent,2024-04-12,,CTO,CR-3105,Active,2024-08-15 02:27:53,New Feature,Office
+EMP1834,Danielle Vasquez,Data Analyst,Finance,Prod DB,Admin,Temporary,2024-12-27,2025-03-05,Manager3,CR-5565,Expired,2025-05-31 09:44:59,New Feature,VPN
+EMP1835,Michael Kelly,Developer,Engineering,Staging DB,Read,Temporary,2025-04-20,2025-05-18,SecurityLead,CR-4318,Expired,2025-05-23 11:58:19,Audit Task,Remote
+EMP1836,Anita Murphy DVM,QA Engineer,Data,AWS Console,Admin,Temporary,2025-05-13,2025-07-05,SecurityLead,CR-5942,Expired,2025-08-28 05:30:55,Hotfix,Office
+EMP1837,John Golden,Product Manager,QA,Jira,Write,Temporary,2024-11-11,2025-02-05,CTO,CR-7252,Revoked,2025-01-01 03:36:12,Incident Response,VPN
+EMP1838,Alexandra Jones,Product Manager,Finance,GitHub,Write,Permanent,2025-05-26,,CTO,CR-2901,Expired,2025-08-26 02:40:11,Incident Response,Remote
+EMP1839,Amy Lowery,Developer,Engineering,Staging DB,Write,Permanent,2024-08-26,,Manager2,CR-7291,Active,2024-10-27 21:57:20,Hotfix,Unknown
+EMP1840,Mary Rivas,Product Manager,Operations,Jira,Write,Permanent,2024-01-27,,Manager1,CR-9806,Expired,2024-07-02 19:11:53,Hotfix,Remote
+EMP1841,Paul Newton,Intern,HR,AWS Console,Read,Temporary,2024-09-12,2024-10-28,SecurityLead,CR-2337,Revoked,2024-11-21 03:03:26,ProjectX,Unknown
+EMP1842,David Wang,Data Analyst,Data,Prod DB,Read,Temporary,2024-01-12,2024-03-14,SecurityLead,CR-8165,Revoked,2024-04-21 05:32:55,ProjectX,Remote
+EMP1843,Peter Rogers,DevOps Engineer,Engineering,Jira,Read,Temporary,2025-04-03,2025-04-19,CTO,CR-9916,Active,2025-08-23 00:43:18,New Feature,Unknown
+EMP1844,William Spencer,Data Analyst,Operations,Jira,Read,Permanent,2024-07-21,,CTO,CR-8517,Active,2024-08-14 16:37:21,Incident Response,VPN
+EMP1845,Oscar Hall,Data Analyst,QA,Staging DB,Admin,Temporary,2025-01-12,2025-02-08,Manager2,CR-6748,Expired,2025-03-19 20:37:42,Migration,VPN
+EMP1846,Joan Anderson,Data Analyst,Data,Jira,Admin,Temporary,2025-02-04,2025-02-25,CTO,CR-3818,Active,2025-07-05 00:44:47,Migration,Office
+EMP1847,Jill Payne,Product Manager,Data,Jira,Write,Permanent,2024-06-09,,Manager3,CR-4942,Revoked,2024-07-01 05:39:49,Incident Response,Unknown
+EMP1848,Thomas Ryan,Product Manager,Data,Prod DB,Admin,Permanent,2025-02-24,,CTO,CR-6515,Active,2025-03-04 05:52:43,Migration,Unknown
+EMP1849,Nancy Wilson,QA Engineer,HR,GitHub,Write,Temporary,2025-01-16,2025-02-10,Manager1,CR-2278,Expired,2025-05-14 12:21:54,Hotfix,Unknown
+EMP1850,Kyle White,Developer,Operations,GitHub,Admin,Temporary,2024-12-11,2025-01-08,Manager2,CR-1413,Expired,2025-04-18 00:05:06,Migration,Remote
+EMP1851,Samuel Adams,QA Engineer,Data,Slack,Admin,Permanent,2024-10-11,,Manager3,CR-1586,Expired,2024-12-14 13:25:13,Migration,Unknown
+EMP1852,Gabrielle Alvarado,QA Engineer,HR,Confluence,Read,Temporary,2024-06-29,2024-07-06,Manager1,CR-8053,Active,2025-05-02 04:35:17,New Feature,Unknown
+EMP1853,Tracy Melendez,Intern,Operations,Slack,Write,Temporary,2025-07-21,2025-08-15,Manager3,CR-8091,Active,2025-08-10 21:38:17,Migration,Unknown
+EMP1854,Nancy Smith,Data Analyst,Operations,AWS Console,Read,Permanent,2025-08-14,,SecurityLead,CR-9775,Revoked,2025-09-04 03:33:53,Migration,VPN
+EMP1855,Veronica Robertson,Intern,Operations,Slack,Write,Permanent,2025-09-09,,SecurityLead,CR-8167,Revoked,2025-09-10 07:10:25,ProjectX,Unknown
+EMP1856,Summer Mclaughlin,DevOps Engineer,Operations,Prod DB,Admin,Permanent,2025-05-13,,CTO,CR-2368,Revoked,2025-08-14 04:58:39,Migration,VPN
+EMP1857,Robert Scott,Intern,HR,Staging DB,Admin,Temporary,2023-11-27,2024-01-02,Manager2,CR-1402,Expired,2024-06-04 13:37:59,Migration,Remote
+EMP1858,Michele Bautista,Developer,Operations,Jira,Write,Permanent,2025-04-17,,Manager2,CR-4656,Revoked,2025-08-17 04:50:29,ProjectX,Unknown
+EMP1859,Amanda Perez,Product Manager,Finance,Prod DB,Write,Permanent,2024-01-04,,CTO,CR-9181,Active,2024-01-28 22:50:52,New Feature,Office
+EMP1860,Ellen Lane,QA Engineer,Engineering,Jira,Admin,Temporary,2025-05-28,2025-08-20,Manager1,CR-9554,Expired,2025-08-16 10:56:19,Audit Task,Office
+EMP1861,Courtney Reed,Data Analyst,Operations,Staging DB,Write,Temporary,2024-10-04,2024-10-28,SecurityLead,CR-2747,Expired,2025-03-04 21:02:44,Incident Response,VPN
+EMP1862,Andrew Morris,Intern,HR,Prod DB,Write,Permanent,2025-09-11,,Manager3,CR-1484,Expired,2025-09-11 20:37:46,Audit Task,Unknown
+EMP1863,Anthony Gonzalez,QA Engineer,HR,Jira,Read,Permanent,2025-02-22,,Manager2,CR-6699,Active,2025-03-15 20:51:36,Audit Task,VPN
+EMP1864,Rebecca Adams,Product Manager,Finance,Confluence,Read,Temporary,2025-01-16,2025-04-03,Manager1,CR-3774,Expired,2025-08-21 21:40:22,New Feature,Unknown
+EMP1865,Kyle Ward,Data Analyst,Finance,Confluence,Write,Temporary,2025-03-24,2025-05-23,CTO,CR-2569,Expired,2025-05-15 09:26:58,Incident Response,Unknown
+EMP1866,Shannon Deleon,QA Engineer,Operations,Staging DB,Admin,Temporary,2024-09-12,2024-11-25,Manager3,CR-9007,Revoked,2024-10-23 08:54:21,Migration,VPN
+EMP1867,Shannon Anderson,Developer,Engineering,Slack,Write,Temporary,2023-10-23,2024-01-11,Manager1,CR-7336,Active,2024-08-19 02:25:23,Hotfix,Office
+EMP1868,Margaret Savage,DevOps Engineer,HR,Slack,Write,Temporary,2025-05-12,2025-05-19,SecurityLead,CR-7838,Revoked,2025-06-23 22:16:32,Hotfix,VPN
+EMP1869,Jeffery Herrera,QA Engineer,QA,Confluence,Read,Permanent,2024-07-02,,Manager1,CR-6832,Expired,2024-07-30 08:58:19,Migration,Remote
+EMP1870,Shane Brooks,DevOps Engineer,Finance,GitHub,Read,Permanent,2025-04-12,,CTO,CR-4944,Active,2025-08-24 11:54:10,Audit Task,Unknown
+EMP1871,James Wilson,Developer,Data,Jira,Write,Temporary,2023-11-27,2024-02-17,CTO,CR-2831,Active,2024-08-06 01:45:10,ProjectX,Office
+EMP1872,Amanda Jefferson,QA Engineer,Operations,Slack,Read,Permanent,2023-11-12,,Manager1,CR-7631,Active,2024-09-20 14:03:48,Migration,VPN
+EMP1873,Amanda Williams,Intern,Operations,Prod DB,Read,Permanent,2025-08-15,,Manager2,CR-6237,Active,2025-08-20 10:02:41,Migration,Remote
+EMP1874,James Romero,Data Analyst,Finance,Confluence,Read,Permanent,2024-03-29,,SecurityLead,CR-9728,Expired,2024-11-01 09:30:24,Audit Task,Unknown
+EMP1875,Tracy Green,DevOps Engineer,Engineering,Slack,Write,Temporary,2024-07-26,2024-08-27,Manager2,CR-3662,Revoked,2025-02-20 16:20:22,Migration,Remote
+EMP1876,Amy Clark,Developer,QA,Staging DB,Admin,Permanent,2025-03-08,,Manager1,CR-5360,Expired,2025-08-26 08:09:03,Hotfix,Unknown
+EMP1877,Ariana Jordan,Intern,Data,AWS Console,Write,Temporary,2025-07-20,2025-10-18,Manager3,CR-1642,Expired,2025-09-08 07:54:25,Incident Response,Remote
+EMP1878,Luis Moreno,Intern,Finance,Slack,Admin,Permanent,2025-07-31,,Manager1,CR-1270,Expired,2025-08-09 20:43:09,Incident Response,VPN
+EMP1879,Joshua Baker,Product Manager,Operations,Confluence,Admin,Permanent,2025-03-09,,Manager3,CR-3072,Expired,2025-04-21 16:12:17,Migration,Office
+EMP1880,Shelby Harris,QA Engineer,Data,AWS Console,Write,Permanent,2024-08-29,,Manager2,CR-6195,Expired,2024-12-24 22:55:25,Incident Response,Remote
+EMP1881,Theresa Maddox,DevOps Engineer,Finance,Jira,Read,Temporary,2025-05-17,2025-08-11,Manager3,CR-5713,Expired,2025-08-31 18:35:29,Migration,Unknown
+EMP1882,Christopher Dunn,Data Analyst,Finance,Confluence,Admin,Permanent,2024-01-23,,CTO,CR-3248,Expired,2024-05-27 18:40:37,Hotfix,Office
+EMP1883,Brent Horton,Product Manager,QA,Slack,Write,Permanent,2024-08-04,,SecurityLead,CR-6850,Revoked,2025-08-01 21:30:13,Audit Task,VPN
+EMP1884,Jared Peters,Intern,Finance,Confluence,Admin,Temporary,2023-10-04,2023-12-13,Manager2,CR-9564,Active,2024-12-13 05:22:07,New Feature,Unknown
+EMP1885,Erin Reed,Product Manager,Operations,AWS Console,Read,Permanent,2024-06-04,,Manager2,CR-2779,Active,2024-11-03 15:10:18,Audit Task,Unknown
+EMP1886,Jeffrey Mckee,Data Analyst,Operations,Staging DB,Admin,Temporary,2024-06-13,2024-08-21,CTO,CR-6460,Expired,2024-11-26 03:28:32,New Feature,Unknown
+EMP1887,Holly Lee,Intern,Engineering,AWS Console,Admin,Permanent,2023-12-05,,Manager1,CR-3134,Expired,2025-09-06 08:21:31,ProjectX,Unknown
+EMP1888,Monica Vasquez,Intern,Operations,AWS Console,Write,Temporary,2025-03-09,2025-05-31,Manager3,CR-8936,Revoked,2025-03-24 17:06:26,Incident Response,Unknown
+EMP1889,Chris Dunn,DevOps Engineer,Finance,Staging DB,Write,Temporary,2024-05-22,2024-06-25,Manager1,CR-4883,Expired,2024-10-24 09:11:05,ProjectX,VPN
+EMP1890,Tracy Rodriguez,Data Analyst,Finance,Jira,Read,Temporary,2024-01-19,2024-02-19,SecurityLead,CR-9072,Revoked,2025-04-16 01:18:04,New Feature,Office
+EMP1891,Jessica Suarez,Data Analyst,QA,AWS Console,Read,Permanent,2025-08-26,,CTO,CR-7079,Active,2025-09-03 10:00:49,Migration,Unknown
+EMP1892,Timothy Herrera,Product Manager,Engineering,Prod DB,Admin,Temporary,2024-11-19,2025-01-13,Manager1,CR-6659,Revoked,2025-04-02 03:18:40,ProjectX,Unknown
+EMP1893,Michael Weaver,Product Manager,Operations,Confluence,Write,Temporary,2024-04-24,2024-05-17,Manager1,CR-3264,Expired,2024-06-13 12:31:13,Migration,VPN
+EMP1894,Randall Fitzpatrick,Data Analyst,Engineering,Prod DB,Write,Permanent,2023-10-11,,Manager2,CR-4918,Revoked,2024-03-23 00:04:06,New Feature,Unknown
+EMP1895,John Frazier,QA Engineer,Finance,Confluence,Write,Temporary,2025-08-17,2025-10-22,CTO,CR-5487,Revoked,2025-08-18 04:05:41,Incident Response,VPN
+EMP1896,Amber Davies,Intern,Engineering,Confluence,Write,Temporary,2025-08-03,2025-08-31,CTO,CR-1893,Active,2025-08-19 00:05:50,New Feature,Unknown
+EMP1897,Andrew Baldwin,Product Manager,Engineering,AWS Console,Read,Permanent,2024-06-23,,Manager2,CR-2618,Expired,2024-12-13 22:42:35,Hotfix,Remote
+EMP1898,Tiffany Patterson,Intern,HR,Jira,Read,Permanent,2024-11-08,,Manager3,CR-3786,Revoked,2025-07-31 02:46:10,New Feature,VPN
+EMP1899,Brenda Baird,DevOps Engineer,Operations,AWS Console,Write,Permanent,2024-07-07,,SecurityLead,CR-4789,Active,2025-02-28 06:43:47,Migration,Unknown
+EMP1900,Daniel Ramirez,Data Analyst,Operations,GitHub,Admin,Temporary,2025-08-11,2025-08-31,Manager1,CR-1345,Revoked,2025-09-09 04:43:23,ProjectX,Unknown
+EMP1901,Christopher Burton,Intern,Data,Staging DB,Write,Permanent,2025-07-04,,CTO,CR-2442,Revoked,2025-07-15 09:01:57,New Feature,Remote
+EMP1902,Matthew Robinson,QA Engineer,Finance,Slack,Write,Permanent,2025-01-24,,Manager3,CR-5974,Active,2025-05-14 15:24:55,Incident Response,Remote
+EMP1903,Lindsey Kennedy,Data Analyst,QA,Confluence,Write,Temporary,2024-10-01,2024-12-20,SecurityLead,CR-1178,Active,2025-05-25 03:41:18,Migration,Office
+EMP1904,Mr. Michael Newman,Developer,Data,Staging DB,Read,Temporary,2025-03-09,2025-03-17,CTO,CR-3974,Active,2025-08-31 11:11:57,Hotfix,Remote
+EMP1905,Tammy Mcmillan,QA Engineer,Finance,AWS Console,Write,Permanent,2023-09-30,,SecurityLead,CR-9645,Revoked,2023-11-30 03:08:29,ProjectX,Office
+EMP1906,Mr. Ryan Hanna MD,QA Engineer,Finance,GitHub,Admin,Permanent,2024-07-28,,Manager1,CR-7716,Active,2025-03-17 04:26:03,Migration,Office
+EMP1907,Pamela Brooks,QA Engineer,HR,Jira,Write,Temporary,2025-05-07,2025-05-25,Manager2,CR-3587,Active,2025-07-13 00:04:45,ProjectX,Unknown
+EMP1908,Emily Davis,Developer,HR,GitHub,Admin,Permanent,2025-03-22,,Manager3,CR-7601,Revoked,2025-06-14 03:27:11,ProjectX,Remote
+EMP1909,John Fisher,Product Manager,HR,Slack,Admin,Temporary,2023-09-23,2023-10-23,SecurityLead,CR-1364,Expired,2024-01-20 19:20:35,Audit Task,VPN
+EMP1910,Barbara Hardin,Data Analyst,HR,Jira,Write,Temporary,2024-11-05,2024-12-19,Manager1,CR-9858,Revoked,2024-11-27 04:42:22,Hotfix,Unknown
+EMP1911,Charles Wang,Data Analyst,Finance,Jira,Read,Temporary,2024-02-01,2024-04-30,Manager2,CR-1600,Active,2024-11-14 01:01:08,New Feature,Office
+EMP1912,Mrs. Amber Howard,Developer,Finance,Confluence,Write,Permanent,2023-10-17,,SecurityLead,CR-5690,Revoked,2024-06-16 09:05:33,New Feature,Unknown
+EMP1913,Rodney Kelly,QA Engineer,Finance,Jira,Read,Temporary,2023-12-06,2023-12-31,Manager1,CR-3110,Revoked,2024-11-17 20:25:40,Hotfix,VPN
+EMP1914,Mary Short,Developer,Operations,GitHub,Write,Permanent,2025-03-09,,Manager1,CR-6739,Expired,2025-08-21 21:07:00,ProjectX,Office
+EMP1915,Gregory Williamson,Data Analyst,HR,Prod DB,Admin,Temporary,2024-06-17,2024-08-09,SecurityLead,CR-2375,Active,2025-06-28 12:18:33,Incident Response,Remote
+EMP1916,Larry Wilson,QA Engineer,HR,Jira,Read,Permanent,2025-03-07,,Manager2,CR-1352,Active,2025-08-19 16:41:07,Incident Response,VPN
+EMP1917,Kimberly Lawson,Product Manager,HR,Prod DB,Admin,Permanent,2024-09-10,,Manager1,CR-4258,Expired,2025-03-23 19:38:40,Incident Response,Office
+EMP1918,Brandon Robinson,Product Manager,QA,GitHub,Admin,Temporary,2025-02-04,2025-04-12,SecurityLead,CR-4339,Revoked,2025-05-11 08:32:22,ProjectX,VPN
+EMP1919,Misty Kelly,QA Engineer,QA,AWS Console,Write,Permanent,2024-01-31,,Manager3,CR-3730,Active,2025-07-24 21:09:00,New Feature,Office
+EMP1920,David Ruiz,QA Engineer,Engineering,Prod DB,Read,Permanent,2024-12-08,,Manager2,CR-3095,Expired,2025-07-08 02:10:55,Migration,Remote
+EMP1921,Sandy Miller,QA Engineer,QA,AWS Console,Read,Temporary,2024-01-06,2024-02-19,Manager3,CR-2491,Active,2024-07-31 02:13:03,ProjectX,VPN
+EMP1922,Benjamin Walker,DevOps Engineer,Finance,AWS Console,Read,Temporary,2024-09-16,2024-10-03,Manager2,CR-8623,Expired,2024-11-18 05:15:20,Hotfix,Remote
+EMP1923,Cheryl Williams,Developer,Operations,Confluence,Write,Temporary,2025-05-24,2025-08-05,Manager2,CR-3517,Active,2025-05-26 15:17:20,Migration,VPN
+EMP1924,Joseph Coleman,Data Analyst,Engineering,Slack,Read,Temporary,2025-06-12,2025-09-06,SecurityLead,CR-8764,Revoked,2025-07-15 21:13:39,Incident Response,Unknown
+EMP1925,Andrea Glover,Intern,Engineering,Slack,Admin,Temporary,2025-08-28,2025-10-26,Manager3,CR-7284,Active,2025-09-11 20:18:45,Migration,Remote
+EMP1926,Angel Curry,DevOps Engineer,Engineering,Jira,Write,Permanent,2025-05-13,,Manager1,CR-6905,Expired,2025-08-22 10:16:04,New Feature,Unknown
+EMP1927,Rebecca Johnson,Intern,Engineering,Confluence,Read,Temporary,2024-06-20,2024-08-28,CTO,CR-2858,Expired,2024-11-22 06:12:45,Migration,Unknown
+EMP1928,Mrs. Kelly Miller,Intern,Data,Jira,Admin,Temporary,2025-04-29,2025-07-10,Manager2,CR-2325,Revoked,2025-09-01 05:40:02,Migration,Office
+EMP1929,Gordon Cisneros,Intern,Operations,Confluence,Read,Temporary,2023-10-30,2023-12-31,SecurityLead,CR-6957,Expired,2024-08-08 01:03:06,Incident Response,Remote
+EMP1930,Melissa Mcneil,Product Manager,QA,GitHub,Read,Permanent,2023-10-14,,SecurityLead,CR-8212,Revoked,2025-05-16 20:27:41,Audit Task,Remote
+EMP1931,Christopher Castro DVM,Intern,HR,GitHub,Read,Temporary,2024-04-13,2024-04-30,Manager1,CR-6144,Active,2025-06-10 11:20:35,Hotfix,Remote
+EMP1932,Catherine Reyes,DevOps Engineer,Operations,Confluence,Admin,Permanent,2025-06-26,,Manager3,CR-5247,Revoked,2025-09-03 13:37:41,Hotfix,Remote
+EMP1933,John Sanchez,QA Engineer,Finance,Slack,Admin,Temporary,2025-04-23,2025-05-07,CTO,CR-7881,Active,2025-06-21 20:31:37,Hotfix,Remote
+EMP1934,Traci Marshall,Intern,Engineering,AWS Console,Write,Temporary,2024-01-06,2024-02-10,Manager2,CR-9212,Active,2024-06-04 10:06:51,New Feature,VPN
+EMP1935,Hannah Wade,QA Engineer,Operations,AWS Console,Admin,Temporary,2023-12-13,2024-01-29,CTO,CR-6164,Expired,2024-05-03 20:18:30,Migration,VPN
+EMP1936,Jasmine Perry,Product Manager,QA,Confluence,Read,Temporary,2024-11-24,2024-12-15,CTO,CR-3132,Expired,2025-08-13 03:53:48,Audit Task,Remote
+EMP1937,Courtney Warner,Intern,QA,GitHub,Write,Permanent,2024-08-18,,CTO,CR-5863,Expired,2024-12-16 20:13:44,Incident Response,Unknown
+EMP1938,Brandon White,Data Analyst,HR,Confluence,Admin,Permanent,2024-11-04,,Manager2,CR-3693,Expired,2025-06-07 02:28:08,New Feature,Office
+EMP1939,Cindy Mercer,Intern,Engineering,GitHub,Write,Permanent,2024-02-24,,CTO,CR-4729,Active,2025-07-31 04:24:09,Migration,Remote
+EMP1940,Kevin Mills,QA Engineer,HR,Slack,Admin,Permanent,2024-08-30,,Manager2,CR-3894,Revoked,2025-07-06 01:05:23,Audit Task,Office
+EMP1941,Melissa Mathis,DevOps Engineer,QA,Confluence,Read,Permanent,2024-01-10,,SecurityLead,CR-1551,Active,2024-03-01 03:44:36,Hotfix,Unknown
+EMP1942,Michelle Thompson,Product Manager,Operations,Slack,Admin,Temporary,2024-05-17,2024-08-11,Manager3,CR-3073,Active,2024-09-12 06:54:14,Incident Response,VPN
+EMP1943,Howard Smith,Data Analyst,Engineering,Jira,Admin,Temporary,2025-03-03,2025-05-31,Manager3,CR-1183,Active,2025-08-23 19:38:44,New Feature,Office
+EMP1944,Elizabeth Parks,DevOps Engineer,QA,Confluence,Read,Temporary,2025-07-19,2025-09-24,Manager1,CR-1359,Revoked,2025-08-04 04:06:16,Migration,VPN
+EMP1945,Stephen Sims,DevOps Engineer,HR,Confluence,Admin,Permanent,2024-01-12,,Manager2,CR-5753,Expired,2024-07-22 19:44:49,Audit Task,Unknown
+EMP1946,Jordan Ramos,Developer,HR,Staging DB,Write,Temporary,2024-04-21,2024-06-28,SecurityLead,CR-2930,Revoked,2024-05-31 06:51:31,New Feature,Office
+EMP1947,Crystal Johnson,QA Engineer,Data,Jira,Write,Permanent,2024-03-19,,CTO,CR-4874,Active,2024-06-25 00:36:12,Hotfix,VPN
+EMP1948,Evan Romero,QA Engineer,Data,GitHub,Write,Permanent,2023-10-25,,Manager3,CR-3245,Active,2025-06-21 19:17:54,Incident Response,VPN
+EMP1949,Julie Nunez,Developer,Finance,Jira,Admin,Permanent,2024-08-21,,Manager3,CR-8139,Expired,2025-07-27 00:56:26,Audit Task,Unknown
+EMP1950,Ethan Day,DevOps Engineer,Engineering,GitHub,Write,Temporary,2024-12-02,2025-02-17,Manager2,CR-5861,Active,2025-08-02 18:29:12,New Feature,VPN
+EMP1951,Tammy Perez,Product Manager,HR,Prod DB,Write,Temporary,2024-09-04,2024-09-30,CTO,CR-3052,Active,2025-07-11 02:07:33,Incident Response,Office
+EMP1952,Jennifer Reilly,Intern,Finance,Prod DB,Admin,Temporary,2024-07-13,2024-09-11,Manager3,CR-7133,Active,2024-07-25 16:24:28,ProjectX,Unknown
+EMP1953,Molly Rodriguez,DevOps Engineer,Operations,GitHub,Write,Temporary,2025-06-22,2025-07-04,CTO,CR-9002,Expired,2025-07-09 06:52:50,ProjectX,Remote
+EMP1954,Michael Scott,QA Engineer,Finance,AWS Console,Admin,Permanent,2024-05-04,,CTO,CR-4904,Revoked,2024-05-31 03:55:19,Incident Response,Remote
+EMP1955,Darrell Evans,Developer,Data,GitHub,Admin,Temporary,2024-09-08,2024-10-26,Manager1,CR-3514,Revoked,2025-06-28 23:14:25,New Feature,Unknown
+EMP1956,Julia Bates,Data Analyst,Data,GitHub,Read,Permanent,2023-12-29,,SecurityLead,CR-8810,Expired,2024-10-07 16:26:11,Incident Response,VPN
+EMP1957,Anna Mcdowell MD,Developer,Finance,AWS Console,Read,Permanent,2024-03-17,,Manager2,CR-1804,Revoked,2024-07-27 06:48:49,Audit Task,VPN
+EMP1958,Benjamin Garrison,Developer,Operations,Slack,Write,Permanent,2024-10-16,,Manager3,CR-9793,Active,2025-04-24 19:25:36,Hotfix,Office
+EMP1959,Kristen Contreras,Intern,QA,Prod DB,Write,Temporary,2024-08-06,2024-09-23,SecurityLead,CR-1172,Revoked,2024-11-22 03:09:09,Audit Task,Office
+EMP1960,Allison Smith,Product Manager,Finance,AWS Console,Write,Temporary,2024-08-19,2024-09-22,SecurityLead,CR-4108,Revoked,2025-01-14 02:03:34,ProjectX,Remote
+EMP1961,Ashley Allen,QA Engineer,Engineering,Slack,Admin,Temporary,2025-06-16,2025-08-12,Manager3,CR-8643,Revoked,2025-07-31 05:08:52,Incident Response,Office
+EMP1962,Anthony Anderson,Intern,HR,Staging DB,Admin,Permanent,2024-05-04,,Manager2,CR-1540,Expired,2025-08-20 07:27:41,Migration,Unknown
+EMP1963,James Mcclure,Intern,Operations,Jira,Read,Permanent,2025-09-02,,Manager2,CR-3598,Expired,2025-09-09 19:28:27,Hotfix,Unknown
+EMP1964,Matthew Gutierrez,DevOps Engineer,Engineering,Slack,Read,Permanent,2024-07-27,,SecurityLead,CR-3072,Active,2024-10-28 15:27:09,Audit Task,Remote
+EMP1965,Richard Perez,DevOps Engineer,Operations,GitHub,Write,Permanent,2024-05-07,,Manager2,CR-7185,Active,2024-06-22 21:54:44,Hotfix,Office
+EMP1966,Shelby Lester,Intern,Operations,Slack,Admin,Temporary,2025-08-20,2025-10-12,CTO,CR-1397,Revoked,2025-09-04 15:22:37,New Feature,Office
+EMP1967,Dr. Joseph Sanchez,Product Manager,Operations,Jira,Admin,Temporary,2024-01-23,2024-03-03,Manager2,CR-5090,Expired,2024-06-04 19:14:03,New Feature,Unknown
+EMP1968,Jonathan Bartlett,Data Analyst,HR,Jira,Read,Temporary,2025-09-03,2025-11-22,CTO,CR-1586,Active,2025-09-11 11:28:03,New Feature,Office
+EMP1969,Danny Esparza,Developer,Engineering,GitHub,Read,Temporary,2023-10-11,2023-11-02,Manager1,CR-1738,Expired,2024-08-17 23:59:46,Audit Task,Office
+EMP1970,Allen Garcia,Intern,QA,GitHub,Write,Temporary,2025-04-06,2025-06-30,Manager1,CR-4373,Revoked,2025-07-10 20:40:21,New Feature,Unknown
+EMP1971,Mr. David Delacruz,Data Analyst,HR,Prod DB,Write,Permanent,2024-12-13,,CTO,CR-2357,Revoked,2025-04-30 08:15:35,ProjectX,Remote
+EMP1972,Jose Anderson,QA Engineer,Engineering,GitHub,Admin,Permanent,2024-09-01,,Manager3,CR-3401,Active,2025-08-01 09:32:12,Audit Task,VPN
+EMP1973,Jody Finley,Data Analyst,HR,Staging DB,Admin,Temporary,2025-02-04,2025-04-02,SecurityLead,CR-1942,Expired,2025-05-04 08:30:45,Hotfix,Office
+EMP1974,Jacob Johnson,Developer,Engineering,AWS Console,Write,Permanent,2024-11-19,,Manager2,CR-8673,Expired,2025-06-29 18:36:37,Migration,VPN
+EMP1975,Jocelyn Rivera,DevOps Engineer,Engineering,GitHub,Read,Permanent,2024-08-09,,SecurityLead,CR-1753,Active,2025-08-07 07:40:09,ProjectX,VPN
+EMP1976,Kristi Russell,QA Engineer,HR,AWS Console,Write,Temporary,2024-04-28,2024-06-24,Manager2,CR-1838,Active,2025-03-17 02:59:20,Incident Response,Office
+EMP1977,Mr. Jeffrey Hale DVM,Developer,Finance,GitHub,Write,Temporary,2025-06-17,2025-07-08,Manager1,CR-3876,Expired,2025-09-07 01:06:49,Incident Response,Remote
+EMP1978,Michelle Johnson,DevOps Engineer,Data,Prod DB,Write,Temporary,2024-09-25,2024-11-13,CTO,CR-7621,Active,2025-02-07 12:27:31,ProjectX,Remote
+EMP1979,Russell Lopez,QA Engineer,Finance,Prod DB,Write,Temporary,2025-03-14,2025-04-06,Manager1,CR-3009,Expired,2025-04-11 10:44:20,ProjectX,Unknown
+EMP1980,Heather Reeves,Product Manager,Finance,GitHub,Admin,Permanent,2025-01-06,,CTO,CR-5036,Active,2025-03-26 08:30:24,Audit Task,Remote
+EMP1981,Paul Washington,QA Engineer,Data,Staging DB,Read,Permanent,2025-09-04,,CTO,CR-9154,Active,2025-09-10 09:44:37,Incident Response,VPN
+EMP1982,John Conner,DevOps Engineer,Data,Jira,Read,Temporary,2024-03-09,2024-04-18,Manager1,CR-6560,Active,2024-05-22 16:15:20,Hotfix,Unknown
+EMP1983,Bryan Bird,Intern,Operations,Slack,Admin,Permanent,2023-12-21,,Manager3,CR-5958,Expired,2024-09-24 16:11:57,ProjectX,Unknown
+EMP1984,Mark Park,Data Analyst,Operations,Jira,Admin,Temporary,2024-11-29,2025-01-10,Manager1,CR-2452,Active,2025-02-15 06:40:55,Incident Response,Office
+EMP1985,John Vargas,Intern,Operations,AWS Console,Admin,Temporary,2025-03-23,2025-06-12,Manager1,CR-7078,Revoked,2025-04-01 01:51:20,Hotfix,Remote
+EMP1986,Trevor Baker,DevOps Engineer,Finance,GitHub,Admin,Temporary,2024-01-19,2024-04-13,Manager2,CR-9070,Active,2024-11-16 21:39:36,Hotfix,Remote
+EMP1987,Donald Edwards,Intern,Engineering,Staging DB,Read,Permanent,2024-02-18,,Manager1,CR-4656,Revoked,2025-08-29 20:00:33,Migration,Unknown
+EMP1988,Mary Fleming,Product Manager,Engineering,Slack,Write,Permanent,2025-04-03,,Manager1,CR-8713,Revoked,2025-08-02 11:20:49,Incident Response,Office
+EMP1989,Susan Jones DDS,Intern,Data,Prod DB,Read,Temporary,2024-01-03,2024-02-19,SecurityLead,CR-1931,Active,2024-05-07 16:20:48,Migration,Unknown
+EMP1990,Robert Phillips,DevOps Engineer,QA,Jira,Admin,Temporary,2025-08-25,2025-09-10,SecurityLead,CR-4997,Expired,2025-09-01 00:12:34,New Feature,VPN
+EMP1991,Diana Hopkins,Data Analyst,Data,Confluence,Admin,Permanent,2025-06-13,,SecurityLead,CR-1026,Expired,2025-09-07 19:35:58,Hotfix,Unknown
+EMP1992,Robert Williams,DevOps Engineer,Data,GitHub,Write,Permanent,2024-03-29,,SecurityLead,CR-3691,Active,2024-11-10 07:35:12,ProjectX,Unknown
+EMP1993,Taylor Duran,Developer,Engineering,Prod DB,Admin,Temporary,2025-09-06,2025-10-03,SecurityLead,CR-6992,Active,2025-09-08 23:53:58,Incident Response,Unknown
+EMP1994,Maria Gutierrez,QA Engineer,QA,Jira,Admin,Temporary,2025-02-07,2025-04-11,CTO,CR-4865,Active,2025-05-24 12:17:40,Migration,Office
+EMP1995,Sharon Reese,Intern,Data,AWS Console,Admin,Permanent,2023-12-04,,Manager3,CR-4219,Active,2025-04-07 22:37:34,Incident Response,Unknown
+EMP1996,George Garrison,DevOps Engineer,Operations,Confluence,Admin,Temporary,2024-04-17,2024-05-29,Manager3,CR-5597,Expired,2025-04-16 04:55:20,Migration,Remote
+EMP1997,Donna Moreno,DevOps Engineer,Engineering,Confluence,Read,Temporary,2024-10-27,2024-12-20,SecurityLead,CR-5321,Active,2025-06-28 07:46:55,Migration,Remote
+EMP1998,Phillip Tapia,DevOps Engineer,Operations,Prod DB,Write,Temporary,2024-04-12,2024-06-04,Manager2,CR-4961,Expired,2024-06-27 09:43:56,Migration,Unknown
+EMP1999,Jacob Sanchez,DevOps Engineer,Data,Slack,Write,Permanent,2023-12-24,,SecurityLead,CR-9429,Active,2025-07-29 22:58:41,ProjectX,Remote

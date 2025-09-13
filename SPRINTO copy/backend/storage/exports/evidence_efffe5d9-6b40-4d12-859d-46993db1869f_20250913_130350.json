@@ -1,0 +1,55 @@
+[
+  {
+    "source": "documents/EmployeeData (1).csv",
+    "source_type": "document",
+    "title": "Evidence from EmployeeData (1).csv",
+    "description": "Found 1 relevant records. Top matches: Matches: felix",
+    "data": {
+      "filename": "EmployeeData (1).csv",
+      "matches": [
+        {
+          "id": 1007,
+          "firstName": "Felix",
+          "lastName": "B",
+          "manager": "Sudha",
+          "salary": 100000.0,
+          "_relevance_score": 0.4,
+          "_match_reason": "Matches: felix"
+        }
+      ],
+      "total_matches": 1,
+      "query": "find evidence related to: salary of felix",
+      "avg_relevance": 0.4,
+      "file_type": "csv"
+    },
+    "confidence_score": 0.7,
+    "timestamp": null
+  },
+  {
+    "source": "documents/EmployeeData.csv",
+    "source_type": "document",
+    "title": "Evidence from EmployeeData.csv",
+    "description": "Found 1 relevant records. Top matches: Matches: felix",
+    "data": {
+      "filename": "EmployeeData.csv",
+      "matches": [
+        {
+          "id": 1007,
+          "firstName": "Felix",
+          "lastName": "Sharon",
+          "mentor": "Sudha",
+          "score": 94.0,
+          "age": 18.0,
+          "_relevance_score": 0.4,
+          "_match_reason": "Matches: felix"
+        }
+      ],
+      "total_matches": 1,
+      "query": "find evidence related to: salary of felix",
+      "avg_relevance": 0.4,
+      "file_type": "csv"
+    },
+    "confidence_score": 0.7,
+    "timestamp": null
+  }
+]
