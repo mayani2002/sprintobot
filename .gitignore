@@ -1,0 +1,38 @@
+# Node.js and React specific ignores
+node_modules/
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Python and FastAPI specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+*.sqlite3
+db.sqlite3
+instance/
+# IDE specific ignores (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+# Operating System specific ignores
+.DS_Store
+Thumbs.db

@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI specific
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Database
+*.sqlite3
+*.db
+instance/
+alembic/versions/*.py
+!alembic/versions/__init__.py
+
+# Logs
+*.log
+logs/
+
+# API Keys and sensitive data
+config/.env
+.env.local
+.env.production
+
+# Uploads and temporary files
+uploads/
+temp/
+Thumbs.db
+
+# API Keys and sensitive data
+config/.env
+.env.local
+.env.production
