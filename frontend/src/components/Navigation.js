@@ -15,7 +15,8 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  Divider
+  Divider,
+  Chip
 } from '@mui/material';
 import {
   Menu as MenuIcon,
@@ -37,7 +38,7 @@ const Navigation = () => {
   const navigationItems = [
     { path: '/', label: 'Home', icon: <Home /> },
     { path: '/github-audit', label: 'GitHub Audit', icon: <GitHub /> },
-    { path: '/jira-compliance', label: 'JIRA Compliance', icon: <Assignment /> },
+    { path: '/jira-compliance', label: 'JIRA Compliance', icon: <Assignment />, comingSoon: true },
     { path: '/document-analysis', label: 'Document Analysis', icon: <Description /> },
     { path: '/compliance-report', label: 'Reports', icon: <Assessment /> }
   ];
@@ -48,6 +49,11 @@ const Navigation = () => {
 
   const isActivePath = (path) => {
     return location.pathname === path;
+  };
+
+  const handleComingSoonClick = (e) => {
+    e.preventDefault();
+    // Could show a toast or modal here
   };
 
   const drawer = (
@@ -77,12 +83,13 @@ const Navigation = () => {
           <ListItem 
             button 
             key={item.path}
-            component={Link}
-            to={item.path}
-            onClick={handleDrawerToggle}
+            component={item.comingSoon ? 'div' : Link}
+            to={item.comingSoon ? undefined : item.path}
+            onClick={item.comingSoon ? handleComingSoonClick : handleDrawerToggle}
             sx={{
               backgroundColor: isActivePath(item.path) ? 'rgba(102, 126, 234, 0.1)' : 'transparent',
               borderRight: isActivePath(item.path) ? '3px solid #667eea' : 'none',
+              opacity: item.comingSoon ? 0.6 : 1,
               '&:hover': {
                 backgroundColor: 'rgba(102, 126, 234, 0.05)'
               }
@@ -92,7 +99,29 @@ const Navigation = () => {
               {item.icon}
             </ListItemIcon>
             <ListItemText 
-              primary={item.label}
+              primary={
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                  {item.label}
+                  {item.comingSoon && (
+                    <Chip 
+                      label="Coming Soon" 
+                      size="small" 
+                      sx={{ 
+                        fontSize: '0.6rem', 
+                        height: '18px',
+                        minHeight: '18px',
+                        '& .MuiChip-label': {
+                          paddingLeft: '6px',
+                          paddingRight: '6px',
+                          fontSize: '0.6rem'
+                        },
+                        backgroundColor: '#ffa726',
+                        color: 'white'
+                      }} 
+                    />
+                  )}
+                </Box>
+              }
               sx={{ color: isActivePath(item.path) ? '#667eea' : 'inherit' }}
             />
           </ListItem>
@@ -145,17 +174,38 @@ const Navigation = () => {
               {navigationItems.slice(1).map((item) => (
                 <Button
                   key={item.path}
-                  component={Link}
-                  to={item.path}
+                  component={item.comingSoon ? 'div' : Link}
+                  to={item.comingSoon ? undefined : item.path}
+                  onClick={item.comingSoon ? handleComingSoonClick : undefined}
                   color="inherit"
                   startIcon={item.icon}
+                  endIcon={item.comingSoon ? (
+                    <Chip 
+                      label="Soon" 
+                      size="small" 
+                      sx={{ 
+                        fontSize: '0.5rem', 
+                        height: '16px',
+                        minHeight: '16px',
+                        '& .MuiChip-label': {
+                          paddingLeft: '6px',
+                          paddingRight: '6px',
+                          fontSize: '0.5rem'
+                        },
+                        backgroundColor: 'rgba(255, 167, 38, 0.9)',
+                        color: 'white'
+                      }} 
+                    />
+                  ) : null}
                   sx={{
                     backgroundColor: isActivePath(item.path) ? 'rgba(255,255,255,0.1)' : 'transparent',
                     borderRadius: '25px',
                     px: 2,
+                    opacity: item.comingSoon ? 0.7 : 1,
+                    cursor: item.comingSoon ? 'not-allowed' : 'pointer',
                     '&:hover': {
                       backgroundColor: 'rgba(255,255,255,0.1)',
-                      transform: 'translateY(-1px)'
+                      transform: item.comingSoon ? 'none' : 'translateY(-1px)'
                     },
                     transition: 'all 0.3s ease'
                   }}
