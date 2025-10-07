@@ -7,6 +7,10 @@ import DocumentsPage from './pages/DocumentsPage';
 import GitHubPage from './pages/GitHubPage';
 import JiraPage from './pages/JiraPage';
 import ReportsPage from './pages/ReportsPage';
+import LandingPage from './components/LandingPage';
+// import IncidentInvestigation from './components/IncidentInvestigation';
+// import AIQueryAssistant from './components/AIQueryAssistant';
+// import './App.css';
 
 const theme = createTheme({
   palette: {
@@ -27,15 +31,19 @@ function App() {
         <Box sx={{ flexGrow: 1 }}>
           <Navigation />
           <Routes>
-            <Route path="/" element={<DocumentsPage />} />
-            <Route path="/github" element={<GitHubPage />} />
-            <Route path="/jira" element={<JiraPage />} />
-            <Route path="/reports" element={<ReportsPage />} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/github-audit" element={<GitHubPage />} />
+            <Route path="/jira-compliance" element={<JiraPage />} />
+            <Route path="/document-analysis" element={<DocumentsPage />} />
+            {/* <Route path="/incident-investigation" element={<IncidentInvestigation />} /> */}
+            <Route path="/compliance-report" element={<ReportsPage />} />
+            {/* <Route path="/ai-query" element={<AIQueryAssistant />} /> */}
           </Routes>
         </Box>
       </Router>
     </ThemeProvider>
   );
 }
+
 
 export default App;
