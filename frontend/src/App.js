@@ -7,7 +7,7 @@ import DocumentsPage from './pages/DocumentsPage';
 import GitHubPage from './pages/GitHubPage';
 import JiraPage from './pages/JiraPage';
 import ReportsPage from './pages/ReportsPage';
-import LandingPage from './components/LandingPage';
+import LandingPage from './pages/LandingPage';
 // import IncidentInvestigation from './components/IncidentInvestigation';
 // import AIQueryAssistant from './components/AIQueryAssistant';
 // import './App.css';
