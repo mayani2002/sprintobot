@@ -242,12 +242,17 @@ class AIService:
                     model=self.model_name,
                     contents=analysis_prompt,
                     config=types.GenerateContentConfig(
-                        temperature=0.1
+                        temperature=0.1,
+                        response_mime_type="application/json"
                     )
                 )
 
                 # Extract and parse response
                 result_text = response.text.strip() if response.text else ""
+
+                # Remove markdown code blocks if present (fallback safety)
+                if result_text.startswith("```"):
+                    result_text = re.sub(r'^```json?\s*|\s*```$', '', result_text, flags=re.MULTILINE).strip()
                 
                 # ---------- DEBUG: inspect Gemini response ----------
                 try:
@@ -506,10 +511,21 @@ class AIService:
                     "placeholder": True,
                     "step": 1
                 }]
+
+                # De-duplicate function calls before grouping
+                execution_state["function_calls"] = self._deduplicate_function_calls(
+                    execution_state["function_calls"]
+                )
+
+                # Group function calls
+                execution_state["execution_groups"] = self._group_by_dependencies(
+                    execution_state["function_calls"]
+                )
+
                 execution_state["completed"] = True
                 execution_state["method"] = "single_pass_direct"
                 execution_state["iterations"] = 1
-                
+
                 return execution_state
             
             if not self.github_functions:
@@ -537,11 +553,21 @@ class AIService:
                     "placeholder": True,
                     "step": idx
                 })
-            
+
+            # De-duplicate function calls before grouping
+            execution_state["function_calls"] = self._deduplicate_function_calls(
+                execution_state["function_calls"]
+            )
+
+            # Group function calls by dependencies
+            execution_state["execution_groups"] = self._group_by_dependencies(
+                execution_state["function_calls"]
+            )
+
             execution_state["completed"] = True
             execution_state["method"] = "single_pass"
             execution_state["iterations"] = 1
-            
+
             return execution_state
             
         except Exception as e:
@@ -563,22 +589,63 @@ class AIService:
             return execution_state
 
         discovery_steps = complexity_analysis.get("discovery_steps", [])
-        
+
         # VALIDATION: Ensure discovery_steps is a list
         if not isinstance(discovery_steps, list):
             print(f"⚠️  discovery_steps is not a list: {type(discovery_steps)}")
             discovery_steps = []
-        
+
+        # FILTER: Separate actual discovery functions from execution functions
+        # Discovery functions are those that find repositories/parameters
+        DISCOVERY_FUNCTIONS = {
+            "get_authenticated_user_repositories",
+            "get_user_repositories",
+            "get_organization_repositories"
+        }
+
+        filtered_discovery_steps = []
+        misplaced_execution_functions = []
+
+        for step in discovery_steps:
+            if not isinstance(step, dict):
+                continue
+
+            action = step.get("action", "")
+            if action in DISCOVERY_FUNCTIONS:
+                filtered_discovery_steps.append(step)
+            else:
+                # This is an execution function, not discovery
+                print(f"   ⚠️  '{action}' is not a discovery function, will be handled separately")
+                misplaced_execution_functions.append(step)
+
+        # Use filtered discovery steps
+        discovery_steps = filtered_discovery_steps
+
         if discovery_steps:
             for step in discovery_steps:
                 # VALIDATION: Ensure step is a dict
                 if not isinstance(step, dict):
                     print(f"⚠️  Step is not dict: {type(step)}, skipping")
                     continue
-                
+
+                # Extract parameters for this discovery step
+                step_function = step.get("action", "get_authenticated_user_repositories")
+                provided_params = complexity_analysis.get("provided_parameters", {})
+
+                print(f"   🔍 Discovery step function: {step_function}")
+                print(f"   📦 Provided parameters from Gemini: {provided_params}")
+
+                step_params = await self._extract_parameters_for_function(
+                    query,
+                    step_function,
+                    provided_params
+                )
+
+                print(f"   ✅ Extracted parameters: {step_params}")
+
                 execution_state["function_calls"].append({
-                    "function": step.get("action", "get_authenticated_user_repositories"),
-                    "parameters": {},
+                    "function": step_function,
+                    "parameters": step_params,
                     "placeholder": True,
                     "step": step.get("step", 1),
                     "purpose": step.get("purpose", "Discovery")
@@ -591,7 +658,14 @@ class AIService:
                     suggested_function,
                     complexity_analysis.get("provided_parameters", {})
                 )
-                
+
+                # Check if query asks for "top N" repositories
+                top_n_match = re.search(r'top\s+(\d+)', query.lower())
+                if top_n_match:
+                    top_n = int(top_n_match.group(1))
+                    print(f"   🔍 Detected 'top {top_n}' query - will create {top_n} parallel calls after discovery")
+                    params["_top_n"] = top_n  # Mark for expansion during execution
+
                 execution_state["function_calls"].append({
                     "function": suggested_function,
                     "parameters": params,
@@ -603,11 +677,21 @@ class AIService:
             # No discovery steps - create fallback plan
             print("⚠️  No discovery steps, using fallback")
             return self._create_fallback_plan(query, execution_state)
-        
+
+        # De-duplicate function calls before grouping
+        execution_state["function_calls"] = self._deduplicate_function_calls(
+            execution_state["function_calls"]
+        )
+
+        # Group function calls by dependencies for parallel/sequential execution
+        execution_state["execution_groups"] = self._group_by_dependencies(
+            execution_state["function_calls"]
+        )
+
         execution_state["completed"] = True
         execution_state["method"] = "iterative"
         execution_state["iterations"] = len(execution_state["function_calls"])
-        
+
         return execution_state
     
     def _create_fallback_plan(self, query: str, execution_state: Dict[str, Any]) -> Dict[str, Any]:
@@ -624,21 +708,149 @@ class AIService:
         execution_state["iterations"] = 0
         
         return execution_state
-    
+
+    # ===================================================================
+    # PARALLEL EXECUTION GROUPING
+    # ===================================================================
+
+    def _group_by_dependencies(self, function_calls: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Group function calls into parallel and sequential execution batches.
+
+        This enables parallel execution of independent calls for better performance.
+
+        Rules:
+        1. Functions with placeholder=True need discovery data (sequential)
+        2. Functions with placeholder=False are independent (can parallelize)
+        3. Discovery calls always run first (sequential)
+        4. Multiple independent calls are grouped for parallel execution
+
+        Args:
+            function_calls: List of function call dictionaries
+
+        Returns:
+            List of execution groups with mode (parallel/sequential)
+        """
+        if not function_calls:
+            return []
+
+        groups = []
+
+        # Separate discovery calls from execution calls
+        discovery_calls = [c for c in function_calls if c.get("purpose") == "Discovery"]
+        execution_calls = [c for c in function_calls if c.get("purpose") != "Discovery"]
+
+        # Group 1: Discovery (always sequential)
+        if discovery_calls:
+            groups.append({
+                "step": 1,
+                "mode": "sequential",
+                "calls": discovery_calls,
+                "description": "Parameter discovery"
+            })
+
+        # Group 2: Execution calls
+        if execution_calls:
+            # Check if calls have placeholders (need sequential for dependency resolution)
+            has_placeholders = any(c.get("placeholder") for c in execution_calls)
+
+            # Determine execution mode
+            if not has_placeholders and len(execution_calls) > 1:
+                # Multiple independent calls - PARALLELIZE!
+                mode = "parallel"
+                description = f"Parallel execution of {len(execution_calls)} independent calls"
+                print(f"   ⚡ Detected {len(execution_calls)} independent calls - will execute in parallel")
+            else:
+                # Has dependencies or single call - sequential
+                mode = "sequential"
+                if has_placeholders:
+                    description = "Sequential execution (parameter injection needed)"
+                else:
+                    description = "Sequential execution (single call)"
+
+            groups.append({
+                "step": len(groups) + 1,
+                "mode": mode,
+                "calls": execution_calls,
+                "depends_on": len(groups) if groups else None,
+                "description": description
+            })
+
+        return groups
+
+    def _deduplicate_function_calls(self, function_calls: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """Remove duplicate function calls with the same function name and parameters.
+        
+        Args:
+            function_calls: List of function call dictionaries
+            
+        Returns:
+            De-duplicated list of function calls
+        """
+        seen = set()
+        unique_calls = []
+        duplicates_removed = 0
+        
+        for call in function_calls:
+            function_name = call.get("function", "")
+            parameters = call.get("parameters", {})
+            
+            # Filter out internal metadata parameters that start with _
+            clean_params = {k: v for k, v in parameters.items() if not k.startswith('_')}
+            
+            # Create a hashable key from function name and parameters
+            try:
+                # Convert dict to sorted tuple of items for hashing
+                param_items = tuple(sorted(clean_params.items()))
+                key = (function_name, param_items)
+            except TypeError:
+                # If parameters contain unhashable types (lists, dicts), 
+                # skip deduplication for this call to be safe
+                unique_calls.append(call)
+                continue
+            
+            if key not in seen:
+                seen.add(key)
+                unique_calls.append(call)
+            else:
+                duplicates_removed += 1
+                print(f"   ⚠️  Skipped duplicate: {function_name}({clean_params})")
+        
+        if duplicates_removed > 0:
+            print(f"   ✅ Removed {duplicates_removed} duplicate function call(s)")
+        
+        return unique_calls
+
     # ===================================================================
     # PARAMETER EXTRACTION
     # ===================================================================
     
-    async def _extract_parameters_for_function(self, query: str, function_name: str, 
+    async def _extract_parameters_for_function(self, query: str, function_name: str,
                                                provided_params: Dict[str, Any]) -> Dict[str, Any]:
         """Extracts parameters from query text."""
         params = dict(provided_params)
+
+        # Parameter mapping for semantic equivalents
+        param_mappings = {
+            "get_user_repositories": {
+                "owner": "username",  # Gemini might use "owner" but function expects "username"
+                "user": "username"
+            }
+        }
+
+        # Apply parameter mappings if applicable
+        if function_name in param_mappings:
+            mappings = param_mappings[function_name]
+            for old_name, new_name in mappings.items():
+                if old_name in params and new_name not in params:
+                    params[new_name] = params.pop(old_name)
+
         fallback_params = self._extract_parameters_fallback(query, function_name)
-        
+
         for key, value in fallback_params.items():
             if key not in params:
                 params[key] = value
-        
+
         return params
     
     def _extract_parameters_fallback(self, query: str, function_name: str) -> Dict[str, Any]:
@@ -675,6 +887,27 @@ class AIService:
             params['state'] = 'open'
         elif 'closed' in query_lower:
             params['state'] = 'closed'
+
+        # Extract username for get_user_repositories
+        # Patterns: "user yt-dlp", "from yt-dlp", "by yt-dlp", "for yt-dlp"
+        if function_name == 'get_user_repositories':
+            username_patterns = [
+                r'user\s+([A-Za-z0-9_-]+)',
+                r'from\s+(?:the\s+)?user\s+([A-Za-z0-9_-]+)',
+                r'by\s+([A-Za-z0-9_-]+)',
+                r'for\s+(?:user\s+)?([A-Za-z0-9_-]+)',
+                r'owned\s+by\s+([A-Za-z0-9_-]+)',
+                r'from\s+([A-Za-z0-9_-]+)(?:\'s|\s+repos|\s+repositories)',
+            ]
+
+            for pattern in username_patterns:
+                match = re.search(pattern, query, re.IGNORECASE)
+                if match:
+                    username = match.group(1)
+                    # Avoid matching common words
+                    if username.lower() not in ['the', 'my', 'our', 'your', 'their', 'all', 'any']:
+                        params['username'] = username
+                        break
 
         return params
     

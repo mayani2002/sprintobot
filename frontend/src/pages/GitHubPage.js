@@ -13,10 +13,11 @@ import EvidenceResults from '../components/EvidenceResults';
 import { evidenceService } from '../services/evidenceService';
 
 const GITHUB_SAMPLE_QUERIES = [
-  "How many PRs were merged without approval?",
-  "Show me all PRs approved by Alice?",
+  "Get all open PRs from my top 5 repositories",
+  "Show me PRs merged in the last 7 days",
   "List PRs waiting for review from 24hours",
   "Which PRs were merged in the last 7 days, and who approved them?",
+  "Check security settings for all my repositories",
 ];
 
 const GitHubPage = () => {
@@ -26,9 +27,10 @@ const GitHubPage = () => {
   const handleGitHubQuery = async (query) => {
     setLoading(true);
     setResults(null);
-    
+
     try {
-      const response = await evidenceService.submitQuery(query, "github")
+      // Use the new GitHub endpoint with parallel execution support
+      const response = await evidenceService.queryGitHub(query);
       setResults(response);
     } catch (error) {
       console.error('GitHub query failed:', error);

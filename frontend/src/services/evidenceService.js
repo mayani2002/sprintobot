@@ -125,12 +125,22 @@ class EvidenceService {
     }
   }
 
-  // GitHub-specific queries
-  async queryGitHub(repo, prNumber = null, searchParams = {}) {
-    const query = prNumber 
+  // GitHub-specific queries (using new parallel execution endpoint)
+  async queryGitHub(query) {
+    try {
+      const response = await this.client.post('/github/query', { query });
+      return response.data;
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  // Legacy GitHub query method (kept for compatibility)
+  async queryGitHubLegacy(repo, prNumber = null, searchParams = {}) {
+    const query = prNumber
       ? `Why was PR #${prNumber} in ${repo} merged?`
       : `Show me pull requests in ${repo}`;
-    
+
     return this.submitQuery(query, 'github', { repo, pr_number: prNumber, ...searchParams });
   }
 
