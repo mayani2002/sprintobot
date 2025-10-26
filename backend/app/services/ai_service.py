@@ -851,6 +851,18 @@ class AIService:
             if key not in params:
                 params[key] = value
 
+        # Filter out invalid parameters for repository discovery functions
+        repository_functions = {
+            "get_authenticated_user_repositories",
+            "get_user_repositories",
+            "get_organization_repositories"
+        }
+
+        if function_name in repository_functions:
+            # These functions don't accept 'state' or 'pr_number' parameters
+            params.pop("state", None)
+            params.pop("pr_number", None)
+
         return params
     
     def _extract_parameters_fallback(self, query: str, function_name: str) -> Dict[str, Any]:

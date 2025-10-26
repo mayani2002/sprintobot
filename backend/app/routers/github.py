@@ -19,16 +19,17 @@ class GitHubQueryResponse(BaseModel):
     method: Optional[str] = None
     error: Optional[str] = None
 
-@router.post("/query", response_model=GitHubQueryResponse)
+@router.post("/query")
 async def process_github_query(request: GitHubQueryRequest):
     """
     Process a natural language query about GitHub repositories, PRs, etc.
-    
+
     Examples:
     - "Show me PRs merged in the last 7 days"
     - "Which PRs are waiting for review?"
     - "Get details of PR #123"
     - "List repositories for user octocat"
+    - "Get all open PRs from my top 5 repositories"
     """
     try:
         service = GitHubService()
