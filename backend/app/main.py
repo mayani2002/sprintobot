@@ -1,26 +1,22 @@
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
-import uvicorn
-import os
 from dotenv import load_dotenv
+import os
+from pathlib import Path
 
 # Load environment variables from config/.env
-config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "config", ".env")
-load_dotenv(config_path)
+config_path = Path(__file__).parent.parent.parent / "config" / ".env"
+load_dotenv(dotenv_path=config_path)
 
-from app.api.v1.api import api_router
-from app.core.config import settings
+from app.routers import github
 
 app = FastAPI(
-    title="Evidence-on-Demand Bot API",
-    description="AI-powered evidence retrieval system for audits and compliance",
-    version="1.0.0",
-    docs_url="/docs",
-    redoc_url="/redoc"
+    title="SprintoBot API",
+    description="AI-Powered Evidence-on-Demand Bot",
+    version="1.0.0"
 )
 
-# Configure CORS
+# CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
@@ -29,25 +25,24 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include API router
-app.include_router(api_router, prefix="/api/v1")
+# Include routers
+app.include_router(github.router)
 
 @app.get("/")
 async def root():
     return {
-        "message": "Evidence-on-Demand Bot API",
-        "version": "1.0.0",
+        "message": "Welcome to SprintoBot API",
+        "status": "operational",
         "docs": "/docs"
     }
 
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "message": "API is running"}
-
-if __name__ == "__main__":
-    uvicorn.run(
-        "main:app",
-        host=settings.API_HOST,
-        port=settings.API_PORT,
-        reload=True
-    )
+    """Health check endpoint."""
+    return {
+        "status": "healthy",
+        "environment": {
+            "github_token_configured": bool(os.getenv("GITHUB_TOKEN")),
+            "gemini_api_configured": bool(os.getenv("GEMINI_API_KEY"))
+        }
+    }
