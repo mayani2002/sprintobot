@@ -128,7 +128,10 @@ class EvidenceService {
   // GitHub-specific queries (using new parallel execution endpoint)
   async queryGitHub(query) {
     try {
-      const response = await this.client.post('/github/query', { query });
+      // Use absolute URL to bypass the /api/v1 base path
+      const baseUrl = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+      const cleanBaseUrl = baseUrl.replace('/api/v1', '');
+      const response = await axios.post(`${cleanBaseUrl}/api/github/query`, { query });
       return response.data;
     } catch (error) {
       throw error;
