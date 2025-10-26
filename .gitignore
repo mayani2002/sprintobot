@@ -36,3 +36,10 @@ instance/
 # Operating System specific ignores
 .DS_Store
 Thumbs.db
+
+# Environment and Configuration
+# CRITICAL: Never commit API keys
+config/.env
+config/*.local
+config/.env.*
+!config/.env.example

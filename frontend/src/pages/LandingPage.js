@@ -53,7 +53,7 @@ const LandingPage = () => {
                         Instantly fetch and format required evidence from various systems during audits,
                         compliance checks, or incident investigations using natural language queries.
                     </p>
-                    <div className="hero-stats">
+                    {/* <div className="hero-stats">
                         <div className="stat">
                             <span className="stat-number">50%</span>
                             <span className="stat-label">Faster Evidence Collection</span>
@@ -66,7 +66,7 @@ const LandingPage = () => {
                             <span className="stat-number">24/7</span>
                             <span className="stat-label">Availability</span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
